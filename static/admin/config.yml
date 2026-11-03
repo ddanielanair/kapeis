@@ -49,6 +49,9 @@ collections:
       - { label: "Pie de foto / crédito", name: pie_imagen, widget: string, required: false, hint: "Ejemplo: «Imagen: Samsung»." }
       - { label: "Texto del recuadro si no hay imagen", name: marca, widget: string, required: false, hint: "Sin imagen, se muestra un recuadro con este texto (por ejemplo, el nombre de la marca)." }
       - { label: "Color del recuadro", name: tono, widget: select, options: [{ label: "Negro", value: "negro" }, { label: "Fosforito", value: "fosforito" }], default: "negro", required: false }
+      - { label: "Título para Google (SEO)", name: titulo_seo, widget: string, required: false, hint: "Opcional. Lo que sale en Google como título. Unos 55-60 caracteres, con la palabra clave al principio. Si lo dejas vacío, se usa el titular." }
+      - { label: "Descripción para Google (SEO)", name: descripcion_seo, widget: text, required: false, hint: "Opcional. El texto bajo el título en Google. Entre 140 y 155 caracteres, que invite a hacer clic. Si lo dejas vacío, se usa la entradilla." }
+      - { label: "Palabras clave", name: palabras_clave, widget: string, required: false, hint: "Separadas por comas. Ejemplo: GTA VI, marketing de videojuegos, publicidad exterior." }
       - { label: "Frase destacada", name: frase_destacada, widget: text, required: false, hint: "Aparece en un recuadro fosforito dentro del artículo y, si es la noticia principal, en «La idea de hoy»." }
       - { label: "Medio de la fuente", name: fuente_nombre, widget: string, required: false, hint: "Opcional. Solo si quieres citar una fuente." }
       - { label: "Enlace a la fuente", name: fuente_url, widget: string, required: false }

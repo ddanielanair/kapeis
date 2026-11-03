@@ -202,8 +202,8 @@ ${ajustes.instagram ? `<li><a class="ig" href="${esc(ajustes.instagram)}" target
 </footer>`;
 }
 
-function page({ title, description, body, active = '', canonical = '/', og = {} }) {
-  const fullTitle = title ? `${title} – Kapeís` : 'Kapeís – Revista diaria de marketing';
+function page({ title, seoTitle, description, body, active = '', canonical = '/', og = {}, head = '' }) {
+  const fullTitle = seoTitle ? seoTitle : title ? `${title} – Kapeís` : 'Kapeís – Revista de marketing, marketing digital y retail';
   return `<!doctype html>
 <html lang="es">
 <head>
@@ -211,14 +211,17 @@ function page({ title, description, body, active = '', canonical = '/', og = {} 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description || ajustes.descripcion)}">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="${SITE_URL}${canonical}">
 <meta property="og:site_name" content="Kapeís">
+<meta property="og:locale" content="es_ES">
 <meta property="og:title" content="${esc(title || 'Kapeís')}">
 <meta property="og:description" content="${esc(description || ajustes.descripcion)}">
 <meta property="og:type" content="${og.type || 'website'}">
 <meta property="og:url" content="${SITE_URL}${canonical}">
 ${og.image ? `<meta property="og:image" content="${og.image.startsWith('http') ? esc(og.image) : SITE_URL + esc(og.image)}">` : ''}
 <meta name="twitter:card" content="summary_large_image">
+${head}
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="Kapeís" href="/rss.xml">
@@ -402,7 +405,27 @@ ${relacionados.map((r) => `<article class="card card-m">${meta(r)}<h3><a class="
 </div>
 </section>
 ${newsletter('¿Te ha gustado? Te avisamos solo de lo importante.', 'Publicamos cada día. A tu correo solo llega lo que de verdad merece la pena.')}`;
-  return page({ title: a.titulo, description: a.entradilla, body, active: a.seccionSlug, canonical: a.url, og: { type: 'article', image: a.imagen } });
+  const imgAbs = a.imagen ? (a.imagen.startsWith('http') ? a.imagen : SITE_URL + a.imagen) : undefined;
+  const ld = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: a.titulo,
+    description: a.descripcion_seo || a.entradilla,
+    datePublished: a.fecha.toISOString(),
+    dateModified: (a.actualizado ? new Date(String(a.actualizado).replace(' ', 'T')) : a.fecha).toISOString(),
+    articleSection: a.seccion,
+    inLanguage: 'es-ES',
+    mainEntityOfPage: SITE_URL + a.url,
+    ...(imgAbs ? { image: [imgAbs] } : {}),
+    ...(a.palabras_clave ? { keywords: String(a.palabras_clave) } : {}),
+    author: { '@type': 'Organization', name: a.autor || 'Redacción Kapeís', url: SITE_URL + '/sobre/' },
+    publisher: { '@type': 'Organization', name: 'Kapeís', url: SITE_URL, logo: { '@type': 'ImageObject', url: SITE_URL + '/favicon.svg' } },
+  };
+  const head = `<meta property="article:published_time" content="${a.fecha.toISOString()}">
+<meta property="article:section" content="${esc(a.seccion)}">
+${a.alt_imagen ? `<meta property="og:image:alt" content="${esc(a.alt_imagen)}">` : ''}
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>`;
+  return page({ title: a.titulo, seoTitle: a.titulo_seo ? `${a.titulo_seo} | Kapeís` : undefined, description: a.descripcion_seo || a.entradilla, body, active: a.seccionSlug, canonical: a.url, og: { type: 'article', image: a.imagen }, head });
 }
 
 // ---------- páginas fijas ----------
