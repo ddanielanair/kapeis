@@ -7,8 +7,9 @@ fecha: 2026-11-03 07:30
 seccion: Retail
 zona: Internacional
 tipo: Artículo propio
-imagen: /uploads/bratziez-tokyo.jpg
-alt_imagen: Cinco Bratziez de la serie Tokyo a Go-Go posan alrededor de su caja sobre un fondo de calles con neones
+imagen: /uploads/diseño-sin-título-24-.png
+alt_imagen: Cinco Bratziez de la serie Tokyo a Go-Go posan alrededor de su caja
+  sobre un fondo de calles con neones
 pie_imagen: "Imagen: Bratz"
 marca: Bratz
 frase_destacada: El mejor escaparate de un producto es la persona que lo lleva puesto.
