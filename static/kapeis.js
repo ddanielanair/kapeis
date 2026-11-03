@@ -42,7 +42,7 @@
       fetch(f.action, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email, acepto: true, web: f.web.value }) })
         .then(function (r) { return r.json().catch(function () { return { ok: false }; }); })
         .then(function (d) {
-          msg.textContent = d.mensaje || (d.ok ? '¡Casi está! Revisa tu correo.' : 'No hemos podido apuntarte. Inténtalo más tarde.');
+          msg.textContent = d.mensaje || (d.ok ? '¡Listo! Ya te has apuntado.' : 'No hemos podido apuntarte. Inténtalo más tarde.');
           if (d.ok) f.reset();
         })
         .catch(function () { msg.textContent = 'No hemos podido apuntarte. Inténtalo más tarde.'; })

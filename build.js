@@ -399,8 +399,8 @@ function legal() {
 }
 function suscripcion() {
   return page({ title: 'Suscripción', body: `<section class="wrap list-head" data-sus>
-<h1 data-ok>¡Casi está!</h1>
-<p class="lede" data-ok-text>Te hemos enviado un correo. Ábrelo y confirma la suscripción para empezar a recibir Kapeís.</p>
+<h1 data-ok>¡Listo!</h1>
+<p class="lede" data-ok-text>Ya te has apuntado a la newsletter de Kapeís. Te escribiremos solo cuando haya algo que merezca la pena.</p>
 <p>${btnHash('/', 'Volver a la portada')}</p>
 </section>`, canonical: '/suscripcion/' });
 }
