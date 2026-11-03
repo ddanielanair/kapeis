@@ -21,7 +21,7 @@ h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;color:var(--ink)}
 /* logo */
 .logo{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;letter-spacing:-0.04em;line-height:1;color:var(--ink)}
 .logo-hash{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);outline:1px solid var(--ink);letter-spacing:0}
-.logo-lg{font-size:48px;gap:10px}.logo-lg .logo-hash{width:58px;height:58px;border-radius:14px;font-size:42px}
+.logo-lg{font-size:64px;gap:12px}.logo-lg .logo-hash{width:76px;height:76px;border-radius:18px;font-size:56px}
 .logo-sm{font-size:28px}.logo-sm .logo-hash{width:34px;height:34px;border-radius:8px;font-size:24px}
 .logo-link{text-decoration:none}
 
@@ -209,7 +209,7 @@ a.t:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline
 
 /* móvil */
 @media (max-width:700px){
-  .logo-lg{font-size:38px}.logo-lg .logo-hash{width:46px;height:46px;border-radius:11px;font-size:32px}
+  .logo-lg{font-size:44px}.logo-lg .logo-hash{width:54px;height:54px;border-radius:13px;font-size:38px}
   .burger{display:inline-flex}
   .header-date{display:none}
   .nav{display:none;flex-direction:column;align-items:flex-start;width:100%;padding-top:8px}
