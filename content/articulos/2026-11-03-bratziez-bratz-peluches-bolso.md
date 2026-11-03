@@ -7,9 +7,7 @@ fecha: 2026-11-03 07:30
 seccion: Retail
 zona: Internacional
 tipo: Artículo propio
-imagen: /uploads/bratziez.jpg
-alt_imagen: Seis peluches Bratziez con disfraces de animales colgados de un mosquetón sobre fondo rosa
-pie_imagen: "Imagen: Bratz"
+imagen: https://www.instagram.com/p/Db5p9vLM4ar/?utm_source=ig_web_copy_link&mdxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==
 marca: Bratz
 frase_destacada: El mejor escaparate de un producto es la persona que lo lleva puesto.
 lectura: 3
