@@ -1,13 +1,16 @@
 ---
 titulo: "Bratziez: el coleccionismo se cuelga del bolso"
-entradilla: "Peluches con clip, caja sorpresa y estética de los 2000. Bratz convierte su producto en un accesorio que hace publicidad caminando por la calle."
-fecha: "2026-11-03 07:30"
-seccion: "Retail"
-zona: "Internacional"
-tipo: "Artículo propio"
-marca: "Bratz"
+entradilla: Peluches con clip, caja sorpresa y estética de los 2000. Bratz
+  convierte su producto en un accesorio que hace publicidad caminando por la
+  calle.
+fecha: 2026-11-03 07:30
+seccion: Retail
+zona: Internacional
+tipo: Artículo propio
+imagen: /uploads/img_473588_934fc0d601d2f6ebeaf81c29cf117893_1.jpg
+marca: Bratz
+frase_destacada: El mejor escaparate de un producto es la persona que lo lleva puesto.
 lectura: 3
-frase_destacada: "El mejor escaparate de un producto es la persona que lo lleva puesto."
 ---
 Las muñecas Bratz fueron un fenómeno a principios de los 2000. Veinticinco años después, la marca vuelve con una idea pequeña en tamaño y grande en intención: los Bratziez.
 
