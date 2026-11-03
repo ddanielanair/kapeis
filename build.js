@@ -245,6 +245,14 @@ function portada() {
 ${heroImg}
 </section>`;
 
+  const ultimas = resto.slice(0, 3);
+  const tickerHtml = ultimas.length ? `<section class="ticker" aria-label="Últimas noticias">
+<div class="wrap ticker-row">
+<span class="ticker-label">Última hora</span>
+<ul class="ticker-list">${ultimas.map((a) => `<li><a href="${a.url}">${esc(a.titulo)}</a></li>`).join('')}</ul>
+</div>
+</section>` : '';
+
   const card = (a, size) => !a ? '' : `<article class="card card-${size}">
 ${thumb(a, size === 'xl' ? 'wide' : size === 'side' ? 'tall' : 'm')}
 ${meta(a)}
@@ -299,7 +307,7 @@ ${retail.fuente_nombre ? `<p class="via">Vía ${esc(retail.fuente_nombre)}</p>` 
 </article>` : ''}
 </section>`;
 
-  return page({ body: heroHtml + hoyHtml + zonasHtml + frase + retailHtml + newsletter(), canonical: '/', og: { image: hero.imagen } });
+  return page({ body: heroHtml + tickerHtml + hoyHtml + zonasHtml + frase + retailHtml + newsletter(), canonical: '/', og: { image: hero.imagen } });
 }
 
 // ---------- listados ----------
