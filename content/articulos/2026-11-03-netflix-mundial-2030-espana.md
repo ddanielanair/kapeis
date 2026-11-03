@@ -1,17 +1,20 @@
 ---
-titulo: "Netflix se queda el Mundial 2030 en España"
-entradilla: "La plataforma emitirá los 104 partidos, aunque los de la selección también irán en abierto. El deporte en directo cambia de casa, y con él la publicidad."
-fecha: "2026-11-03 07:00"
-seccion: "Digital"
-zona: "España"
-tipo: "Artículo propio"
-imagen: /uploads/netflix-mundial.jpg
-alt_imagen: Logotipo de Netflix junto al trofeo de la Copa Mundial de la FIFA sobre fondo negro
+titulo: Netflix se queda el Mundial 2030 en España
+entradilla: La plataforma emitirá los 104 partidos, aunque los de la selección
+  también irán en abierto. El deporte en directo cambia de casa, y con él la
+  publicidad.
+fecha: 2026-11-03 07:00
+seccion: Digital
+zona: España
+tipo: Artículo propio
+imagen: /uploads/netflixmundial.jpg
+alt_imagen: Logotipo de Netflix junto al trofeo de la Copa Mundial de la FIFA
+  sobre fondo negro
 pie_imagen: "Imagen: Netflix"
-marca: "Netflix"
-tono: "fosforito"
+marca: Netflix
+tono: fosforito
+frase_destacada: Donde se juntan millones de personas a la vez, ahí quieren estar las marcas.
 lectura: 3
-frase_destacada: "Donde se juntan millones de personas a la vez, ahí quieren estar las marcas."
 ---
 El Mundial de 2030 se jugará en casa —España, Portugal y Marruecos son los anfitriones— y se verá, sobre todo, en Netflix. La plataforma se ha quedado con los derechos audiovisuales exclusivos del torneo para España y Andorra.
 
