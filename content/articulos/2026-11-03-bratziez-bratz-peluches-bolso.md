@@ -7,7 +7,7 @@ fecha: 2026-11-03 07:30
 seccion: Retail
 zona: Internacional
 tipo: Artículo propio
-imagen: https://www.instagram.com/p/Db5p9vLM4ar/?utm_source=ig_web_copy_link&mdxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==
+imagen: /uploads/772889439_18613979425022370_509743165023981150_n.jpg
 marca: Bratz
 frase_destacada: El mejor escaparate de un producto es la persona que lo lleva puesto.
 lectura: 3
