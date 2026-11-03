@@ -67,5 +67,6 @@ collections:
           - { label: "Responsable (aviso legal)", name: responsable, widget: string }
           - { label: "Email de información", name: email_info, widget: string }
           - { label: "Email de colaboraciones", name: email_colaboracion, widget: string }
+          - { label: "Instagram (enlace)", name: instagram, widget: string, required: false }
           - { label: "Mostrar el formulario de la newsletter", name: newsletter_activa, widget: boolean, default: true }
           - { label: "Fecha de actualización de los textos legales", name: legal_actualizado, widget: string }

@@ -119,6 +119,7 @@ const articulos = fs.readdirSync(artDir).filter((f) => f.endsWith('.md')).map((f
 }).filter((a) => a.borrador !== true).sort((a, b) => b.fecha - a.fecha);
 
 // ---------- piezas comunes ----------
+const IG_ICON = `<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg>`;
 const LOGO = (size = 'lg') => `<span class="logo logo-${size}"><span class="logo-hash" aria-hidden="true">#</span>kapeís</span>`;
 
 function thumb(a, variant = 'm') {
@@ -188,6 +189,7 @@ ${LOGO('sm')}
 <li><a href="/legal/#aviso">Aviso legal</a></li>
 <li><a href="/legal/#privacidad">Privacidad</a></li>
 <li><a href="/legal/#cookies">Cookies</a></li>
+${ajustes.instagram ? `<li><a class="ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Instagram de Kapeís">${IG_ICON}Instagram</a></li>` : ''}
 </ul></nav>
 <p class="copy">© ${new Date().getFullYear()} Kapeís · Revista diaria de marketing</p>
 </div>
@@ -228,6 +230,7 @@ ${body}
 <p class="contact-band-title">¿Tienes algo que contarnos?</p>
 <p class="contact-band-item"><span>Información</span><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a></p>
 <p class="contact-band-item"><span>Colaboraciones y prensa</span><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a></p>
+${ajustes.instagram ? `<p class="contact-band-item"><span>Síguenos</span><a class="ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">${IG_ICON}@kapeis.es</a></p>` : ''}
 </div>
 </section>
 ${footer()}

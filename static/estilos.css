@@ -262,3 +262,5 @@ a.t:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline
 .contact-band-item span{font-size:13px;color:#C8C8C8}
 .contact-band-item a{font-family:var(--display);font-weight:600;font-size:20px;letter-spacing:-0.02em;color:var(--accent);text-decoration:none}
 .contact-band-item a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+
+a.ig{display:inline-flex;align-items:center;gap:8px}
