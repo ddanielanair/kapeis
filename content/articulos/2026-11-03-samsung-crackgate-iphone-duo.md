@@ -1,13 +1,15 @@
 ---
-titulo: "Samsung se ríe del «crackgate» del iPhone Duo"
-entradilla: "Apple saca su primer plegable, aparecen pantallas rotas y Samsung tarda menos de una semana en convertirlo en anuncio. Una lección de reflejos."
-fecha: "2026-11-03 08:30"
-seccion: "Marketing"
-zona: "Internacional"
-tipo: "Artículo propio"
-marca: "Samsung"
+titulo: Samsung se ríe del «crackgate» del iPhone Duo
+entradilla: Apple saca su primer plegable, aparecen pantallas rotas y Samsung
+  tarda menos de una semana en convertirlo en anuncio. Una lección de reflejos.
+fecha: 2026-11-03 08:30
+seccion: Marketing
+zona: Internacional
+tipo: Artículo propio
+imagen: /uploads/samsung.jpg
+marca: Samsung
+frase_destacada: En publicidad comparativa, la velocidad vale tanto como la idea.
 lectura: 3
-frase_destacada: "En publicidad comparativa, la velocidad vale tanto como la idea."
 ---
 Hay campañas que se planifican durante meses y otras que nacen de un titular. La nueva pieza de Samsung pertenece claramente al segundo grupo.
 
