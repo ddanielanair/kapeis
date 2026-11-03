@@ -127,7 +127,8 @@ function thumb(a, variant = 'm') {
   return `<div class="thumb thumb-${variant} thumb-type ${a.tono === 'fosforito' ? 'is-accent' : ''}" role="img" aria-label="${esc(etiqueta)}"><span>${esc(etiqueta)}</span></div>`;
 }
 
-const meta = (a, extra = []) => `<p class="meta"><strong>${esc(a.seccion)}</strong><span>${esc(a.zona)}</span>${extra.map((e) => `<span>${esc(e)}</span>`).join('')}</p>`;
+const tags = (a) => `<span class="tags-row"><a class="tag tag-sec" href="/${a.seccionSlug}/">${esc(a.seccion)}</a><a class="tag tag-zone" href="/${a.zonaSlug}/">${esc(a.zona)}</a></span>`;
+const meta = (a, extra = []) => `<p class="meta">${tags(a)}${extra.map((e) => `<span>${esc(e)}</span>`).join('')}</p>`;
 
 const btnHash = (href, label) => `<a class="btn btn-hash" href="${href}"><span class="hash" aria-hidden="true">#</span>${esc(label)}</a>`;
 
@@ -222,6 +223,13 @@ ${header(active)}
 <main id="contenido">
 ${body}
 </main>
+<section class="contact-band" aria-label="Contacto">
+<div class="wrap contact-band-row">
+<p class="contact-band-title">¿Tienes algo que contarnos?</p>
+<p class="contact-band-item"><span>Información</span><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a></p>
+<p class="contact-band-item"><span>Colaboraciones y prensa</span><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a></p>
+</div>
+</section>
 ${footer()}
 <script src="/kapeis.js" defer></script>
 </body>
@@ -244,7 +252,7 @@ function portada() {
   const heroHtml = `<section class="wrap hero" aria-labelledby="h-portada">
 <div class="hero-text">
 <div class="hero-top">
-<p class="meta"><strong>Hoy, ${fechaCorta(hero.fecha)}</strong><span>${esc(hero.seccion)}</span><span>${esc(hero.zona)}</span></p>
+<p class="meta">${tags(hero)}</p>
 <h1 id="h-portada"><a href="${hero.url}">${esc(hero.titulo)}</a></h1>
 <p class="lede">${esc(hero.entradilla)}</p>
 </div>
@@ -330,7 +338,7 @@ function listado({ titulo, descripcion, items, active, ruta }) {
 <div class="grid-list">
 ${items.map((a) => `<article class="card card-m">
 ${thumb(a, 'm')}
-<p class="meta"><strong>${esc(a.seccion)}</strong><span>${esc(a.zona)}</span><span>${fechaCorta(a.fecha)}</span></p>
+<p class="meta">${tags(a)}<span>${fechaCorta(a.fecha)}</span></p>
 <h3><a class="t" href="${a.url}">${esc(a.titulo)}</a></h3>
 <p>${esc(a.entradilla)}</p>
 </article>`).join('\n') || '<p class="muted">Todavía no hay artículos aquí. Vuelve mañana.</p>'}

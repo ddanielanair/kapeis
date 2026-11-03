@@ -243,3 +243,22 @@ a.t:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline
 .news-trap{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .news-msg{margin:4px 0 0;font-size:15px;font-weight:600;min-height:1.4em}
 .news-form button[disabled]{opacity:.6;cursor:wait}
+
+/* etiquetas de sección y zona */
+.tags-row{display:inline-flex;flex-wrap:wrap;gap:6px}
+.tag{display:inline-flex;align-items:center;min-height:28px;padding:0 12px;border-radius:999px;font:600 13px/1 var(--body);letter-spacing:.01em;text-decoration:none;border:1px solid var(--ink)}
+.tag-sec{background:var(--ink);color:#fff}
+.tag-sec:hover{background:#3A3A3A;color:#fff}
+.tag-zone{background:var(--accent);color:var(--ink);border-color:var(--ink)}
+.tag-zone:hover{background:#fff;color:var(--ink)}
+
+.meta .tag-sec{color:#fff}.meta .tag-zone{color:var(--ink)}
+
+/* franja de contacto */
+.contact-band{background:var(--ink);color:#fff}
+.contact-band-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 40px;padding-top:28px;padding-bottom:28px}
+.contact-band-title{margin:0;font-family:var(--display);font-weight:600;font-size:24px;letter-spacing:-0.03em}
+.contact-band-item{margin:0;display:flex;flex-direction:column;gap:2px}
+.contact-band-item span{font-size:13px;color:#C8C8C8}
+.contact-band-item a{font-family:var(--display);font-weight:600;font-size:20px;letter-spacing:-0.02em;color:var(--accent);text-decoration:none}
+.contact-band-item a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
