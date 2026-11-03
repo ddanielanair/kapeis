@@ -6,7 +6,7 @@ fecha: 2026-11-03 08:00
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
-imagen: /uploads/rarebeauty.png
+imagen: /uploads/rare-beauty-portada.jpg
 alt_imagen: Selena Gomez, con vestido azul y tiara, y Demi Lovato, con vestido
   amarillo y corona, sentadas sobre maletas verdes
 pie_imagen: "Imagen: Rare Beauty"

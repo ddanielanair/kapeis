@@ -7,7 +7,7 @@ fecha: 2026-11-03 07:30
 seccion: Retail
 zona: Internacional
 tipo: Artículo propio
-imagen: /uploads/diseño-sin-título-24-.png
+imagen: /uploads/bratziez-portada.jpg
 alt_imagen: Cinco Bratziez de la serie Tokyo a Go-Go posan alrededor de su caja
   sobre un fondo de calles con neones
 pie_imagen: "Imagen: Bratz"
