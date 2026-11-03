@@ -1,14 +1,16 @@
 ---
-titulo: "Rare Beauty vuelve a juntar a Selena Gomez y Demi Lovato"
-entradilla: "Dos amigas, un póster de Disney Channel recreado y un colorete de edición limitada. La nostalgia, bien usada, no parece un anuncio."
-fecha: "2026-11-03 08:00"
-seccion: "Marketing"
-zona: "Internacional"
-tipo: "Artículo propio"
-marca: "Rare Beauty"
-tono: "fosforito"
+titulo: Rare Beauty vuelve a juntar a Selena Gomez y Demi Lovato
+entradilla: Dos amigas, un póster de Disney Channel recreado y un colorete de
+  edición limitada. La nostalgia, bien usada, no parece un anuncio.
+fecha: 2026-11-03 08:00
+seccion: Marketing
+zona: Internacional
+tipo: Artículo propio
+imagen: https://images.ecestaticos.com/tRXQDqnkBuUnAUH8mzOYf3Ycfc4=/0x76:806x614/996x664/filters:fill(white):format(png)/f.elconfidencial.com%2Foriginal%2F76a%2F8e3%2Fd31%2F76a8e3d31c5c405ff1516f3a8b1dbea4.png
+marca: Rare Beauty
+tono: fosforito
+frase_destacada: La nostalgia funciona cuando la historia es real. Si no, se nota.
 lectura: 3
-frase_destacada: "La nostalgia funciona cuando la historia es real. Si no, se nota."
 ---
 Quien creció viendo Disney Channel a finales de los 2000 tiene una foto mental de Selena Gomez y Demi Lovato juntas. Rare Beauty, la marca de cosmética de Gomez, lo sabe y lo ha aprovechado.
 
