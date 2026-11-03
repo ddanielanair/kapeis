@@ -248,7 +248,6 @@ ${heroImg}
   const ultimas = resto.slice(0, 3);
   const tickerHtml = ultimas.length ? `<section class="ticker" aria-label="Últimas noticias">
 <div class="wrap ticker-row">
-<span class="ticker-label">Última hora</span>
 <ul class="ticker-list">${ultimas.map((a) => `<li><a href="${a.url}">${esc(a.titulo)}</a></li>`).join('')}</ul>
 </div>
 </section>` : '';
