@@ -149,15 +149,20 @@ ${link('/retail/', 'Retail', 'retail')}
 </header>`;
 }
 
+let newsCount = 0;
 function newsletter(titulo = '¿Te avisamos de lo importante?', texto = 'Publicamos cada día, pero solo escribimos a tu correo cuando hay algo que de verdad merece la pena. Pocas veces y sin relleno.') {
-  const url = ajustes.newsletter_form_url;
-  const form = url
-    ? `<div class="news-form">
-<label class="news-label">Tu email</label>
-<div class="news-embed"><iframe data-skip-lazy="" src="${esc(url)}" title="Formulario de suscripción a la newsletter de Kapeís" frameborder="0" scrolling="no" width="100%" class="ipz-iframe"></iframe></div>
-<script data-cfasync="false" src="https://assets.ipzmarketing.com/assets/signup_form/iframe_v1.js"></script>
-<p class="news-legal">Al suscribirte aceptas la <a href="/legal/#privacidad">política de privacidad</a>. Te enviaremos un correo para confirmar.</p>
-</div>`
+  const n = ++newsCount;
+  const form = ajustes.newsletter_activa !== false
+    ? `<form class="news-form" action="/api/suscribir" method="post" data-news novalidate>
+<label for="email-${n}">Tu email</label>
+<div class="news-row">
+<input id="email-${n}" name="email" type="email" required placeholder="nombre@correo.com" autocomplete="email">
+<button class="btn btn-dark btn-lg" type="submit">Suscribirme</button>
+</div>
+<label class="news-check"><input type="checkbox" name="acepto" required><span>Acepto la <a href="/legal/#privacidad">política de privacidad</a>.</span></label>
+<input class="news-trap" type="text" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+<p class="news-msg" role="status" aria-live="polite"></p>
+</form>`
     : `<div class="news-form"><p class="news-soon">La newsletter arranca muy pronto. Mientras, escríbenos a <a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a> y te avisamos.</p></div>`;
   return `<section id="newsletter" class="wrap news-wrap" aria-labelledby="news-h">
 <div class="news">
@@ -392,6 +397,13 @@ function legal() {
     .replace(/\{\{actualizado\}\}/g, esc(ajustes.legal_actualizado));
   return page({ title: 'Información legal', description: 'Aviso legal, privacidad y cookies de Kapeís.', body, canonical: '/legal/' });
 }
+function suscripcion() {
+  return page({ title: 'Suscripción', body: `<section class="wrap list-head" data-sus>
+<h1 data-ok>¡Casi está!</h1>
+<p class="lede" data-ok-text>Te hemos enviado un correo. Ábrelo y confirma la suscripción para empezar a recibir Kapeís.</p>
+<p>${btnHash('/', 'Volver a la portada')}</p>
+</section>`, canonical: '/suscripcion/' });
+}
 function noEncontrada() {
   return page({ title: 'Página no encontrada', body: `<section class="wrap list-head"><h1>Aquí no hay nada</h1><p class="lede">La página que buscas no existe o ha cambiado de sitio.</p><p>${btnHash('/', 'Volver a la portada')}</p></section>`, canonical: '/404/' });
 }
@@ -455,6 +467,7 @@ function sitemap(rutas) {
   for (const a of articulos) { write(`articulos/${a.slug}/index.html`, articuloPage(a)); rutas.push(a.url); }
   write('sobre/index.html', sobre());
   write('legal/index.html', legal());
+  write('suscripcion/index.html', suscripcion());
   write('404.html', noEncontrada());
   write('rss.xml', rss());
   write('sitemap.xml', sitemap(rutas));
