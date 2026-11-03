@@ -1,0 +1,72 @@
+# Panel de publicación de Kapeís (Decap CMS).
+# Se entra en https://kapeis.es/admin/ con la cuenta de GitHub.
+backend:
+  name: github
+  repo: ddanielanair/kapeis
+  branch: main
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
+  commit_messages:
+    create: "Nuevo artículo: {{slug}}"
+    update: "Editado: {{slug}}"
+    delete: "Borrado: {{slug}}"
+    uploadMedia: "Imagen subida: {{path}}"
+    deleteMedia: "Imagen borrada: {{path}}"
+
+locale: es
+site_url: https://kapeis.es
+display_url: https://kapeis.es
+logo_url: /favicon.svg
+
+media_folder: static/uploads
+public_folder: /uploads
+
+collections:
+  - name: articulos
+    label: Artículos
+    label_singular: Artículo
+    description: "Cada artículo o noticia que publicas. La portada se ordena sola por fecha."
+    folder: content/articulos
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: titulo
+    summary: "{{fecha}} — {{titulo}}"
+    sortable_fields: ["fecha", "titulo"]
+    view_filters:
+      - { label: "Marketing", field: seccion, pattern: "Marketing" }
+      - { label: "Digital", field: seccion, pattern: "Digital" }
+      - { label: "Retail", field: seccion, pattern: "Retail" }
+    fields:
+      - { label: "Titular", name: titulo, widget: string }
+      - { label: "Entradilla", name: entradilla, widget: text, hint: "Una o dos frases que resumen la pieza. Se ve en la portada." }
+      - { label: "Fecha y hora", name: fecha, widget: datetime, format: "YYYY-MM-DD HH:mm", date_format: "DD/MM/YYYY", time_format: "HH:mm" }
+      - { label: "Sección", name: seccion, widget: select, options: ["Marketing", "Digital", "Retail"], default: "Marketing" }
+      - { label: "Zona", name: zona, widget: select, options: ["España", "Internacional"], default: "España" }
+      - { label: "Tipo", name: tipo, widget: select, options: ["Artículo propio", "Noticia comentada"], default: "Artículo propio" }
+      - { label: "Noticia principal de la portada", name: portada, widget: boolean, default: false, required: false, hint: "Márcalo solo en una pieza: será la grande de arriba. Si ninguna lo tiene, sale la más reciente." }
+      - { label: "Imagen", name: imagen, widget: image, required: false, hint: "Usa fotos tuyas o con permiso (por ejemplo, las de prensa de las marcas)." }
+      - { label: "Descripción de la imagen", name: alt_imagen, widget: string, required: false, hint: "Qué se ve en la foto, para quien no puede verla." }
+      - { label: "Pie de foto / crédito", name: pie_imagen, widget: string, required: false, hint: "Ejemplo: «Imagen: Samsung»." }
+      - { label: "Texto del recuadro si no hay imagen", name: marca, widget: string, required: false, hint: "Sin imagen, se muestra un recuadro con este texto (por ejemplo, el nombre de la marca)." }
+      - { label: "Color del recuadro", name: tono, widget: select, options: [{ label: "Negro", value: "negro" }, { label: "Fosforito", value: "fosforito" }], default: "negro", required: false }
+      - { label: "Frase destacada", name: frase_destacada, widget: text, required: false, hint: "Aparece en un recuadro fosforito dentro del artículo y, si es la noticia principal, en «La idea de hoy»." }
+      - { label: "Medio de la fuente", name: fuente_nombre, widget: string, required: false, hint: "Solo en noticias de otros medios. Ejemplo: Marketing Directo." }
+      - { label: "Enlace a la fuente", name: fuente_url, widget: string, required: false }
+      - { label: "Minutos de lectura", name: lectura, widget: number, value_type: int, min: 1, required: false, hint: "Si lo dejas vacío, se calcula solo." }
+      - { label: "Borrador (no publicar todavía)", name: borrador, widget: boolean, default: false, required: false }
+      - { label: "Texto", name: body, widget: markdown, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"], editor_components: ["image"] }
+
+  - name: ajustes
+    label: Ajustes
+    files:
+      - name: generales
+        label: Ajustes de la web
+        file: content/ajustes.json
+        fields:
+          - { label: "Descripción de la revista", name: descripcion, widget: text }
+          - { label: "Responsable (aviso legal)", name: responsable, widget: string }
+          - { label: "Email de información", name: email_info, widget: string }
+          - { label: "Email de colaboraciones", name: email_colaboracion, widget: string }
+          - { label: "Dirección del formulario de Mailrelay", name: newsletter_form_url, widget: string, required: false, hint: "La URL del formulario de suscripción que te da Mailrelay. Mientras esté vacío, la web invita a escribir por email." }
+          - { label: "Nombre del campo email en Mailrelay", name: newsletter_campo_email, widget: string, default: "email" }
+          - { label: "Fecha de actualización de los textos legales", name: legal_actualizado, widget: string }
