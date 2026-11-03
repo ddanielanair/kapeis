@@ -50,7 +50,7 @@ collections:
       - { label: "Texto del recuadro si no hay imagen", name: marca, widget: string, required: false, hint: "Sin imagen, se muestra un recuadro con este texto (por ejemplo, el nombre de la marca)." }
       - { label: "Color del recuadro", name: tono, widget: select, options: [{ label: "Negro", value: "negro" }, { label: "Fosforito", value: "fosforito" }], default: "negro", required: false }
       - { label: "Frase destacada", name: frase_destacada, widget: text, required: false, hint: "Aparece en un recuadro fosforito dentro del artículo y, si es la noticia principal, en «La idea de hoy»." }
-      - { label: "Medio de la fuente", name: fuente_nombre, widget: string, required: false, hint: "Solo en noticias de otros medios. Ejemplo: Marketing Directo." }
+      - { label: "Medio de la fuente", name: fuente_nombre, widget: string, required: false, hint: "Opcional. Solo si quieres citar una fuente." }
       - { label: "Enlace a la fuente", name: fuente_url, widget: string, required: false }
       - { label: "Minutos de lectura", name: lectura, widget: number, value_type: int, min: 1, required: false, hint: "Si lo dejas vacío, se calcula solo." }
       - { label: "Borrador (no publicar todavía)", name: borrador, widget: boolean, default: false, required: false }

@@ -1,17 +1,26 @@
 ---
 titulo: "Bratziez: el coleccionismo se cuelga del bolso"
-entradilla: "Peluches con clip, caja sorpresa y series limitadas. Bratz convierte la nostalgia de los 2000 en un accesorio que se ve por la calle."
+entradilla: "Peluches con clip, caja sorpresa y estética de los 2000. Bratz convierte su producto en un accesorio que hace publicidad caminando por la calle."
 fecha: "2026-11-03 07:30"
 seccion: "Retail"
 zona: "Internacional"
-tipo: "Noticia comentada"
+tipo: "Artículo propio"
 marca: "Bratz"
-lectura: 2
-fuente_nombre: "Marketing Directo"
-fuente_url: "https://www.marketingdirecto.com/anunciantes-general/bratz-sacan-lado-mas-mini-bratziez-peluches-cuelguen-bolso"
+lectura: 3
+frase_destacada: "El mejor escaparate de un producto es la persona que lo lleva puesto."
 ---
-Bratz ha presentado los Bratziez, pequeños peluches coleccionables con un clip para colgarlos del bolso o la mochila. Mantienen la estética de los 2000 que hizo famosas a las muñecas, y cada caja lleva un personaje sorpresa que no se descubre hasta abrirla.
+Las muñecas Bratz fueron un fenómeno a principios de los 2000. Veinticinco años después, la marca vuelve con una idea pequeña en tamaño y grande en intención: los Bratziez.
 
-La colección se reparte en varias series, entre ellas una dedicada al 25 aniversario de la marca, y a finales de diciembre llegará una colaboración con Hello Kitty que incluirá una pulsera a juego.
+Son peluches coleccionables con un clip para colgarlos del bolso o la mochila. Mantienen la estética que hizo famosas a las muñecas y llegan en caja sorpresa: no sabes qué personaje te ha tocado hasta que la abres.
 
-**Por qué importa:** colgar el producto del bolso lo convierte en publicidad que camina por la calle. Y la caja sorpresa hace que nadie se conforme con uno.
+La colección se organiza en series, una de ellas dedicada al 25 aniversario de la marca, y a finales de diciembre se suma una colaboración con Hello Kitty que incluirá una pulsera a juego.
+
+## Por qué funciona
+
+Junta tres cosas que hoy venden solas: la nostalgia de quien tuvo Bratz de pequeña, la moda de colgar muñecos del bolso y el enganche de la caja sorpresa, que hace que casi nadie se quede en uno.
+
+Y tiene un efecto extra: cada Bratziez colgado de una mochila es un anuncio que se pasea por la calle, el metro o la oficina. Publicidad gratuita y, además, recomendada por alguien de confianza.
+
+## Lo que puedes aplicar
+
+Piensa si tu producto puede salir de casa y dejarse ver. Una bolsa que da gusto reutilizar, un llavero, un detalle que la gente quiera llevar encima. El mejor escaparate de un producto es la persona que lo lleva puesto.

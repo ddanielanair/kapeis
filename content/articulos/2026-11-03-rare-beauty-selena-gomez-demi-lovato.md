@@ -1,18 +1,27 @@
 ---
 titulo: "Rare Beauty vuelve a juntar a Selena Gomez y Demi Lovato"
-entradilla: "Nostalgia de Disney Channel para vender un set de colorete de edición limitada."
+entradilla: "Dos amigas, un póster de Disney Channel recreado y un colorete de edición limitada. La nostalgia, bien usada, no parece un anuncio."
 fecha: "2026-11-03 08:00"
 seccion: "Marketing"
 zona: "Internacional"
-tipo: "Noticia comentada"
+tipo: "Artículo propio"
 marca: "Rare Beauty"
 tono: "fosforito"
-lectura: 2
-fuente_nombre: "Marketing Directo"
-fuente_url: "https://www.marketingdirecto.com/anunciantes-general/rare-beauty-recupera-amistad-iconica-selena-gomez-demi-lovato-vuelve-delena"
+lectura: 3
+frase_destacada: "La nostalgia funciona cuando la historia es real. Si no, se nota."
 ---
-Rare Beauty, la marca de cosmética de Selena Gomez, ha reunido a su fundadora con Demi Lovato en su nueva campaña, «Still Making Each Other Blush». Las dos recrean momentos de su etapa en Disney Channel, como el póster de *Princess Protection Program*, y recuperan el estilo de los vídeos caseros que subían a YouTube.
+Quien creció viendo Disney Channel a finales de los 2000 tiene una foto mental de Selena Gomez y Demi Lovato juntas. Rare Beauty, la marca de cosmética de Gomez, lo sabe y lo ha aprovechado.
 
-El producto que lo acompaña es un set de edición limitada con dos tonos de su colorete líquido y una brocha, que se vende a 50 dólares y solo en la web oficial de la marca.
+Su nueva campaña, «Still Making Each Other Blush», reúne otra vez a las dos amigas. Recrean escenas de aquella época, como el póster de *Princess Protection Program*, y recuperan el estilo casero de los vídeos que subían a YouTube cuando eran adolescentes.
 
-**Por qué importa:** la nostalgia es un atajo emocional muy potente. Si además viene de una amistad real, la campaña no parece un anuncio, sino un reencuentro.
+El producto que acompaña la historia es un set de edición limitada con dos tonos del colorete líquido de la marca y una brocha. Cuesta 50 dólares y solo se vende en su web.
+
+## Por qué funciona
+
+La nostalgia es un atajo emocional muy potente, pero solo cuando la historia es verdad. Aquí lo es: hay una amistad real detrás, con altibajos que el público conoce. Por eso la campaña se siente más como un reencuentro que como un anuncio.
+
+También está bien pensado el formato. Edición limitada y venta solo en la web propia: urgencia, exclusividad y todos los datos de cliente para la marca.
+
+## Lo que puedes aplicar
+
+No hace falta tener a dos estrellas de Disney. Busca qué recuerdo comparte tu público con tu marca, o qué historia real hay detrás de tu negocio, y cuéntala con cariño. Si es inventada, se nota.
