@@ -5,6 +5,9 @@ fecha: "2026-11-03 07:00"
 seccion: "Digital"
 zona: "España"
 tipo: "Artículo propio"
+imagen: /uploads/netflix-mundial.jpg
+alt_imagen: Logotipo de Netflix junto al trofeo de la Copa Mundial de la FIFA sobre fondo negro
+pie_imagen: "Imagen: Netflix"
 marca: "Netflix"
 tono: "fosforito"
 lectura: 3
