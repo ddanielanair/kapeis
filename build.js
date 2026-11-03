@@ -135,22 +135,28 @@ const btnHash = (href, label) => `<a class="btn btn-hash" href="${href}"><span c
 
 function header(active = '') {
   const link = (href, label, key) => `<li><a href="${href}"${active === key ? ' aria-current="page"' : ''}>${label}</a></li>`;
-  return `<header class="site-header wrap">
+  return `<header class="site-header">
+<div class="topbar"><div class="wrap topbar-row">
+<span class="topbar-tag">Revista diaria de marketing</span>
+<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Instagram de Kapeís">@kapeis.es</a>` : ''}</span>
+</div></div>
+<div class="wrap">
 <div class="header-row">
 <a class="logo-link" href="/" aria-label="Kapeís, ir a la portada">${LOGO('lg')}</a>
-<span class="header-date"><span data-hoy>${fechaLarga(new Date())}</span><br>Revista diaria de marketing</span>
 <button class="burger" type="button" aria-label="Menú" aria-expanded="false" aria-controls="menu"><svg class="i-open" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><svg class="i-close" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button>
+</div>
 <nav id="menu" class="nav" aria-label="Secciones">
 <ul class="nav-list">
 ${link('/marketing/', 'Marketing', 'marketing')}
 ${link('/digital/', 'Digital', 'digital')}
 ${link('/retail/', 'Retail', 'retail')}
 </ul>
-<div class="zone" role="group" aria-label="Zona">
-<a href="/espana/"${active === 'espana' ? ' class="is-on" aria-current="page"' : (active === 'internacional' ? '' : ' class="is-on"')}>España</a>
-<a href="/internacional/"${active === 'internacional' ? ' class="is-on" aria-current="page"' : ''}>Internacional</a>
-</div>
-<a class="btn btn-dark" href="/#newsletter">Suscríbete</a>
+<span class="nav-sep" aria-hidden="true"></span>
+<ul class="nav-list" aria-label="Zona">
+${link('/espana/', 'España', 'espana')}
+${link('/internacional/', 'Internacional', 'internacional')}
+</ul>
+<a class="btn btn-dark btn-sm" href="/#newsletter">Suscríbete</a>
 </nav>
 </div>
 </header>`;
