@@ -6,7 +6,9 @@ fecha: 2026-11-03 08:00
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
-imagen: https://images.ecestaticos.com/tRXQDqnkBuUnAUH8mzOYf3Ycfc4=/0x76:806x614/996x664/filters:fill(white):format(png)/f.elconfidencial.com%2Foriginal%2F76a%2F8e3%2Fd31%2F76a8e3d31c5c405ff1516f3a8b1dbea4.png
+imagen: /uploads/rare-beauty.jpg
+alt_imagen: Selena Gomez, con vestido azul y tiara, y Demi Lovato, con vestido amarillo y corona, sentadas sobre maletas verdes
+pie_imagen: "Imagen: Rare Beauty"
 marca: Rare Beauty
 tono: fosforito
 frase_destacada: La nostalgia funciona cuando la historia es real. Si no, se nota.
