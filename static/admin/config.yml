@@ -67,6 +67,5 @@ collections:
           - { label: "Responsable (aviso legal)", name: responsable, widget: string }
           - { label: "Email de información", name: email_info, widget: string }
           - { label: "Email de colaboraciones", name: email_colaboracion, widget: string }
-          - { label: "Dirección del formulario de Mailrelay", name: newsletter_form_url, widget: string, required: false, hint: "La URL del formulario de suscripción que te da Mailrelay. Mientras esté vacío, la web invita a escribir por email." }
-          - { label: "Nombre del campo email en Mailrelay", name: newsletter_campo_email, widget: string, default: "email" }
+          - { label: "Enlace al formulario de Mailrelay", name: newsletter_form_url, widget: string, required: false, hint: "La dirección del formulario de suscripción (https://kapeis.ipzmarketing.com/f/...). Si lo dejas vacío, la web invita a escribir por email." }
           - { label: "Fecha de actualización de los textos legales", name: legal_actualizado, widget: string }

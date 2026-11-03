@@ -152,11 +152,10 @@ ${link('/retail/', 'Retail', 'retail')}
 function newsletter(titulo = '¿Te avisamos de lo importante?', texto = 'Publicamos cada día, pero solo escribimos a tu correo cuando hay algo que de verdad merece la pena. Pocas veces y sin relleno.') {
   const url = ajustes.newsletter_form_url;
   const form = url
-    ? `<form class="news-form" action="${esc(url)}" method="post" target="_blank">
-<label for="email">Tu email</label>
-<div class="news-row"><input id="email" name="${esc(ajustes.newsletter_campo_email || 'email')}" type="email" required placeholder="nombre@correo.com" autocomplete="email"><button class="btn btn-dark btn-lg" type="submit">Suscribirme</button></div>
-<p class="news-legal">Al suscribirte aceptas la <a href="/legal/#privacidad">política de privacidad</a>.</p>
-</form>`
+    ? `<div class="news-form">
+<a class="btn btn-dark btn-lg news-btn" href="${esc(url)}" target="_blank" rel="noopener">Suscribirme</a>
+<p class="news-legal">Se abre el formulario de suscripción de Mailrelay. Al suscribirte aceptas la <a href="/legal/#privacidad">política de privacidad</a>.</p>
+</div>`
     : `<div class="news-form"><p class="news-soon">La newsletter arranca muy pronto. Mientras, escríbenos a <a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a> y te avisamos.</p></div>`;
   return `<section id="newsletter" class="wrap news-wrap" aria-labelledby="news-h">
 <div class="news">
