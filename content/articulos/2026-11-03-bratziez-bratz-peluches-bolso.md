@@ -7,7 +7,7 @@ fecha: 2026-11-03 07:30
 seccion: Retail
 zona: Internacional
 tipo: Artículo propio
-imagen: /uploads/img_473588_934fc0d601d2f6ebeaf81c29cf117893_1.jpg
+imagen: https://todopink.com/wp-content/uploads/2026/08/img_473588_934fc0d601d2f6ebeaf81c29cf117893_1.jpg
 marca: Bratz
 frase_destacada: El mejor escaparate de un producto es la persona que lo lleva puesto.
 lectura: 3
