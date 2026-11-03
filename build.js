@@ -48,6 +48,11 @@ function parseFrontmatter(raw) {
       const block = [];
       while (i + 1 < lines.length && (/^\s+/.test(lines[i + 1]) || lines[i + 1] === '')) block.push(lines[++i].replace(/^\s{2}/, ''));
       val = folded ? block.join(' ').replace(/\s+/g, ' ').trim() : block.join('\n').trim();
+    } else if (val !== '' && !/^["']/.test(val) && i + 1 < lines.length && /^\s+\S/.test(lines[i + 1])) {
+      // texto largo sin comillas partido en varias líneas (así lo guarda el panel)
+      const parts = [val];
+      while (i + 1 < lines.length && /^\s+\S/.test(lines[i + 1])) parts.push(lines[++i].trim());
+      val = parts.join(' ');
     } else if (/^".*"$/.test(val)) {
       val = val.slice(1, -1).replace(/\\"/g, '"').replace(/\\\\/g, '\\');
     } else if (/^'.*'$/.test(val)) {
