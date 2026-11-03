@@ -6,8 +6,9 @@ fecha: 2026-11-03 08:00
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
-imagen: /uploads/rare-beauty.jpg
-alt_imagen: Selena Gomez, con vestido azul y tiara, y Demi Lovato, con vestido amarillo y corona, sentadas sobre maletas verdes
+imagen: /uploads/rarebeauty.png
+alt_imagen: Selena Gomez, con vestido azul y tiara, y Demi Lovato, con vestido
+  amarillo y corona, sentadas sobre maletas verdes
 pie_imagen: "Imagen: Rare Beauty"
 marca: Rare Beauty
 tono: fosforito
