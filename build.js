@@ -153,8 +153,10 @@ function newsletter(titulo = '¿Te avisamos de lo importante?', texto = 'Publica
   const url = ajustes.newsletter_form_url;
   const form = url
     ? `<div class="news-form">
-<a class="btn btn-dark btn-lg news-btn" href="${esc(url)}" target="_blank" rel="noopener">Suscribirme</a>
-<p class="news-legal">Se abre el formulario de suscripción de Mailrelay. Al suscribirte aceptas la <a href="/legal/#privacidad">política de privacidad</a>.</p>
+<label class="news-label">Tu email</label>
+<div class="news-embed"><iframe data-skip-lazy="" src="${esc(url)}" title="Formulario de suscripción a la newsletter de Kapeís" frameborder="0" scrolling="no" width="100%" class="ipz-iframe"></iframe></div>
+<script data-cfasync="false" src="https://assets.ipzmarketing.com/assets/signup_form/iframe_v1.js"></script>
+<p class="news-legal">Al suscribirte aceptas la <a href="/legal/#privacidad">política de privacidad</a>. Te enviaremos un correo para confirmar.</p>
 </div>`
     : `<div class="news-form"><p class="news-soon">La newsletter arranca muy pronto. Mientras, escríbenos a <a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a> y te avisamos.</p></div>`;
   return `<section id="newsletter" class="wrap news-wrap" aria-labelledby="news-h">
