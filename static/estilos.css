@@ -376,3 +376,6 @@ a.ig{display:inline-flex;align-items:center;gap:8px}
 @media (max-width:700px){
   .feat{margin-top:24px;gap:16px}
 }
+
+/* Titular de la noticia principal: subrayado fosforito, como España e Internacional */
+.hero h1 a{padding:0 .04em;background:linear-gradient(transparent 72%,var(--accent) 72%,var(--accent) 90%,transparent 90%);-webkit-box-decoration-break:clone;box-decoration-break:clone}
