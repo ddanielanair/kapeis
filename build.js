@@ -316,7 +316,7 @@ ${a.fuente_nombre ? `<p class="via">Vía ${esc(a.fuente_nombre)}</p>` : ''}
 </article>`;
 
   const hoyHtml = hoy.length ? `<section class="wrap block" aria-labelledby="h-hoy">
-<div class="block-head"><h2 id="h-hoy">Hoy en Kapeís</h2>${btnHash('/articulos/', 'Todos los artículos')}</div>
+<div class="block-head"><h2 id="h-hoy" class="h-hoy">Hoy en <span class="sr">Kapeís</span>${LOGO('h').replace('class="logo', 'aria-hidden="true" class="logo')}</h2>${btnHash('/articulos/', 'Todos los artículos')}</div>
 <div class="today">
 <div class="col col-big">${card(big, 'xl')}</div>
 <div class="col col-mid">${card(m1, 'm')}${card(m2, 'm')}</div>

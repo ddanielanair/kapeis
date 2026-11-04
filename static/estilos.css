@@ -337,3 +337,7 @@ a.ig{display:inline-flex;align-items:center;gap:8px}
 /* Título de sección: pequeño y subrayado en fosforito */
 .list-head{padding-top:48px;padding-bottom:24px}
 .list-head h1.list-title{font-size:clamp(28px,3.4vw,40px);line-height:1.1;letter-spacing:-0.03em;align-self:flex-start;padding:0 2px;background:linear-gradient(transparent 60%,var(--accent) 60%,var(--accent) 92%,transparent 92%)}
+
+/* Logo dentro de «Hoy en Kapeís» */
+.h-hoy{display:flex;align-items:center;flex-wrap:wrap;gap:.28em}
+.logo-h{font-size:1em;gap:.18em}.logo-h .logo-hash{width:1.12em;height:1.12em;border-radius:.26em;font-size:.86em}
