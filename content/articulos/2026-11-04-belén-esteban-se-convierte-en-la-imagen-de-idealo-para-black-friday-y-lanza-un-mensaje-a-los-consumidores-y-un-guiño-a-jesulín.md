@@ -1,7 +1,6 @@
 ---
 titulo: "Idealo ficha a Belén Esteban "
-entradilla: Humor, publicidad y una frase con posible doble sentido se unen en
-  una acción que ya está dando que hablar.
+entradilla: Humor, publicidad y una frase con posible doble sentido.
 fecha: 2026-11-04 19:48
 seccion: Marketing
 zona: España
