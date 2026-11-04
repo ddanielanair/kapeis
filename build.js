@@ -222,6 +222,9 @@ ${ajustes.instagram ? `<li><a class="ig" href="${esc(ajustes.instagram)}" target
 </footer>`;
 }
 
+// Versión de los archivos estáticos: cambia cuando cambian, para que nadie vea estilos viejos en caché.
+const ASSET_V = require('crypto').createHash('md5').update(['static/estilos.css', 'static/kapeis.js'].map((f) => fs.readFileSync(path.join(ROOT, f), 'utf8')).join('')).digest('hex').slice(0, 8);
+
 function page({ title, seoTitle, description, body, active = '', canonical = '/', og = {}, head = '' }) {
   const fullTitle = seoTitle ? seoTitle : title ? `${title} – Kapeís` : 'Kapeís – Revista de marketing, marketing digital y retail';
   return `<!doctype html>
@@ -246,7 +249,7 @@ ${head}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="Kapeís" href="/rss.xml">
 <link rel="stylesheet" href="/fonts/fonts.css">
-<link rel="stylesheet" href="/estilos.css">
+<link rel="stylesheet" href="/estilos.css?v=${ASSET_V}">
 </head>
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -263,7 +266,7 @@ ${ajustes.instagram ? `<p class="contact-band-item"><span>Síguenos</span><a cla
 </div>
 </section>
 ${footer()}
-<script src="/kapeis.js" defer></script>
+<script src="/kapeis.js?v=${ASSET_V}" defer></script>
 </body>
 </html>
 `;
