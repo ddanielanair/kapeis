@@ -36,11 +36,12 @@ collections:
       - { label: "Marketing", field: seccion, pattern: "Marketing" }
       - { label: "Digital", field: seccion, pattern: "Digital" }
       - { label: "Retail", field: seccion, pattern: "Retail" }
+      - { label: "Entrevistas", field: seccion, pattern: "Entrevistas" }
     fields:
       - { label: "Titular", name: titulo, widget: string }
       - { label: "Entradilla", name: entradilla, widget: text, hint: "Una o dos frases que resumen la pieza. Se ve en la portada." }
       - { label: "Fecha y hora", name: fecha, widget: datetime, format: "YYYY-MM-DD HH:mm", date_format: "DD/MM/YYYY", time_format: "HH:mm" }
-      - { label: "Sección", name: seccion, widget: select, options: ["Marketing", "Digital", "Retail"], default: "Marketing" }
+      - { label: "Sección", name: seccion, widget: select, options: ["Marketing", "Digital", "Retail", "Entrevistas"], default: "Marketing" }
       - { label: "Zona", name: zona, widget: select, options: ["España", "Internacional"], default: "España" }
       - { label: "Tipo", name: tipo, widget: select, options: ["Artículo propio", "Noticia comentada"], default: "Artículo propio" }
       - { label: "Noticia principal de la portada", name: portada, widget: boolean, default: false, required: false, hint: "Márcalo solo en una pieza: será la grande de arriba. Si ninguna lo tiene, sale la más reciente." }

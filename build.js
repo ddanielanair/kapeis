@@ -96,7 +96,7 @@ function markdown(md) {
 
 // ---------- contenido ----------
 const ajustes = JSON.parse(fs.readFileSync(path.join(ROOT, 'content/ajustes.json'), 'utf8'));
-const SECCIONES = { Marketing: 'marketing', Digital: 'digital', Retail: 'retail' };
+const SECCIONES = { Marketing: 'marketing', Digital: 'digital', Retail: 'retail', Entrevistas: 'entrevistas' };
 const ZONAS = { 'España': 'espana', 'Internacional': 'internacional' };
 
 const artDir = path.join(ROOT, 'content/articulos');
@@ -165,6 +165,7 @@ ${buscador('q-menu', 'hsearch-menu')}
 ${link('/marketing/', 'Marketing', 'marketing')}
 ${link('/digital/', 'Digital', 'digital')}
 ${link('/retail/', 'Retail', 'retail')}
+${link('/entrevistas/', 'Entrevistas', 'entrevistas')}
 </ul>
 <span class="nav-sep" aria-hidden="true"></span>
 <ul class="nav-list" aria-label="Zona">
@@ -366,8 +367,7 @@ ${retail.fuente_nombre ? `<p class="via">Vía ${esc(retail.fuente_nombre)}</p>` 
 // ---------- listados ----------
 function listado({ titulo, descripcion, items, active, ruta }) {
   const body = `<section class="wrap list-head">
-<h1>${esc(titulo)}</h1>
-<p class="lede">${esc(descripcion)}</p>
+<h1 class="list-title">${esc(titulo)}</h1>
 </section>
 <section class="wrap block">
 <div class="grid-list">
@@ -376,7 +376,7 @@ ${thumb(a, 'm')}
 <p class="meta">${tags(a)}<span>${fechaCorta(a.fecha)}</span></p>
 <h3><a class="t" href="${a.url}">${esc(a.titulo)}</a></h3>
 <p>${esc(a.entradilla)}</p>
-</article>`).join('\n') || '<p class="muted">Todavía no hay artículos aquí. Vuelve mañana.</p>'}
+</article>`).join('\n') || `<p class="muted">${active === 'entrevistas' ? 'Muy pronto, las primeras entrevistas.' : 'Todavía no hay artículos aquí. Vuelve mañana.'}</p>`}
 </div>
 </section>
 ${newsletter()}`;
@@ -536,7 +536,7 @@ function sitemap(rutas) {
   write('index.html', portada());
   write('articulos/index.html', listado({ titulo: 'Todos los artículos', descripcion: 'Todo lo publicado en Kapeís, de lo más nuevo a lo más antiguo.', items: articulos, ruta: '/articulos/' }));
 
-  const descS = { Marketing: 'Campañas, marcas, publicidad y estrategia. Lo que se ha hecho y lo que se puede copiar.', Digital: 'Redes sociales, buscadores, contenidos, plataformas y medios. Lo que cambia y a quién le afecta.', Retail: 'Tiendas, escaparates, producto y experiencia de compra, en la calle y en internet.' };
+  const descS = { Marketing: 'Campañas, marcas, publicidad y estrategia. Lo que se ha hecho y lo que se puede copiar.', Digital: 'Redes sociales, buscadores, contenidos, plataformas y medios. Lo que cambia y a quién le afecta.', Retail: 'Tiendas, escaparates, producto y experiencia de compra, en la calle y en internet.', Entrevistas: 'Conversaciones con las personas que hacen el marketing, la publicidad y el retail.' };
   for (const [nombre, slug] of Object.entries(SECCIONES)) {
     write(`${slug}/index.html`, listado({ titulo: nombre, descripcion: descS[nombre], items: articulos.filter((a) => a.seccion === nombre), active: slug, ruta: `/${slug}/` }));
     rutas.push(`/${slug}/`);
