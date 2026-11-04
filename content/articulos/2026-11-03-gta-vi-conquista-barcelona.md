@@ -7,7 +7,8 @@ fecha: 2026-11-02 09:00
 seccion: Marketing
 zona: España
 tipo: Artículo propio
-portada: true
+portada: false
+destacada: true
 imagen: /uploads/gta6barcelona-1-.jpg
 alt_imagen: Ilustración oficial de Jason y Lucía, los protagonistas de GTA VI,
   con el skyline de Vice City al atardecer
