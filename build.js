@@ -290,7 +290,7 @@ function portada() {
 </div>
 <div class="hero-foot">
 <span class="muted">${hero.lectura} min de lectura</span>
-<a class="btn btn-dark" href="${hero.url}">Leer el artículo <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></a>
+<a class="leer" href="${hero.url}"><span>Leer el artículo</span><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></a>
 </div>
 </div>
 ${heroImg}

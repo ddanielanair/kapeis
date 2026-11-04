@@ -325,3 +325,11 @@ a.t:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline
 .contact-band-item a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
 
 a.ig{display:inline-flex;align-items:center;gap:8px}
+
+/* enlace «Leer el artículo» de la portada */
+.leer{display:inline-flex;align-items:center;gap:10px;min-height:44px;font-family:var(--body);font-weight:700;font-size:17px;color:#fff;text-decoration:none}
+.leer span{text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:4px;text-underline-offset:7px}
+.leer svg{color:var(--accent);transition:transform .15s}
+.hero .leer:hover{color:#fff}
+.leer:hover svg{transform:translateX(4px)}
+.hero a.leer:focus-visible{outline-color:var(--accent)}
