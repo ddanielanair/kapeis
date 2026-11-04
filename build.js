@@ -135,14 +135,22 @@ const btnHash = (href, label) => `<a class="btn btn-hash" href="${href}"><span c
 
 function header(active = '') {
   const link = (href, label, key) => `<li><a href="${href}"${active === key ? ' aria-current="page"' : ''}>${label}</a></li>`;
+  const DIAS = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
+  const hoy = new Date();
+  const fechaHoy = `${DIAS[hoy.getDay()].replace(/^./, (c) => c.toUpperCase())}, ${fechaLarga(hoy)}`;
   return `<header class="site-header">
 <div class="topbar"><div class="wrap topbar-row">
-<span class="topbar-tag">Revista diaria de marketing</span>
+<span class="topbar-date" data-hoy>${fechaHoy}</span>
 <span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Instagram de Kapeís">@kapeis.es</a>` : ''}</span>
 </div></div>
 <div class="wrap">
-<div class="header-row">
+<div class="masthead">
+<p class="mast-side mast-left"><span>Revista diaria</span><span>de marketing</span></p>
+<div class="mast-center">
 <a class="logo-link" href="/" aria-label="Kapeís, ir a la portada">${LOGO('lg')}</a>
+<p class="mast-tagline">Campañas, marcas, digital y retail, contado claro y sin humo</p>
+</div>
+<div class="mast-side mast-right"><a class="btn btn-dark btn-sm" href="/#newsletter">Suscríbete</a></div>
 <button class="burger" type="button" aria-label="Menú" aria-expanded="false" aria-controls="menu"><svg class="i-open" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><svg class="i-close" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button>
 </div>
 <nav id="menu" class="nav" aria-label="Secciones">
@@ -156,7 +164,7 @@ ${link('/retail/', 'Retail', 'retail')}
 ${link('/espana/', 'España', 'espana')}
 ${link('/internacional/', 'Internacional', 'internacional')}
 </ul>
-<a class="btn btn-dark btn-sm" href="/#newsletter">Suscríbete</a>
+<a class="btn btn-dark btn-sm nav-sub" href="/#newsletter">Suscríbete</a>
 </nav>
 </div>
 </header>`;
@@ -459,7 +467,7 @@ async function fuentes() {
   fs.mkdirSync(dir, { recursive: true });
   const fallback = '/* sin conexión al compilar: se usan las fuentes del sistema */\n';
   try {
-    const cssUrl = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600;700&display=swap';
+    const cssUrl = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600;700&family=Instrument+Serif:ital@0;1&display=swap';
     const res = await fetch(cssUrl, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36' } });
     if (!res.ok) throw new Error('css ' + res.status);
     let css = await res.text();
