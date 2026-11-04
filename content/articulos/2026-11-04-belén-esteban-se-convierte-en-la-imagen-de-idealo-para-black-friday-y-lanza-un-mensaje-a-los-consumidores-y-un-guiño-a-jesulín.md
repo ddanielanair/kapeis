@@ -1,6 +1,5 @@
 ---
-titulo: Belén Esteban se convierte en la imagen de Idealo para Black Friday y
-  lanza un mensaje a los consumidores (y un guiño a Jesulín)
+titulo: "Idealo ficha a Belén Esteban "
 entradilla: El Black Friday se acerca y las marcas empiezan a desplegar sus
   campañas para conquistar a los consumidores. Esta vez, Idealo ha decidido
   hacerlo con una protagonista muy reconocible, Belén Esteban, y un mensaje
