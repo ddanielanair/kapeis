@@ -133,6 +133,15 @@ const meta = (a, extra = []) => `<p class="meta">${tags(a)}${extra.map((e) => `<
 
 const btnHash = (href, label) => `<a class="btn btn-hash" href="${href}"><span class="hash" aria-hidden="true">#</span>${esc(label)}</a>`;
 
+const SEARCH_ICON = (w = 18) => `<svg aria-hidden="true" width="${w}" height="${w}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>`;
+const searchForm = (id, autofocus = false) => `<form class="search-form" action="/buscar/" method="get" role="search" data-search>
+<label class="sr" for="${id}">Buscar artículos</label>
+${SEARCH_ICON(22)}
+<input id="${id}" name="q" type="search" placeholder="Busca marcas, campañas o temas…" autocomplete="off" enterkeyhint="search"${autofocus ? ' autofocus' : ''}>
+</form>
+<p class="search-status" aria-live="polite"></p>
+<ol class="search-results"></ol>`;
+
 function header(active = '') {
   const link = (href, label, key) => `<li><a href="${href}"${active === key ? ' aria-current="page"' : ''}>${label}</a></li>`;
   const DIAS = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
@@ -141,17 +150,20 @@ function header(active = '') {
   return `<header class="site-header">
 <div class="topbar"><div class="wrap topbar-row">
 <span class="topbar-date" data-hoy>${fechaHoy}</span>
-<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Síguenos en Instagram">¿Nos das follow?</a>` : ''}</span>
+<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Síguenos en Instagram">${IG_ICON}<span>¿Nos das follow?</span></a>` : ''}</span>
 </div></div>
 <div class="wrap">
 <div class="masthead">
-<p class="mast-side mast-left"><span>Revista diaria</span><span>de marketing</span></p>
+<p class="mast-left"><span class="mast-kicker">Revista diaria<br>de marketing</span></p>
 <div class="mast-center">
 <a class="logo-link" href="/" aria-label="Kapeís, ir a la portada">${LOGO('lg')}</a>
 <p class="mast-tagline">Campañas, marcas, digital y retail, contado claro y sin humo</p>
 </div>
-<div class="mast-side mast-right"><a class="btn btn-dark btn-sm" href="/#newsletter">Suscríbete</a></div>
-<button class="burger" type="button" aria-label="Menú" aria-expanded="false" aria-controls="menu"><svg class="i-open" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><svg class="i-close" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button>
+<div class="mast-right">
+<button class="search-toggle" type="button" aria-expanded="false" aria-controls="buscador" aria-label="Buscar">${SEARCH_ICON()}<span>Buscar</span></button>
+<a class="btn btn-dark btn-sm mast-sub" href="/#newsletter">Suscríbete</a>
+<button class="burger" type="button" aria-label="Menú" aria-expanded="false" aria-controls="menu"><svg class="i-open" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><svg class="i-close" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button>
+</div>
 </div>
 <nav id="menu" class="nav" aria-label="Secciones">
 <ul class="nav-list">
@@ -166,6 +178,12 @@ ${link('/internacional/', 'Internacional', 'internacional')}
 </ul>
 <a class="btn btn-dark btn-sm nav-sub" href="/#newsletter">Suscríbete</a>
 </nav>
+</div>
+<div class="search-panel" id="buscador" hidden>
+<div class="wrap search-inner">
+${searchForm('q-cabecera')}
+<button class="search-close" type="button" aria-label="Cerrar el buscador"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button>
+</div>
 </div>
 </header>`;
 }
@@ -457,6 +475,20 @@ function suscripcion() {
 <p>${btnHash('/', 'Volver a la portada')}</p>
 </section>`, canonical: '/suscripcion/' });
 }
+function buscar() {
+  const body = `<section class="wrap list-head search-page">
+<h1>Buscar</h1>
+${searchForm('q-pagina', true)}
+</section>`;
+  return page({ title: 'Buscar', description: 'Busca entre todos los artículos de Kapeís.', body, canonical: '/buscar/', head: '<meta name="robots" content="noindex, follow">' });
+}
+function indiceBusqueda() {
+  const plano = (md) => String(md || '').replace(/!\[[^\]]*\]\([^)]*\)/g, ' ').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[#>*_`]/g, ' ').replace(/\s+/g, ' ').trim();
+  return JSON.stringify(articulos.map((a) => ({
+    t: a.titulo, e: a.entradilla || '', u: a.url, s: a.seccion, z: a.zona, f: fechaCorta(a.fecha), m: a.marca || '',
+    k: String(a.palabras_clave || ''), x: plano(a.body),
+  })));
+}
 function noEncontrada() {
   return page({ title: 'Página no encontrada', body: `<section class="wrap list-head"><h1>Aquí no hay nada</h1><p class="lede">La página que buscas no existe o ha cambiado de sitio.</p><p>${btnHash('/', 'Volver a la portada')}</p></section>`, canonical: '/404/' });
 }
@@ -521,6 +553,8 @@ function sitemap(rutas) {
   write('sobre/index.html', sobre());
   write('legal/index.html', legal());
   write('suscripcion/index.html', suscripcion());
+  write('buscar/index.html', buscar());
+  write('buscar.json', indiceBusqueda());
   write('404.html', noEncontrada());
   write('rss.xml', rss());
   write('sitemap.xml', sitemap(rutas));
