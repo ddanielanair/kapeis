@@ -1,23 +1,22 @@
 ---
 titulo: "Bratziez: Bratz se cuelga del bolso"
-entradilla: Peluches con mosquetón, caja sorpresa y estética de los 2000. En su 25
-  aniversario, Bratz convierte su producto en un accesorio que hace publicidad
-  caminando por la calle.
-fecha: 2026-11-03 07:30
+entradilla: Peluches con mosquetón, caja sorpresa y estética de los 2000. En su
+  25 aniversario, Bratz convierte su producto en un accesorio que hace
+  publicidad caminando por la calle.
+fecha: 2026-10-26 07:30
 seccion: Retail
 zona: Internacional
 tipo: Artículo propio
 imagen: /uploads/bratziez-portada.jpg
 alt_imagen: Cinco Bratziez de la serie Tokyo a Go-Go posan alrededor de su caja
   sobre un fondo de calles con neones
-pie_imagen: "Imagen: Bratz"
-marca: Bratz
+pie_imagen: ""
+marca: ""
 titulo_seo: "Bratziez: los peluches de Bratz para colgar del bolso"
-descripcion_seo: Bratz celebra su 25 aniversario con los Bratziez, peluches en caja
-  sorpresa para colgar del bolso. Analizamos la estrategia de nostalgia,
+descripcion_seo: Bratz celebra su 25 aniversario con los Bratziez, peluches en
+  caja sorpresa para colgar del bolso. Analizamos la estrategia de nostalgia,
   coleccionismo y retail.
-palabras_clave: Bratziez, Bratz, bag charms, blind box, coleccionismo, retail,
-  nostalgia
+palabras_clave: Bratziez, Bratz, bag charms, blind box, coleccionismo, retail, nostalgia, pop
 frase_destacada: El mejor escaparate de un producto es la persona que lo lleva puesto.
 ---
 Las muñecas Bratz fueron uno de los grandes fenómenos jugueteros de principios de los 2000. En 2026 la marca, propiedad de MGA Entertainment, cumple 25 años y lo celebra con una línea pequeña en tamaño pero muy bien alineada con lo que hoy se vende: los **Bratziez**.
