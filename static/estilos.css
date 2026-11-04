@@ -341,3 +341,6 @@ a.ig{display:inline-flex;align-items:center;gap:8px}
 /* Logo dentro de «Hoy en Kapeís» */
 .h-hoy{display:flex;align-items:center;flex-wrap:wrap;gap:.28em}
 .logo-h{font-size:1em;gap:.18em}.logo-h .logo-hash{width:1.12em;height:1.12em;border-radius:.26em;font-size:.86em}
+
+/* España e Internacional en portada: subrayado fosforito, como los títulos de sección */
+.zone-head h2{padding:0 2px;background:linear-gradient(transparent 60%,var(--accent) 60%,var(--accent) 92%,transparent 92%)}
