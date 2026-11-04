@@ -10,7 +10,7 @@ fecha: 2026-11-04 19:48
 seccion: Marketing
 zona: España
 tipo: Artículo propio
-portada: false
+portada: true
 destacada: false
 imagen: /uploads/screenshot-2026-11-04-195401.png
 tono: negro
