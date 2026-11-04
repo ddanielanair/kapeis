@@ -86,7 +86,6 @@ h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;color:var(--ink)}
 .search-results li{border-bottom:1px solid var(--line)}
 .search-results a{display:block;padding:16px 0;text-decoration:none;color:var(--ink)}
 .search-results a:hover .sr-title,.search-results a:focus-visible .sr-title{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
-.sr-meta{display:block;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
 .sr-title{display:block;font-family:var(--display);font-weight:600;font-size:22px;line-height:1.2;letter-spacing:-0.025em}
 .sr-text{display:block;margin-top:6px;font-size:15px;line-height:1.5;color:var(--soft)}
 .search-results mark{background:var(--accent);color:inherit;padding:0 1px}

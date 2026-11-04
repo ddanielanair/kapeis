@@ -110,7 +110,7 @@
       var r = buscar(q);
       status.textContent = r.res.length ? (r.res.length === 1 ? '1 artículo' : r.res.length + ' artículos') : 'Nada por aquí. Prueba con otra palabra.';
       list.innerHTML = r.res.slice(0, 8).map(function (a) {
-        return '<li><a href="' + escH(a.u) + '"><span class="sr-meta">' + escH(a.s) + ' · ' + escH(a.z) + ' · ' + escH(a.f) + '</span><span class="sr-title">' + resaltar(a.t, r.terms) + '</span><span class="sr-text">' + resaltar(a.e, r.terms) + '</span></a></li>';
+        return '<li><a href="' + escH(a.u) + '"><span class="sr-title">' + resaltar(a.t, r.terms) + '</span><span class="sr-text">' + resaltar(a.e, r.terms) + '</span></a></li>';
       }).join('');
     }).catch(function () { status.textContent = 'No se ha podido cargar el buscador.'; });
   }
