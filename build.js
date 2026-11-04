@@ -141,7 +141,7 @@ function header(active = '') {
   return `<header class="site-header">
 <div class="topbar"><div class="wrap topbar-row">
 <span class="topbar-date" data-hoy>${fechaHoy}</span>
-<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Instagram de Kapeís">@kapeis.es</a>` : ''}</span>
+<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Síguenos en Instagram">¿Nos das follow?</a>` : ''}</span>
 </div></div>
 <div class="wrap">
 <div class="masthead">
