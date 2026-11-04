@@ -17,6 +17,8 @@ palabras_clave: Samsung, iPhone Duo, crackgate, publicidad comparativa,
   marketing en tiempo real, Galaxy Z Fold
 frase_destacada: En publicidad comparativa, la velocidad vale tanto como la idea.
 ---
+> Ten preparado el «sí» antes de que llegue la oportunidad porque un equipo pequeño con capacidad de decisión y un proceso de aprobación corto son la diferencia entre llegar a tiempo o tarde. **Cuando la competencia tropieza, no hay tiempo para tres reuniones.** 
+
 Hay campañas que se planifican durante meses y otras que nacen de un titular. La última de Samsung pertenece claramente al segundo grupo, *marketing en tiempo real.* 
 
 El 23 de octubre de 2026 Apple puso a la venta el iPhone Duo, su primer móvil plegable, con un precio de partida de 1.999 dólares en Estados Unidos. A los pocos días empezaron a multiplicarse en redes las quejas de usuarios con la pantalla interior agrietada justo en la zona de la bisagra, donde aparecía una línea brillante.
@@ -30,5 +32,3 @@ En paralelo, Samsung Canadá publicó en Instagram una serie de imágenes con un
 No hay que explicar que ha sido una tirada por parte de Samsung que todo el mundo entiende porque se sabe de qué manzana se habla, sin necesidad de nombrar a Apple. 
 
 En **España y en el resto de la Unión Europea la publicidad comparativa está permitida**, pero con condiciones ya que debe comparar productos equivalentes, basarse en características objetivas y verificables y no desacreditar al competidor. **El humor ayuda a que la pieza se perciba como una broma y no como un ataque, pero también obliga a medir bien hasta dónde llegar.**
-
-> Ten preparado el «sí» antes de que llegue la oportunidad porque un equipo pequeño con capacidad de decisión y un proceso de aprobación corto son la diferencia entre llegar a tiempo o tarde. **Cuando la competencia tropieza, no hay tiempo para tres reuniones.**
