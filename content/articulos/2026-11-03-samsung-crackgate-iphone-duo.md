@@ -31,10 +31,4 @@ No hay que explicar que ha sido una tirada por parte de Samsung que todo el mund
 
 En **España y en el resto de la Unión Europea la publicidad comparativa está permitida**, pero con condiciones: debe comparar productos equivalentes, basarse en características objetivas y verificables y no desacreditar al competidor. El humor ayuda a que la pieza se perciba como una broma y no como un ataque, pero también obliga a medir bien hasta dónde llegar.
 
-> **Ten preparado el «sí» antes de que llegue la oportunidad porque un equipo pequeño con capacidad de decisión y un proceso de aprobación corto son la diferencia entre llegar a tiempo o tarde.** 
->
-> **Define los puntos con calma y no en mitad de la polémica.** 
->
-> **Apóyate en un dato real porque la ironía funciona cuando detrás hay una ventaja demostrable.** 
->
-> **Cuando la competencia tropieza, no hay tiempo para tres reuniones.**
+> Ten preparado el «sí» antes de que llegue la oportunidad porque un equipo pequeño con capacidad de decisión y un proceso de aprobación corto son la diferencia entre llegar a tiempo o tarde. **Cuando la competencia tropieza, no hay tiempo para tres reuniones.**
