@@ -144,28 +144,23 @@ ${SEARCH_ICON(22)}
 
 function header(active = '') {
   const link = (href, label, key) => `<li><a href="${href}"${active === key ? ' aria-current="page"' : ''}>${label}</a></li>`;
-  const DIAS = ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'];
-  const hoy = new Date();
-  const fechaHoy = `${DIAS[hoy.getDay()].replace(/^./, (c) => c.toUpperCase())}, ${fechaLarga(hoy)}`;
+  const buscador = (id, cls) => `<div class="hsearch ${cls}">
+<form class="hsearch-form" action="/buscar/" method="get" role="search" data-search>
+<label class="sr" for="${id}">Buscar artículos</label>
+${SEARCH_ICON(16)}
+<input id="${id}" name="q" type="search" placeholder="Buscar" autocomplete="off" enterkeyhint="search">
+</form>
+<div class="hsearch-drop"><p class="search-status" aria-live="polite"></p><ol class="search-results"></ol></div>
+</div>`;
   return `<header class="site-header">
 <div class="topbar"><div class="wrap topbar-row">
-<span class="topbar-date" data-hoy>${fechaHoy}</span>
-<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Síguenos en Instagram">${IG_ICON}<span>¿Nos das follow?</span></a>` : ''}</span>
+<span class="topbar-tag">Marketing, digital y retail</span>
+<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Síguenos en Instagram">¿Nos das follow?</a>` : ''}</span>
 </div></div>
-<div class="wrap">
-<div class="masthead">
-<p class="mast-left"><span class="mast-kicker">Revista diaria<br>de marketing</span></p>
-<div class="mast-center">
-<a class="logo-link" href="/" aria-label="Kapeís, ir a la portada">${LOGO('lg')}</a>
-<p class="mast-tagline">Campañas, marcas, digital y retail, contado claro y sin humo</p>
-</div>
-<div class="mast-right">
-<button class="search-toggle" type="button" aria-expanded="false" aria-controls="buscador" aria-label="Buscar">${SEARCH_ICON()}<span>Buscar</span></button>
-<a class="btn btn-dark btn-sm mast-sub" href="/#newsletter">Suscríbete</a>
-<button class="burger" type="button" aria-label="Menú" aria-expanded="false" aria-controls="menu"><svg class="i-open" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><svg class="i-close" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button>
-</div>
-</div>
+<div class="wrap header-row">
+<a class="logo-link" href="/" aria-label="Kapeís, ir a la portada">${LOGO('sm')}</a>
 <nav id="menu" class="nav" aria-label="Secciones">
+${buscador('q-menu', 'hsearch-menu')}
 <ul class="nav-list">
 ${link('/marketing/', 'Marketing', 'marketing')}
 ${link('/digital/', 'Digital', 'digital')}
@@ -178,11 +173,10 @@ ${link('/internacional/', 'Internacional', 'internacional')}
 </ul>
 <a class="btn btn-dark btn-sm nav-sub" href="/#newsletter">Suscríbete</a>
 </nav>
-</div>
-<div class="search-panel" id="buscador" hidden>
-<div class="wrap search-inner">
-${searchForm('q-cabecera')}
-<button class="search-close" type="button" aria-label="Cerrar el buscador"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button>
+<div class="header-tools">
+${buscador('q-cabecera', 'hsearch-bar')}
+<a class="btn btn-dark btn-sm head-sub" href="/#newsletter">Suscríbete</a>
+<button class="burger" type="button" aria-label="Menú" aria-expanded="false" aria-controls="menu"><svg class="i-open" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><svg class="i-close" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button>
 </div>
 </div>
 </header>`;

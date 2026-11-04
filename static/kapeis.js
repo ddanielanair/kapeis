@@ -104,6 +104,7 @@
   function pintar(form) {
     var box = form.parentNode, status = box.querySelector('.search-status'), list = box.querySelector('.search-results');
     var q = form.q.value.trim();
+    box.classList.toggle('is-open', q.length >= 2);
     if (q.length < 2) { status.textContent = ''; list.innerHTML = ''; return; }
     cargar().then(function () {
       var r = buscar(q);
@@ -127,17 +128,20 @@
   var pag = document.getElementById('q-pagina');
   if (pag) { var q = new URLSearchParams(location.search).get('q'); if (q) { pag.value = q; pintar(pag.form); } }
 
-  // Panel de la cabecera
-  var btn = document.querySelector('.search-toggle'), panel = document.getElementById('buscador');
-  if (!btn || !panel) return;
-  var input = panel.querySelector('input');
-  function abrir() { panel.hidden = false; btn.setAttribute('aria-expanded', 'true'); cargar(); input.focus(); }
-  function cerrar(volver) { panel.hidden = true; btn.setAttribute('aria-expanded', 'false'); if (volver) btn.focus(); }
-  btn.addEventListener('click', function () { panel.hidden ? abrir() : cerrar(true); });
-  panel.querySelector('.search-close').addEventListener('click', function () { cerrar(true); });
+  // Desplegable de la cabecera: se cierra con Esc o al pulsar fuera.
+  var cajas = document.querySelectorAll('.hsearch');
+  var cerrar = function () { cajas.forEach(function (c) { c.classList.remove('is-open'); }); };
+  document.addEventListener('click', function (e) { if (!e.target.closest('.hsearch')) cerrar(); });
+  cajas.forEach(function (c) {
+    var i = c.querySelector('input');
+    i.addEventListener('focus', function () { if (i.value.trim().length >= 2) c.classList.add('is-open'); cargar(); });
+  });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && !panel.hidden) cerrar(true);
+    if (e.key === 'Escape') { var abierto = document.querySelector('.hsearch.is-open'); cerrar(); if (abierto) abierto.querySelector('input').focus(); return; }
     var t = e.target.tagName;
-    if (e.key === '/' && panel.hidden && t !== 'INPUT' && t !== 'TEXTAREA' && !e.target.isContentEditable) { e.preventDefault(); abrir(); }
+    if (e.key === '/' && t !== 'INPUT' && t !== 'TEXTAREA' && !e.target.isContentEditable) {
+      var barra = document.getElementById('q-cabecera');
+      if (barra && barra.offsetParent) { e.preventDefault(); barra.focus(); }
+    }
   });
 })();
