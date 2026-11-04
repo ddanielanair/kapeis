@@ -29,4 +29,4 @@ La campaña vuelve a reunir a las dos artistas, amigas desde que eran niñas, y 
 
 El mensaje gira en torno a la amistad, el apoyo mutuo y el bienestar emocional, tres temas muy presentes en la identidad de Rare Beauty desde su lanzamiento. Entre los fans, la vuelta de «Delena» ha sido recibida con entusiasmo.
 
-La historia viene acompañada de un lanzamiento concreto, el ***Delena Soft Pinch Blush Bundle*,** un set de edición limitada con dos tonos del colorete líquido Soft Pinch, el producto más popular de la marca, y una brocha de cerdas en ángulo. Los tonos elegidos son Hope y Virtue. El set cuesta 50 dólares y se vende **exclusivamente en la web de Rare Beauty**.
+**La historia viene acompañada de un lanzamiento concreto, el Delena Soft Pinch Blush Bundle, un set de edición limitada con dos tonos del colorete líquido Soft Pinch, el producto más popular de la marca, y una brocha de cerdas en ángulo**. Los tonos elegidos son Hope y Virtue. El set cuesta 50 dólares y se vende exclusivamente en la web de Rare Beauty.
