@@ -344,3 +344,35 @@ a.ig{display:inline-flex;align-items:center;gap:8px}
 
 /* España e Internacional en portada: subrayado fosforito, como los títulos de sección */
 .zone-head h2{padding:0 2px;background:linear-gradient(transparent 60%,var(--accent) 60%,var(--accent) 92%,transparent 92%)}
+
+/* ---------- Parrilla de destacadas ---------- */
+.feat{display:grid;gap:20px;margin-top:40px;margin-bottom:72px}
+.feat .hero{width:auto;max-width:none;margin:0;min-height:0}
+.feat-card{position:relative;display:flex;flex-direction:column;min-width:0}
+.feat-media{display:block;overflow:hidden;border-radius:6px;background:var(--ink)}
+.feat-media img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.feat-card:hover .feat-media img,.feat-main:hover .hero-img{transform:scale(1.03)}
+.hero-img{transition:transform .6s ease}
+.feat-type{display:flex;align-items:center;justify-content:center;width:100%;height:100%;padding:24px;font-family:var(--display);font-weight:700;font-size:32px;letter-spacing:-0.04em;color:var(--accent);text-align:center}
+.feat-type.is-accent{background:var(--accent);color:var(--ink)}
+.feat-body{display:flex;flex-direction:column;gap:12px}
+.feat-body h2{margin:0;font-family:var(--display);font-weight:600;font-size:clamp(22px,2vw,28px);line-height:1.08;letter-spacing:-0.035em}
+.feat-body h2 a{color:inherit;text-decoration:none;background:linear-gradient(var(--accent),var(--accent)) 0 100%/0 .32em no-repeat;transition:background-size .3s ease}
+.feat-card:hover .feat-body h2 a{background-size:100% .32em}
+.feat-read{font-size:14px;color:var(--soft)}
+
+/* B · Principal + columna limpia */
+.feat-b{grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:32px}
+.feat-b .feat-main{grid-row:1/3;min-height:660px}
+.feat-b .feat-card{gap:16px}
+.feat-b .feat-card + .feat-card{border-top:1px solid var(--ink);padding-top:24px}
+.feat-b .feat-media{aspect-ratio:16/9}
+
+
+@media (max-width:900px){
+  .feat-b{grid-template-columns:minmax(0,1fr);grid-template-rows:none;gap:24px}
+  .feat .feat-main{grid-row:auto;grid-column:auto;min-height:560px}
+}
+@media (max-width:700px){
+  .feat{margin-top:24px;gap:16px}
+}

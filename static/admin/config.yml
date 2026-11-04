@@ -45,6 +45,7 @@ collections:
       - { label: "Zona", name: zona, widget: select, options: ["España", "Internacional"], default: "España" }
       - { label: "Tipo", name: tipo, widget: select, options: ["Artículo propio", "Noticia comentada"], default: "Artículo propio" }
       - { label: "Noticia principal de la portada", name: portada, widget: boolean, default: false, required: false, hint: "Márcalo solo en una pieza: será la grande de arriba. Si ninguna lo tiene, sale la más reciente." }
+      - { label: "Destacada (arriba, junto a la principal)", name: destacada, widget: boolean, default: false, required: false, hint: "Márcalo en dos piezas para que acompañen a la noticia principal. Si no marcas ninguna, salen las dos más recientes." }
       - { label: "Imagen", name: imagen, widget: image, required: false, hint: "Usa fotos tuyas o con permiso (por ejemplo, las de prensa de las marcas)." }
       - { label: "Descripción de la imagen", name: alt_imagen, widget: string, required: false, hint: "Qué se ve en la foto, para quien no puede verla." }
       - { label: "Pie de foto / crédito", name: pie_imagen, widget: string, required: false, hint: "Ejemplo: «Imagen: Samsung»." }

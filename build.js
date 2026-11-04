@@ -278,14 +278,26 @@ function portada() {
   const lista = [...articulos];
   const hero = lista.find((a) => a.portada === true) || lista[0];
   const resto = lista.filter((a) => a !== hero);
-  const hoy = resto.slice(0, 4);
+  const marcadas = resto.filter((a) => a.destacada === true);
+  const destacadas = [...marcadas, ...resto.filter((a) => !marcadas.includes(a))].slice(0, 2);
+  const hoy = resto.filter((a) => !destacadas.includes(a)).slice(0, 4);
   const [big, m1, m2, side] = hoy;
 
   const heroImg = hero.imagen
     ? `<img class="hero-img" src="${esc(hero.imagen)}" alt="${esc(hero.alt_imagen || hero.titulo)}">`
     : `<div class="hero-img thumb-type" role="img" aria-label="${esc(hero.marca || hero.titulo)}"><span>${esc(hero.marca || hero.titulo)}</span></div>`;
 
-  const heroHtml = `<section class="wrap hero" aria-labelledby="h-portada">
+  // Parrilla de destacadas: la principal y dos más (las marcadas como «destacada» o, si no, las más recientes).
+  const featCard = (a) => `<article class="feat-card">
+<a class="feat-media" href="${a.url}" tabindex="-1" aria-hidden="true">${a.imagen ? `<img src="${esc(a.imagen)}" alt="" loading="lazy">` : `<span class="feat-type${a.tono === 'fosforito' ? ' is-accent' : ''}">${esc(a.marca || a.titulo)}</span>`}</a>
+<div class="feat-body">
+<p class="meta">${tags(a)}</p>
+<h2><a href="${a.url}">${esc(a.titulo)}</a></h2>
+<span class="feat-read">${a.lectura} min de lectura</span>
+</div>
+</article>`;
+  const heroHtml = `<section class="wrap feat feat-b" aria-label="Destacadas">
+<article class="hero feat-main" aria-labelledby="h-portada">
 <div class="hero-text">
 <div class="hero-top">
 <p class="meta">${tags(hero)}</p>
@@ -298,9 +310,11 @@ function portada() {
 </div>
 </div>
 ${heroImg}
+</article>
+${destacadas.map(featCard).join('\n')}
 </section>`;
 
-  const ultimas = resto.slice(0, 3);
+  const ultimas = resto.filter((a) => !destacadas.includes(a)).slice(0, 3);
   const tickerHtml = ultimas.length ? `<section class="ticker" aria-label="Últimas noticias">
 <div class="wrap ticker-row">
 <ul class="ticker-list">${ultimas.map((a) => `<li><a href="${a.url}">${esc(a.titulo)}</a></li>`).join('')}</ul>
