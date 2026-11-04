@@ -2,7 +2,7 @@
 titulo: Samsung convierte el «crackgate» del iPhone Duo en anuncio
 entradilla: Apple lanza su primer móvil plegable, aparecen pantallas agrietadas
   y Samsung tarda días en convertirlo en campaña.
-fecha: 2026-11-28 08:30
+fecha: 2026-10-28 08:30
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
