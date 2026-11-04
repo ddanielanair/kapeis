@@ -1,10 +1,7 @@
 ---
 titulo: "Idealo ficha a Belén Esteban "
-entradilla: El Black Friday se acerca y las marcas empiezan a desplegar sus
-  campañas para conquistar a los consumidores. Esta vez, Idealo ha decidido
-  hacerlo con una protagonista muy reconocible, Belén Esteban, y un mensaje
-  directo contra los descuentos engañosos. Humor, publicidad y una frase con
-  posible doble sentido se unen en una acción que ya está dando que hablar.
+entradilla: Humor, publicidad y una frase con posible doble sentido se unen en
+  una acción que ya está dando que hablar.
 fecha: 2026-11-04 19:48
 seccion: Marketing
 zona: España
