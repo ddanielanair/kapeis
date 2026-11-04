@@ -4,8 +4,8 @@ backend:
   name: github
   repo: ddanielanair/kapeis
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  base_url: https://kapeis.es
+  auth_endpoint: api/auth
   commit_messages:
     create: "Nuevo artículo: {{slug}}"
     update: "Editado: {{slug}}"
