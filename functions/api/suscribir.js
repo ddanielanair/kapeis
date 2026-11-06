@@ -57,12 +57,19 @@ export async function onRequest({ request, env }) {
 
   try {
     const gid = await groupId(env);
-    const payload = { email, status: 'active' };
+    // restore_if_deleted: si el email se borró antes en Mailrelay (papelera), se recupera en lugar de dar error.
+    const payload = { email, status: 'active', restore_if_deleted: true };
     if (gid) payload.group_ids = [gid];
     const r = await api(env, '/subscribers/sync', { method: 'POST', body: JSON.stringify(payload) });
     if (!r.ok) {
       console.log('Mailrelay sync', r.status, JSON.stringify(r.data).slice(0, 500));
       return reply(502, { ok: false, mensaje: 'No hemos podido apuntarte ahora mismo. Inténtalo de nuevo en un rato.' });
+    }
+    // Si esa persona se había dado de baja y ahora vuelve a apuntarse (con la casilla aceptada), se reactiva.
+    const sub = r.data && (r.data.data || r.data);
+    if (sub && sub.id && sub.status && sub.status !== 'active') {
+      const up = await api(env, `/subscribers/${sub.id}`, { method: 'PATCH', body: JSON.stringify({ status: 'active' }) });
+      if (!up.ok) console.log('Mailrelay reactivar', up.status, JSON.stringify(up.data).slice(0, 300));
     }
     if (!gid) console.log('Aviso: no se encontró el grupo de la newsletter; el suscriptor se ha creado sin grupo.');
     return reply(200, { ok: true, mensaje: '¡Listo! Ya te has apuntado a la newsletter de Kapeís.' });
