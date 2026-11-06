@@ -9,7 +9,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/images-1-.jpeg
+imagen: /uploads/179395260239_1200.jpeg
 tono: negro
 descripcion_seo: Bandai lanza un Tamagotchi de Stranger Things con pantalla
   invertida inspirada en el Upside Down. Precio, fecha de lanzamiento y cómo
