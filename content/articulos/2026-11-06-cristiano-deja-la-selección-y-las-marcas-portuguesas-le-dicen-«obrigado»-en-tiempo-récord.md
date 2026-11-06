@@ -3,7 +3,7 @@ titulo: Cristiano deja la selección y las marcas portuguesas le dicen «obrigad
   en tiempo récord
 entradilla: Menos de 24 horas después del adiós de CR7 a Portugal, marcas como
   Oreo, Samsung, Carris o Telepizza ya habían publicado su homenaje en redes
-  sociales. Un ejemplo perfecto de marketing en tiempo real.
+  sociales.
 fecha: 2026-11-06 17:01
 seccion: Marketing
 zona: Internacional
