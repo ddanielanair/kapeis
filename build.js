@@ -296,19 +296,15 @@ function portada() {
 </div>
 </article>`;
   const heroHtml = `<section class="wrap feat feat-b" aria-label="Destacadas">
-<article class="hero feat-main" aria-labelledby="h-portada">
-<div class="hero-text">
-<div class="hero-top">
+<article class="feat-main" aria-labelledby="h-portada">
 <p class="meta">${tags(hero)}</p>
 <h1 id="h-portada"><a href="${hero.url}">${esc(hero.titulo)}</a></h1>
+<a class="feat-main-media" href="${hero.url}" tabindex="-1" aria-hidden="true">${heroImg}</a>
 <p class="lede">${esc(hero.entradilla)}</p>
-</div>
-<div class="hero-foot">
+<div class="feat-main-foot">
 <span class="muted">${hero.lectura} min de lectura</span>
 <a class="leer" href="${hero.url}"><span>Leer el artículo</span><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></a>
 </div>
-</div>
-${heroImg}
 </article>
 ${destacadas.map(featCard).join('\n')}
 </section>`;
