@@ -10,7 +10,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/screenshot-2026-11-06-174738.png
+imagen: /uploads/preview.webp
 marca: Cristiano Ronaldo
 tono: negro
 titulo_seo: Cristiano Ronaldo deja Portugal y las marcas reaccionan
