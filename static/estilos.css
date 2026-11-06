@@ -40,9 +40,8 @@ h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;color:var(--ink)}
 /* cabecera */
 .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .topbar{background:var(--ink);color:#fff;font-size:13px}
-.topbar-row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:6px 24px;padding-top:9px;padding-bottom:9px}
-.topbar-tag{color:#C8C8C8}
-.topbar-links{display:flex;flex-wrap:wrap;gap:6px 24px}
+.topbar-row{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 24px;padding-top:9px;padding-bottom:9px}
+.topbar-links{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 28px}
 .topbar-links a{color:#fff;text-decoration:none}
 .topbar-links a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
 .topbar-links a.topbar-ig{color:var(--accent);font-weight:600}
@@ -265,7 +264,7 @@ a.t:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline
   .hsearch-bar,.head-sub{display:none}
   .burger{display:inline-flex}
   .topbar-links a:not(.topbar-ig){display:none}
-  .topbar-row{flex-wrap:nowrap;font-size:12px}
+  .topbar-row{font-size:12px;text-align:center}
   .hsearch-menu{display:block;width:100%;margin-bottom:8px}
   .hsearch-menu .hsearch-form,.hsearch-menu .hsearch-form:focus-within{width:100%;min-height:46px}
   .hsearch-menu .hsearch-drop{position:static;width:auto;max-height:none;margin-top:8px;box-shadow:none}
@@ -379,3 +378,11 @@ a.ig{display:inline-flex;align-items:center;gap:8px}
 
 /* Titular de la noticia principal: subrayado fosforito, como España e Internacional */
 .hero h1 a{padding:0 .04em;background:linear-gradient(transparent 72%,var(--accent) 72%,var(--accent) 90%,transparent 90%);-webkit-box-decoration-break:clone;box-decoration-break:clone}
+
+/* Franja superior: aviso de redes en construcción */
+.topbar-links a.topbar-ig{display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 6px}
+.tb-obra{display:inline-flex;align-items:center;gap:6px;color:#fff;font-weight:500}
+.tb-obra::after{content:"·";color:#8A8A8A;margin-left:2px}
+.tb-ico{flex:none;color:var(--accent)}
+@media (max-width:700px){.tb-obra::after{display:none}.topbar-links a.topbar-ig{flex-direction:column;gap:4px}}
+.tb-sig{display:inline-flex;align-items:center;gap:6px}
