@@ -5,7 +5,7 @@ fecha: 2026-11-05 22:00
 seccion: Marketing
 zona: España
 tipo: Artículo propio
-portada: false
+portada: true
 destacada: false
 imagen: /uploads/diseño-sin-título-6-.png
 tono: negro
