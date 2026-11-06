@@ -154,7 +154,7 @@ ${SEARCH_ICON(16)}
 </div>`;
   return `<header class="site-header">
 <div class="topbar"><div class="wrap topbar-row">
-<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener"><span class="tb-obra">Redes en construcción <span class="tb-emoji" aria-hidden="true">🚧</span></span> <span class="tb-sig">Síguenos y ayúdanos a levantarlas</span></a>` : ''}</span>
+<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<span class="tb-redes"><span class="tb-obra">Redes en construcción <span class="tb-emoji" aria-hidden="true">🚧</span></span><a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">Síguenos y ayúdanos a levantarlas</a></span>` : ''}</span>
 </div></div>
 <div class="wrap header-row">
 <a class="logo-link" href="/" aria-label="Kapeís, ir a la portada">${LOGO('sm')}</a>
