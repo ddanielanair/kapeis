@@ -62,7 +62,7 @@ function parseFrontmatter(raw) {
     } else if (/^-?\d+(\.\d+)?$/.test(val)) {
       val = Number(val);
     }
-    data[key] = val;
+    data[key] = typeof val === 'string' ? val.trim() : val;
   }
   return { data, body: m[2] };
 }
@@ -225,7 +225,13 @@ ${ajustes.instagram ? `<li><a class="ig" href="${esc(ajustes.instagram)}" target
 // Versión de los archivos estáticos: cambia cuando cambian, para que nadie vea estilos viejos en caché.
 const ASSET_V = require('crypto').createHash('md5').update(['static/estilos.css', 'static/kapeis.js'].map((f) => fs.readFileSync(path.join(ROOT, f), 'utf8')).join('')).digest('hex').slice(0, 8);
 
-function page({ title, seoTitle, description, body, active = '', canonical = '/', og = {}, head = '' }) {
+const LOGO_PNG = SITE_URL + '/logo-kapeis.png';
+const absUrl = (u) => (String(u).startsWith('http') ? u : SITE_URL + u);
+const ldScript = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
+const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacion', name: 'Kapeís', url: SITE_URL + '/', logo: { '@type': 'ImageObject', url: LOGO_PNG, width: 512, height: 512 }, email: ajustes.email_info, ...(ajustes.instagram ? { sameAs: [ajustes.instagram] } : {}) };
+const migas = (items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE_URL + url })) });
+
+function page({ title, seoTitle, description, body, active = '', canonical = '/', og = {}, head = '', noindex = false }) {
   const fullTitle = seoTitle ? seoTitle : title ? `${title} – Kapeís` : 'Kapeís – Revista de marketing, marketing digital y retail';
   return `<!doctype html>
 <html lang="es">
@@ -234,19 +240,20 @@ function page({ title, seoTitle, description, body, active = '', canonical = '/'
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description || ajustes.descripcion)}">
-<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="robots" content="${noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}">
 <link rel="canonical" href="${SITE_URL}${canonical}">
 <meta property="og:site_name" content="Kapeís">
 <meta property="og:locale" content="es_ES">
-<meta property="og:title" content="${esc(title || 'Kapeís')}">
+<meta property="og:title" content="${esc(title || fullTitle)}">
 <meta property="og:description" content="${esc(description || ajustes.descripcion)}">
 <meta property="og:type" content="${og.type || 'website'}">
 <meta property="og:url" content="${SITE_URL}${canonical}">
-${og.image ? `<meta property="og:image" content="${og.image.startsWith('http') ? esc(og.image) : SITE_URL + esc(og.image)}">` : ''}
-<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="${esc(absUrl(og.image || '/logo-kapeis.png'))}">
+<meta name="twitter:card" content="${og.image ? 'summary_large_image' : 'summary'}">
 ${head}
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="Kapeís" href="/rss.xml">
 <link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="stylesheet" href="/estilos.css?v=${ASSET_V}">
@@ -422,7 +429,8 @@ ${lat.map((x, i) => i === 0 ? `<li class="is-first"><p class="meta">${tags(x)}</
 </div>
 </aside>
 </section>`;
-  return page({ body: pmkHtml + zonasHtml + retailHtml, canonical: '/', og: { image: hero.imagen } });
+  const ldHome = { '@context': 'https://schema.org', '@graph': [ORG, { '@type': 'WebSite', '@id': SITE_URL + '/#web', name: 'Kapeís', url: SITE_URL + '/', inLanguage: 'es-ES', publisher: { '@id': ORG['@id'] }, potentialAction: { '@type': 'SearchAction', target: SITE_URL + '/buscar/?q={search_term_string}', 'query-input': 'required name=search_term_string' } }] };
+  return page({ seoTitle: 'Kapeís – Noticias de marketing, publicidad, marcas y retail', body: pmkHtml + zonasHtml + retailHtml, canonical: '/', og: { image: hero.imagen }, head: ldScript(ldHome) });
 }
 
 // Fuente del artículo: acepta texto libre y, si hay un enlace de verdad (http/https), lo enlaza.
@@ -438,7 +446,7 @@ function fuenteHtml(a) {
 }
 
 // ---------- listados ----------
-function listado({ titulo, descripcion, items, active, ruta }) {
+function listado({ titulo, seoTitle, descripcion, items, active, ruta }) {
   const body = `<section class="wrap list-head">
 <h1 class="list-title">${esc(titulo)}</h1>
 </section>
@@ -453,7 +461,12 @@ ${thumb(a, 'm')}
 </div>
 </section>
 ${newsletter()}`;
-  return page({ title: titulo, description: descripcion, body, active, canonical: ruta });
+  const ld = { '@context': 'https://schema.org', '@graph': [
+    { '@type': 'CollectionPage', name: seoTitle || titulo, description: descripcion, url: SITE_URL + ruta, inLanguage: 'es-ES', isPartOf: { '@id': SITE_URL + '/#web' },
+      mainEntity: { '@type': 'ItemList', itemListElement: items.slice(0, 20).map((a, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE_URL + a.url })) } },
+    { ...migas([['Portada', '/'], [titulo, ruta]]), '@context': undefined },
+  ] };
+  return page({ title: titulo, seoTitle: seoTitle ? `${seoTitle} – Kapeís` : undefined, description: descripcion, body, active, canonical: ruta, head: ldScript(ld) });
 }
 
 // ---------- artículo ----------
@@ -469,7 +482,7 @@ function articuloPage(a) {
   };
   const s = share();
   const img = a.imagen
-    ? `<figure class="art-figure"><img src="${esc(a.imagen)}" alt="${esc(a.alt_imagen || a.titulo)}">${a.pie_imagen ? `<figcaption>${esc(a.pie_imagen)}</figcaption>` : ''}</figure>`
+    ? `<figure class="art-figure"><img src="${esc(a.imagen)}" alt="${esc(a.alt_imagen || a.titulo)}" fetchpriority="high" decoding="async">${a.pie_imagen ? `<figcaption>${esc(a.pie_imagen)}</figcaption>` : ''}</figure>`
     : '';
   const body = `<article class="art" aria-labelledby="h-art">
 <div class="art-col">
@@ -501,26 +514,32 @@ ${relacionados.map((r) => `<article class="card card-m">${meta(r)}<h3><a class="
 </div>
 </section>
 ${newsletter('¿Te ha gustado? Te avisamos solo de lo importante.', 'Publicamos cada día. A tu correo solo llega lo que de verdad merece la pena.')}`;
-  const imgAbs = a.imagen ? (a.imagen.startsWith('http') ? a.imagen : SITE_URL + a.imagen) : undefined;
+  const imgAbs = a.imagen ? absUrl(a.imagen) : undefined;
+  const modificado = a.actualizado ? new Date(String(a.actualizado).replace(' ', 'T')) : a.fecha;
   const ld = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
-    headline: a.titulo,
+    headline: String(a.titulo_seo || a.titulo).slice(0, 110),
     description: a.descripcion_seo || a.entradilla,
     datePublished: a.fecha.toISOString(),
-    dateModified: (a.actualizado ? new Date(String(a.actualizado).replace(' ', 'T')) : a.fecha).toISOString(),
+    dateModified: modificado.toISOString(),
+    url: SITE_URL + a.url,
     articleSection: a.seccion,
     inLanguage: 'es-ES',
     mainEntityOfPage: SITE_URL + a.url,
     ...(imgAbs ? { image: [imgAbs] } : {}),
     ...(a.palabras_clave ? { keywords: String(a.palabras_clave) } : {}),
-    author: { '@type': 'Organization', name: a.autor || 'Redacción Kapeís', url: SITE_URL + '/sobre/' },
-    publisher: { '@type': 'Organization', name: 'Kapeís', url: SITE_URL, logo: { '@type': 'ImageObject', url: SITE_URL + '/favicon.svg' } },
+    author: a.autor ? { '@type': 'Person', name: a.autor, url: SITE_URL + '/sobre/' } : { '@type': 'Organization', name: 'Redacción Kapeís', url: SITE_URL + '/sobre/' },
+    publisher: { '@type': 'NewsMediaOrganization', '@id': ORG['@id'], name: 'Kapeís', url: SITE_URL + '/', logo: ORG.logo },
+    isAccessibleForFree: true,
   };
   const head = `<meta property="article:published_time" content="${a.fecha.toISOString()}">
+<meta property="article:modified_time" content="${modificado.toISOString()}">
 <meta property="article:section" content="${esc(a.seccion)}">
+${String(a.palabras_clave || '').split(',').map((k) => k.trim()).filter(Boolean).map((k) => `<meta property="article:tag" content="${esc(k)}">`).join('\n')}
 ${a.alt_imagen ? `<meta property="og:image:alt" content="${esc(a.alt_imagen)}">` : ''}
-<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>`;
+${ldScript(ld)}
+${ldScript(migas([['Portada', '/'], [a.seccion, '/' + a.seccionSlug + '/'], [a.titulo, a.url]]))}`;
   return page({ title: a.titulo, seoTitle: a.titulo_seo ? `${a.titulo_seo} | Kapeís` : undefined, description: a.descripcion_seo || a.entradilla, body, active: a.seccionSlug, canonical: a.url, og: { type: 'article', image: a.imagen }, head });
 }
 
@@ -543,14 +562,14 @@ function suscripcion() {
 <h1 data-ok>¡Listo!</h1>
 <p class="lede" data-ok-text>Ya te has apuntado a la newsletter de Kapeís. Te escribiremos solo cuando haya algo que merezca la pena.</p>
 <p>${btnHash('/', 'Volver a la portada')}</p>
-</section>`, canonical: '/suscripcion/' });
+</section>`, canonical: '/suscripcion/', noindex: true });
 }
 function buscar() {
   const body = `<section class="wrap list-head search-page">
 <h1>Buscar</h1>
 ${searchForm('q-pagina', true)}
 </section>`;
-  return page({ title: 'Buscar', description: 'Busca entre todos los artículos de Kapeís.', body, canonical: '/buscar/', head: '<meta name="robots" content="noindex, follow">' });
+  return page({ title: 'Buscar', description: 'Busca entre todos los artículos de Kapeís.', body, canonical: '/buscar/', noindex: true });
 }
 function indiceBusqueda() {
   const plano = (md) => String(md || '').replace(/!\[[^\]]*\]\([^)]*\)/g, ' ').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[#>*_`]/g, ' ').replace(/\s+/g, ' ').trim();
@@ -560,7 +579,7 @@ function indiceBusqueda() {
   })));
 }
 function noEncontrada() {
-  return page({ title: 'Página no encontrada', body: `<section class="wrap list-head"><h1>Aquí no hay nada</h1><p class="lede">La página que buscas no existe o ha cambiado de sitio.</p><p>${btnHash('/', 'Volver a la portada')}</p></section>`, canonical: '/404/' });
+  return page({ title: 'Página no encontrada', body: `<section class="wrap list-head"><h1>Aquí no hay nada</h1><p class="lede">La página que buscas no existe o ha cambiado de sitio.</p><p>${btnHash('/', 'Volver a la portada')}</p></section>`, canonical: '/404/', noindex: true });
 }
 
 // ---------- fuentes (se descargan al compilar para no depender de Google) ----------
@@ -596,7 +615,20 @@ function rss() {
   return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Kapeís</title><link>${SITE_URL}</link><description>${esc(ajustes.descripcion)}</description><language>es</language>${items}</channel></rss>`;
 }
 function sitemap(rutas) {
-  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${rutas.map((r) => `<url><loc>${SITE_URL}${r}</loc></url>`).join('')}</urlset>`;
+  const fechas = new Map(articulos.map((a) => [a.url, a.actualizado ? new Date(String(a.actualizado).replace(' ', 'T')) : a.fecha]));
+  const ultima = articulos[0] ? articulos[0].fecha : new Date();
+  const lastmod = (r) => (fechas.get(r) || (r.startsWith('/sobre') || r.startsWith('/legal') ? null : ultima));
+  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${rutas.map((r) => {
+    const a = articulos.find((x) => x.url === r);
+    const lm = lastmod(r);
+    return `<url><loc>${SITE_URL}${encodeURI(r)}</loc>${lm && !isNaN(lm) ? `<lastmod>${lm.toISOString()}</lastmod>` : ''}${a && a.imagen ? `<image:image><image:loc>${esc(encodeURI(absUrl(a.imagen)))}</image:loc></image:image>` : ''}</url>`;
+  }).join('')}</urlset>`;
+}
+// Google News solo quiere lo publicado en los últimos 2 días.
+function sitemapNoticias() {
+  const limite = Date.now() - 2 * 24 * 3600 * 1000;
+  const recientes = articulos.filter((a) => a.fecha.getTime() >= limite);
+  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">${recientes.map((a) => `<url><loc>${SITE_URL}${a.url}</loc><news:news><news:publication><news:name>Kapeís</news:name><news:language>es</news:language></news:publication><news:publication_date>${a.fecha.toISOString()}</news:publication_date><news:title>${esc(a.titulo)}</news:title></news:news></url>`).join('')}</urlset>`;
 }
 
 // ---------- compilar ----------
@@ -607,16 +639,17 @@ function sitemap(rutas) {
   const rutas = ['/', '/articulos/', '/sobre/', '/legal/'];
 
   write('index.html', portada());
-  write('articulos/index.html', listado({ titulo: 'Todos los artículos', descripcion: 'Todo lo publicado en Kapeís, de lo más nuevo a lo más antiguo.', items: articulos, ruta: '/articulos/' }));
+  write('articulos/index.html', listado({ titulo: 'Todos los artículos', seoTitle: 'Últimas noticias de marketing y publicidad', descripcion: 'Todo lo publicado en Kapeís, de lo más nuevo a lo más antiguo.', items: articulos, ruta: '/articulos/' }));
 
   const descS = { Marketing: 'Campañas, marcas, publicidad y estrategia. Lo que se ha hecho y lo que se puede copiar.', Digital: 'Redes sociales, buscadores, contenidos, plataformas y medios. Lo que cambia y a quién le afecta.', Retail: 'Tiendas, escaparates, producto y experiencia de compra, en la calle y en internet.', Entrevistas: 'Conversaciones con las personas que hacen el marketing, la publicidad y el retail.' };
+  const seoS = { Marketing: 'Noticias de marketing, campañas y publicidad', Digital: 'Noticias de marketing digital y redes sociales', Retail: 'Noticias de retail y tiendas', Entrevistas: 'Entrevistas a profesionales del marketing' };
   for (const [nombre, slug] of Object.entries(SECCIONES)) {
-    write(`${slug}/index.html`, listado({ titulo: nombre, descripcion: descS[nombre], items: articulos.filter((a) => a.seccion === nombre), active: slug, ruta: `/${slug}/` }));
+    write(`${slug}/index.html`, listado({ titulo: nombre, seoTitle: seoS[nombre], descripcion: descS[nombre], items: articulos.filter((a) => a.seccion === nombre), active: slug, ruta: `/${slug}/` }));
     rutas.push(`/${slug}/`);
   }
-  const descZ = { 'España': 'Lo que pasa en el marketing de aquí.', 'Internacional': 'Campañas, marcas y tendencias de fuera que conviene conocer.' };
+  const descZ = { 'España': 'Campañas, marcas y publicidad en España: lo que pasa en el marketing de aquí, contado claro y sin humo.', 'Internacional': 'Campañas, marcas y tendencias de fuera que conviene conocer.' };
   for (const [nombre, slug] of Object.entries(ZONAS)) {
-    write(`${slug}/index.html`, listado({ titulo: nombre, descripcion: descZ[nombre], items: articulos.filter((a) => a.zona === nombre), active: slug, ruta: `/${slug}/` }));
+    write(`${slug}/index.html`, listado({ titulo: nombre, seoTitle: nombre === 'España' ? 'Noticias de marketing en España' : 'Noticias de marketing internacional', descripcion: descZ[nombre], items: articulos.filter((a) => a.zona === nombre), active: slug, ruta: `/${slug}/` }));
     rutas.push(`/${slug}/`);
   }
   for (const a of articulos) { write(`articulos/${a.slug}/index.html`, articuloPage(a)); rutas.push(a.url); }
@@ -628,6 +661,7 @@ function sitemap(rutas) {
   write('404.html', noEncontrada());
   write('rss.xml', rss());
   write('sitemap.xml', sitemap(rutas));
-  write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: ${SITE_URL}/sitemap.xml\n`);
+  write('sitemap-noticias.xml', sitemapNoticias());
+  write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /buscar/\nSitemap: ${SITE_URL}/sitemap.xml\nSitemap: ${SITE_URL}/sitemap-noticias.xml\n`);
   console.log(`Kapeís compilada: ${articulos.length} artículos, ${rutas.length} páginas.`);
 })();

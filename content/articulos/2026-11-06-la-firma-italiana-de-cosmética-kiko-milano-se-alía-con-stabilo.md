@@ -1,5 +1,5 @@
 ---
-titulo: "La firma italiana de cosmética KIKO Milano se alía con STABILO "
+titulo: "La firma italiana de cosmética KIKO Milano se alía con STABILO"
 entradilla: La novedad ya aparece en la sección New In de la web de KIKO Milano en España.
 fecha: 2026-11-05 22:00
 seccion: Marketing
@@ -8,13 +8,11 @@ tipo: Artículo propio
 portada: true
 destacada: false
 imagen: /uploads/diseño-sin-título-6-.png
+alt_imagen: Modelo sujeta junto a sus labios dos perfiladores STABILO x KIKO Milano Lip Mark(er), uno nude y otro rosa
 tono: negro
-descripcion_seo: KIKO Milano y STABILO lanzan el Lip Mark(er), un marcador de
-  labios con textura superligera, cobertura modulable y punta oblicua 2 en 1.
-  Descubre la colaboración y su gift set.
-palabras_clave: STABILO x KIKO Milano, Lip Mark(er), marcador de labios, KIKO
-  Milano novedades, maquillaje de labios, colaboración de maquillaje, gift set
-  KIKO, perfilador de labios
+titulo_seo: "KIKO x STABILO: el perfilador de labios Lip Mark(er)"
+descripcion_seo: "KIKO Milano y STABILO lanzan el Lip Mark(er), un perfilador y color de labios con forma de subrayador. Cómo es, el gift set y dónde comprarlo."
+palabras_clave: perfilador KIKO STABILO, KIKO x STABILO, STABILO x KIKO Milano, Lip Mark(er), marcador de labios, perfilador de labios, gift set KIKO
 borrador: false
 ---
 La firma italiana de cosmética **KIKO Milano** y **STABILO**, la marca alemana famosa por sus subrayadores fluorescentes, se han unido para lanzar el **STABILO x KIKO MILANO Lip Mark(er)**. Se trata de un **marcador de labios** que lleva el diseño del clásico rotulador de toda la vida al mundo del **maquillaje**, con la idea de trasladar ese toque de color tan reconocible de STABILO directamente a los labios. La novedad ya se puede encontrar en la sección de lanzamientos de la web de KIKO Milano en España.
