@@ -183,7 +183,7 @@ ${buscador('q-cabecera', 'hsearch-bar')}
 }
 
 let newsCount = 0;
-function newsletter(titulo = '¿Te avisamos de lo importante?', texto = 'Publicamos cada día, pero solo escribimos a tu correo cuando hay algo que de verdad merece la pena. Pocas veces y sin relleno.') {
+function newsletter(titulo = '¿Te avisamos de lo importante?', texto = 'Solo te escribimos cuando hay algo que de verdad merece la pena. Pocas veces y sin relleno.') {
   const n = ++newsCount;
   const form = ajustes.newsletter_activa !== false
     ? `<form class="news-form" action="/api/suscribir" method="post" data-news novalidate>
@@ -370,7 +370,59 @@ ${retail.fuente_nombre ? `<p class="via">Vía ${esc(retail.fuente_nombre)}</p>` 
 </article>` : ''}
 </section>`;
 
-  return page({ body: heroHtml + tickerHtml + hoyHtml + zonasHtml + frase + retailHtml + newsletter(), canonical: '/', og: { image: hero.imagen } });
+  // Disposición tipo «columna + lateral»: principal, destacado en caja, parrilla y lateral con lo último.
+  const img = (x, cls = '') => x.imagen ? `<img class="${cls}" src="${esc(x.imagen)}" alt="" loading="lazy">` : `<span class="pmk-type${x.tono === 'fosforito' ? ' is-accent' : ''}">${esc(x.marca || x.titulo)}</span>`;
+  const [box, g1, g2, ...mas] = resto;
+  const lat = resto.slice(0, 7);
+  const pmkHtml = `<section class="wrap pmk" aria-label="Portada">
+<div class="pmk-main">
+<article class="pmk-lead" aria-labelledby="h-portada">
+<a class="pmk-media pmk-media-lead" href="${hero.url}" tabindex="-1" aria-hidden="true">${img(hero)}</a>
+<p class="meta">${tags(hero)}</p>
+<h1 id="h-portada"><a href="${hero.url}">${esc(hero.titulo)}</a></h1>
+<p class="lede">${esc(hero.entradilla)}</p>
+<p class="pmk-by">${fechaCorta(hero.fecha)} · ${hero.lectura} min de lectura</p>
+</article>
+${box ? `<article class="pmk-box">
+<a class="pmk-media" href="${box.url}" tabindex="-1" aria-hidden="true">${img(box)}</a>
+<div><p class="meta">${tags(box)}</p><h2><a href="${box.url}">${esc(box.titulo)}</a></h2><p>${esc(box.entradilla)}</p></div>
+</article>` : ''}
+<div class="pmk-grid">
+${[g1, g2].filter(Boolean).map((x, i) => `<article class="pmk-card${i === 0 ? ' is-big' : ''}">
+<a class="pmk-media" href="${x.url}" tabindex="-1" aria-hidden="true">${img(x)}</a>
+<p class="meta">${tags(x)}</p><h3><a href="${x.url}">${esc(x.titulo)}</a></h3>
+</article>`).join('')}
+</div>
+<div class="pmk-more">
+${mas.slice(0, 4).map((x) => `<article class="pmk-row">
+<a class="pmk-media" href="${x.url}" tabindex="-1" aria-hidden="true">${img(x)}</a>
+<div><p class="meta">${tags(x)}</p><h3><a href="${x.url}">${esc(x.titulo)}</a></h3><p>${esc(x.entradilla)}</p></div>
+</article>`).join('')}
+</div>
+</div>
+<aside class="pmk-side" aria-label="Lateral">
+<div class="pmk-nl" id="newsletter">
+<span class="pmk-nl-hash" aria-hidden="true">#</span>
+<h2>La newsletter de Kapeís</h2>
+<p>Solo lo más interesante, cuando merece la pena.</p>
+${ajustes.newsletter_activa !== false ? `<form class="news-form pmk-nl-form" action="/api/suscribir" method="post" data-news novalidate>
+<label class="sr" for="email-lateral">Tu email</label>
+<input id="email-lateral" name="email" type="email" required placeholder="nombre@correo.com" autocomplete="email">
+<label class="news-check"><input type="checkbox" name="acepto" required><span>Acepto la <a href="/legal/#privacidad">política de privacidad</a>.</span></label>
+<input class="news-trap" type="text" name="web" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button class="pmk-nl-btn" type="submit">Apúntate</button>
+<p class="news-msg" role="status" aria-live="polite"></p>
+</form>` : ''}
+</div>
+<div class="pmk-latest">
+<h2 class="pmk-side-title">Lo último</h2>
+<ol>
+${lat.map((x, i) => i === 0 ? `<li class="is-first"><p class="meta">${tags(x)}</p><a href="${x.url}">${esc(x.titulo)}</a><span>${fechaCorta(x.fecha)}</span></li>` : `<li><a href="${x.url}">${esc(x.titulo)}</a></li>`).join('')}
+</ol>
+</div>
+</aside>
+</section>`;
+  return page({ body: pmkHtml + zonasHtml + retailHtml, canonical: '/', og: { image: hero.imagen } });
 }
 
 // ---------- listados ----------
