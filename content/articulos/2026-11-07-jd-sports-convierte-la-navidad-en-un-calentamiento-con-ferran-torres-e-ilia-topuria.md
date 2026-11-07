@@ -7,7 +7,7 @@ fecha: 2026-11-07 15:19
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
-portada: false
+portada: true
 destacada: false
 imagen: /uploads/diseño-sin-título-9-.png
 tono: negro
