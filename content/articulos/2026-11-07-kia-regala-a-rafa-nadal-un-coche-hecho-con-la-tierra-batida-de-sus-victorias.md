@@ -1,7 +1,7 @@
 ---
 titulo: Kia regala a Rafa Nadal un coche hecho con la tierra batida de sus victorias
-entradilla: "La alianza nació en 2004, cuando Kia España empezó a apoyar a un
-  joven Nadal que todavía no había ganado ningún Grand Slam. "
+entradilla: "Kia España empezó a apoyar a un joven Nadal que todavía no había
+  ganado ningún Grand Slam. "
 fecha: 2026-11-07 11:15
 seccion: Marketing
 zona: España
