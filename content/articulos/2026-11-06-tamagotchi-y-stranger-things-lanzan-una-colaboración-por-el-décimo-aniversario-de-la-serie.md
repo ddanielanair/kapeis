@@ -1,7 +1,7 @@
 ---
 titulo: Tamagotchi y Stranger Things lanzan una colaboración por el décimo
   aniversario de la serie
-entradilla: Bandai y Netflix unen dos iconos de la cultura pop con un Tamagotchi
+entradilla: Bandai y Netflix unen dos iconos de la cultura pop con un Tamagotchi.
 fecha: 2026-11-06 23:08
 seccion: Marketing
 zona: Internacional
