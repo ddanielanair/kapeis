@@ -55,8 +55,8 @@ collections:
       - { label: "Descripción para Google (SEO)", name: descripcion_seo, widget: text, required: false, hint: "Opcional. El texto bajo el título en Google. Entre 140 y 155 caracteres, que invite a hacer clic. Si lo dejas vacío, se usa la entradilla." }
       - { label: "Palabras clave", name: palabras_clave, widget: string, required: false, hint: "Separadas por comas. Ejemplo: GTA VI, marketing de videojuegos, publicidad exterior." }
       - { label: "Frase destacada", name: frase_destacada, widget: text, required: false, hint: "Aparece en un recuadro fosforito dentro del artículo y, si es la noticia principal, en «La idea de hoy»." }
-      - { label: "Medio de la fuente", name: fuente_nombre, widget: string, required: false, hint: "Opcional. Solo si quieres citar una fuente." }
-      - { label: "Enlace a la fuente", name: fuente_url, widget: string, required: false }
+      - { label: "Fuente", name: fuente_nombre, widget: string, required: false, hint: "Opcional. Escribe la fuente como texto, por ejemplo: «Nota de prensa de Kia España» o «El País». Sale al final del artículo." }
+      - { label: "Enlace a la fuente", name: fuente_url, widget: string, required: false, hint: "Opcional. Pega aquí la dirección (https://…) y el texto de la fuente se convierte en enlace. Si escribes texto en lugar de un enlace, también se muestra." }
       - { label: "Minutos de lectura", name: lectura, widget: number, value_type: int, min: 1, required: false, hint: "Si lo dejas vacío, se calcula solo." }
       - { label: "Borrador (no publicar todavía)", name: borrador, widget: boolean, default: false, required: false }
       - { label: "Texto", name: body, widget: markdown, buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"], editor_components: ["image"] }

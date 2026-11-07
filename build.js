@@ -425,6 +425,18 @@ ${lat.map((x, i) => i === 0 ? `<li class="is-first"><p class="meta">${tags(x)}</
   return page({ body: pmkHtml + zonasHtml + retailHtml, canonical: '/', og: { image: hero.imagen } });
 }
 
+// Fuente del artículo: acepta texto libre y, si hay un enlace de verdad (http/https), lo enlaza.
+function fuenteHtml(a) {
+  const nombre = String(a.fuente_nombre || '').trim();
+  const url = String(a.fuente_url || '').trim();
+  const esEnlace = /^https?:\/\/\S+$/i.test(url);
+  if (!nombre && !url) return '';
+  const texto = esEnlace
+    ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(nombre || 'la fuente original')}</a>`
+    : esc([nombre, url].filter(Boolean).join(', '));
+  return `<p class="source">Fuente: ${texto.replace(/\.$/, '')}.</p>`;
+}
+
 // ---------- listados ----------
 function listado({ titulo, descripcion, items, active, ruta }) {
   const body = `<section class="wrap list-head">
@@ -478,7 +490,7 @@ ${img ? `<div class="art-col">${img}</div>` : ''}
 <div class="art-col art-body">
 ${a.html}
 ${a.frase_destacada ? `<aside class="callout"><p>${esc(a.frase_destacada)}</p></aside>` : ''}
-${a.fuente_url ? `<p class="source">Lee la noticia completa en <a href="${esc(a.fuente_url)}" target="_blank" rel="noopener">${esc(a.fuente_nombre || 'la fuente original')}</a>.</p>` : ''}
+${fuenteHtml(a)}
 <p class="tags"><a class="pill" href="/${a.seccionSlug}/">${esc(a.seccion)}</a><a class="pill" href="/${a.zonaSlug}/">${esc(a.zona)}</a></p>
 </div>
 </article>
