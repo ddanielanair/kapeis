@@ -8,7 +8,7 @@ zona: España
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/copia-de-diseño-sin-título.png
+imagen: /uploads/diseño-sin-título-7-.png
 tono: negro
 titulo_seo: Kia regala a Nadal un coche hecho de tierra batida
 descripcion_seo: Kia homenajea a Rafa Nadal con un EV4 GT a tamaño real moldeado
