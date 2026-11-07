@@ -19,11 +19,8 @@ palabras_clave: Original Tamagotchi Stranger Things, Tamagotchi Upside Down,
   Stranger Things, dónde comprar Tamagotchi Stranger Things, Tamagotchi Stranger
   Things España, colaboraciones de marcas 2026, marketing de nostalgia,
   merchandising Stranger Things
-frase_destacada: La colaboración encaja en una tendencia clara. Las marcas
-  recurren a la nostalgia compartida para llegar a varias generaciones a la vez.
-  Stranger Things, ambientada en los ochenta, conecta con quienes crecieron
-  entonces; el Tamagotchi, nacido en 1996, despierta recuerdos en los
-  millennials y sigue captando nuevos públicos gracias a sus reediciones.
+frase_destacada: "Las marcas recurren a la nostalgia compartida para llegar a
+  varias generaciones a la vez. "
 borrador: false
 ---
 La nostalgia de los noventa y la de los ochenta se dan la mano. Bandai ha presentado el **Original Tamagotchi Stranger Things**, una edición especial de su mascota virtual creada junto a Netflix para celebrar los diez años de la serie de los hermanos Duffer. El anuncio llegó este viernes 6 de noviembre a través de las cuentas oficiales de Netflix Japón y Tamagotchi, el mismo día en que se abrieron las reservas.
