@@ -27,9 +27,20 @@ const copyDir = (from, to) => {
 const slugify = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
   .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
+// Las fechas del panel son hora de Madrid; Cloudflare compila en UTC, así que se convierten aquí.
+function fechaMadrid(v) {
+  const t = String(v || '').trim().replace(' ', 'T');
+  if (!t) return new Date(NaN);
+  if (/[zZ]|[+-]\d\d:?\d\d$/.test(t)) return new Date(t);
+  const comoUtc = new Date(t + 'Z');
+  if (isNaN(comoUtc)) return comoUtc;
+  const enMadrid = new Date(comoUtc.toLocaleString('en-US', { timeZone: 'Europe/Madrid' }) + ' UTC');
+  return new Date(comoUtc.getTime() - (enMadrid.getTime() - comoUtc.getTime()));
+}
 const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
-const fechaLarga = (d) => `${d.getDate()} de ${MESES[d.getMonth()]} de ${d.getFullYear()}`;
-const fechaCorta = (d) => `${d.getDate()} de ${MESES[d.getMonth()]}`;
+const enMadrid = (d) => new Date(d.toLocaleString('en-US', { timeZone: 'Europe/Madrid' }));
+const fechaLarga = (d) => { const m = enMadrid(d); return `${m.getDate()} de ${MESES[m.getMonth()]} de ${m.getFullYear()}`; };
+const fechaCorta = (d) => { const m = enMadrid(d); return `${m.getDate()} de ${MESES[m.getMonth()]}`; };
 
 // ---------- frontmatter (YAML sencillo, el que escribe el panel) ----------
 function parseFrontmatter(raw) {
@@ -102,7 +113,7 @@ const ZONAS = { 'España': 'espana', 'Internacional': 'internacional' };
 const artDir = path.join(ROOT, 'content/articulos');
 const articulos = fs.readdirSync(artDir).filter((f) => f.endsWith('.md')).map((f) => {
   const { data, body } = parseFrontmatter(fs.readFileSync(path.join(artDir, f), 'utf8'));
-  const fecha = new Date(String(data.fecha || '').replace(' ', 'T'));
+  const fecha = fechaMadrid(data.fecha);
   const slug = data.slug ? slugify(data.slug) : slugify(f.replace(/\.md$/, '').replace(/^\d{4}-\d{2}-\d{2}-/, ''));
   const palabras = String(body).split(/\s+/).filter(Boolean).length;
   return {
@@ -515,7 +526,7 @@ ${relacionados.map((r) => `<article class="card card-m">${meta(r)}<h3><a class="
 </section>
 ${newsletter('¿Te ha gustado? Te avisamos solo de lo importante.', 'Publicamos cada día. A tu correo solo llega lo que de verdad merece la pena.')}`;
   const imgAbs = a.imagen ? absUrl(a.imagen) : undefined;
-  const modificado = a.actualizado ? new Date(String(a.actualizado).replace(' ', 'T')) : a.fecha;
+  const modificado = a.actualizado ? fechaMadrid(a.actualizado) : a.fecha;
   const ld = {
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
@@ -615,7 +626,7 @@ function rss() {
   return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>Kapeís</title><link>${SITE_URL}</link><description>${esc(ajustes.descripcion)}</description><language>es</language>${items}</channel></rss>`;
 }
 function sitemap(rutas) {
-  const fechas = new Map(articulos.map((a) => [a.url, a.actualizado ? new Date(String(a.actualizado).replace(' ', 'T')) : a.fecha]));
+  const fechas = new Map(articulos.map((a) => [a.url, a.actualizado ? fechaMadrid(a.actualizado) : a.fecha]));
   const ultima = articulos[0] ? articulos[0].fecha : new Date();
   const lastmod = (r) => (fechas.get(r) || (r.startsWith('/sobre') || r.startsWith('/legal') ? null : ultima));
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${rutas.map((r) => {
