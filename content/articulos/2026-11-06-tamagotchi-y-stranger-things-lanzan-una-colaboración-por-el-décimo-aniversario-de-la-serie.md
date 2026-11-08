@@ -24,25 +24,17 @@ La nostalgia de los noventa y la de los ochenta se dan la mano. Bandai ha presen
 
 La fecha no es casual. El 6 de noviembre es el **Stranger Things Day**, el día de 1983 en que Will Byers desaparece en la ficción y que Netflix celebra cada año desde 2018. Es el primero sin temporadas de la serie principal por estrenar, y la plataforma lo aprovechó para anunciar también **Other Worlds**, una precuela de imagen real de la serie prevista para 2028.
 
-## Cómo es el Tamagotchi de Stranger Things
-
 El gran guiño está en la pantalla, porque **la imagen aparece al revés**, como si cuidaras a tu criatura desde el **Upside Down**, el inquietante mundo paralelo de Hawkins. La carcasa es **roja y negra**, con el logotipo de la serie y un dibujo de grietas, y la funda exclusiva lleva el logo de Stranger Things boca abajo en la parte de atrás. Hasta la caja juega con la idea, ya que en ella aparece **Mametchi**, la mascota más famosa de Tamagotchi, con un aire a Demogorgon.
 
 Por dentro mantiene la esencia del juguete de 1996. Lleva el programa **GEN1**, el de los primeros Tamagotchi, con las tareas de siempre, como darle de comer, limpiar sus cacas, curarlo cuando enferma, educarlo y jugar a minijuegos. Según cómo lo cuides, evolucionará hacia distintos personajes clásicos de Tamagotchi. Eso sí, **no se pueden criar personajes de Stranger Things**, así que Eleven y compañía se quedan fuera del juego.
 
 Incluye una **cadena de bolas** para colgarlo de la mochila, el bolso o la ropa, una pila CR2032 y el manual. Está recomendado a partir de **6 años**.
 
-## Precio y fecha de lanzamiento
-
 El Original Tamagotchi Stranger Things cuesta **3.300 yenes con impuestos** (unos **20 euros** al cambio). Las reservas empezaron el **6 de noviembre a las 10 de la mañana, hora de Japón**, en tiendas online como **Amazon Japón** y **Rakuten**, y la venta general está prevista para el **27 de febrero de 2027**.
-
-## ¿Llegará a España?
 
 Por ahora, el lanzamiento se ha anunciado **solo para el mercado japonés**, y Bandai no ha confirmado si llegará a Europa ni a España. Hay un detalle que invita a pensar que podría viajar, y es que está basado en el **Original Tamagotchi**, la versión del primer Tamagotchi que Bandai hizo para Europa y Estados Unidos, y su programa ya incluye textos en inglés.
 
 Mientras tanto, la única forma de conseguirlo desde España es **importarlo de Japón**. Hay que contar con los gastos de envío y con que, al venir de fuera de la Unión Europea, el paquete puede pagar IVA y gastos de aduana al llegar, así que el precio final será bastante más alto que esos 20 euros.
-
-## Por qué funciona esta colaboración
 
 Los dos productos apelan a la **nostalgia**, pero de públicos que se cruzan. Stranger Things enganchó a una generación con la estética de los ochenta, y el Tamagotchi, que Bandai lanzó en Japón en noviembre de 1996, fue el juguete que esa misma generación (y la siguiente) llevaba colgado de la mochila.
 
