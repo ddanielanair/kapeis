@@ -11,6 +11,8 @@ tipo: Artículo propio
 portada: true
 destacada: false
 imagen: /uploads/images-2-.jpeg
+alt_imagen: Los dos bálsamos Glow Recipe x Buldak, uno negro y otro rosa, sujetos con palillos sobre un plato de fideos picantes
+pie_imagen: Imagen de Glow Recipe
 marca: Glow Recipe x Buldak
 tono: fosforito
 titulo_seo: Glow Recipe x Buldak, el bálsamo labial de los fideos picantes
@@ -40,4 +42,4 @@ La elección de TikTok Shop como escaparate no es casual. Buldak suma unos **2,3
 
 Desde Buldak lo tienen claro. Su vicepresidente de marketing, Abbas Arslan, ha explicado a la revista WWD que la marca se ha convertido en algo más que una marca de comida, y que aliarse con Glow Recipe les permite encontrarse con su comunidad en un terreno completamente nuevo.
 
-La jugada encaja con una tendencia que no para de crecer, la de las marcas de comida que se cuelan en la belleza. Un bálsamo que recuerda a unos fideos no tiene mucho sentido sobre el papel, pero en redes funciona justo por eso. Es sorprendente, se entiende en un segundo y pide ser grabado. Además, une dos de los grandes motores de la cultura coreana actual, la cosmética y la comida, y lo hace con un formato pequeño, barato y coleccionable que invita a comprarlo aunque solo sea por el llavero.
+La jugada encaja con una tendencia que no para de crecer, la de las marcas de comida que se cuelan en la belleza. Un bálsamo que recuerda a unos fideos no tiene mucho sentido sobre el papel, pero en redes funciona justo por eso. Es sorprendente, se entiende en un segundo y pide ser grabado. Es la misma lógica que la de [KIKO Milano y STABILO](/articulos/la-firma-italiana-de-cosmetica-kiko-milano-se-alia-con-stabilo/), que han convertido un subrayador en maquillaje y lo han agotado en pocos días. Además, une dos de los grandes motores de la cultura coreana actual, la cosmética y la comida, y lo hace con un formato pequeño, barato y coleccionable que invita a comprarlo aunque solo sea por el llavero.
