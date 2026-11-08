@@ -30,8 +30,12 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     identifier_field: titulo
-    summary: "{{fecha}} — {{titulo}}"
-    sortable_fields: ["fecha", "titulo"]
+    summary: "{{fecha}} — {{titulo}}{{borrador | ternary(' (BORRADOR)', '')}}"
+    sortable_fields:
+      fields: ["fecha", "titulo"]
+      default:
+        field: fecha
+        direction: descending
     view_filters:
       - { label: "Marketing", field: seccion, pattern: "Marketing" }
       - { label: "Digital", field: seccion, pattern: "Digital" }
