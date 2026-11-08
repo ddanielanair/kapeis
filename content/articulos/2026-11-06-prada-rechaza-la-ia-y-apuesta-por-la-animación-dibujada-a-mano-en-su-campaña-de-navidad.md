@@ -8,7 +8,7 @@ fecha: 2026-11-06 02:00
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
-portada: true
+portada: false
 destacada: false
 imagen: /uploads/prada-holiday-2026-adv-campaign-2-large.jpg
 tono: negro
