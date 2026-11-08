@@ -8,7 +8,7 @@ fecha: 2026-11-08 18:00
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
-portada: false
+portada: true
 destacada: false
 imagen: /uploads/images-2-.jpeg
 marca: Glow Recipe x Buldak
