@@ -6,7 +6,7 @@ entradilla: La firma italiana presenta Drawing Prada, su campaña Holiday 2026,
   protagonizada por Sadie Sink y Maya Hawke.
 fecha: 2026-11-06 02:00
 seccion: Marketing
-zona: España
+zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
