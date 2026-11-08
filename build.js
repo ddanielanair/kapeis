@@ -501,7 +501,7 @@ function articuloPage(a) {
 <h1 id="h-art">${esc(a.titulo)}</h1>
 <p class="lede">${esc(a.entradilla)}</p>
 <div class="art-meta">
-<span class="meta"><span>${esc(a.autor || 'Redacción Kapeís')}</span><span><time datetime="${a.fecha.toISOString()}">${fechaLarga(a.fecha)}</time></span><span>${a.lectura} min de lectura</span></span>
+<span class="meta"><span>${esc(a.autor || 'Por D.N.')}</span><span><time datetime="${a.fecha.toISOString()}">${fechaLarga(a.fecha)}</time></span><span>${a.lectura} min de lectura</span></span>
 <span class="share">
 <a class="pill" href="${s.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
 <a class="pill" href="${s.x}" target="_blank" rel="noopener">X</a>
@@ -540,7 +540,7 @@ ${newsletter('¿Te ha gustado? Te avisamos solo de lo importante.', 'Publicamos 
     mainEntityOfPage: SITE_URL + a.url,
     ...(imgAbs ? { image: [imgAbs] } : {}),
     ...(a.palabras_clave ? { keywords: String(a.palabras_clave) } : {}),
-    author: a.autor ? { '@type': 'Person', name: a.autor, url: SITE_URL + '/sobre/' } : { '@type': 'Organization', name: 'Redacción Kapeís', url: SITE_URL + '/sobre/' },
+    author: { '@type': 'Person', name: a.autor || 'D.N.', url: SITE_URL + '/sobre/' },
     publisher: { '@type': 'NewsMediaOrganization', '@id': ORG['@id'], name: 'Kapeís', url: SITE_URL + '/', logo: ORG.logo },
     isAccessibleForFree: true,
   };
