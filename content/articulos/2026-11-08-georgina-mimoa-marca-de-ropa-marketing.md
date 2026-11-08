@@ -1,18 +1,26 @@
 ---
 titulo: Georgina lanzó su propia marca de ropa con una sola herramienta, ella misma
-entradilla: Sin spot de televisión ni grandes lonas, Georgina Rodríguez ha convertido Mimoa en una marca conocida en todo el mundo usando su imagen, sus redes y los eventos a los que ya iba a ir.
+entradilla: Sin spot de televisión ni grandes lonas, Georgina Rodríguez ha
+  convertido Mimoa en una marca conocida en todo el mundo usando su imagen, sus
+  redes y los eventos a los que ya iba a ir.
 fecha: 2026-11-08 18:40
 seccion: Marketing
 zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/diseño-sin-título-11-.png
 marca: Mimoa
 tono: negro
 titulo_seo: Mimoa, la estrategia de marketing de Georgina Rodríguez
-descripcion_seo: Georgina Rodríguez lanzó Mimoa sin anuncios ni grandes campañas. Así ha usado su imagen, la Met Gala y el Mundial para dar a conocer su marca de ropa.
-palabras_clave: Mimoa, Georgina Rodríguez, Mimoa Georgina, marca de ropa de Georgina, founder-led marketing, marketing de influencers, ropa deportiva, loungewear, marcas de celebridades
-frase_destacada: Mimoa tiene 444.000 seguidores en Instagram. Georgina tiene 60 millones. El canal de la marca es ella.
+descripcion_seo: Georgina Rodríguez lanzó Mimoa sin anuncios ni grandes
+  campañas. Así ha usado su imagen, la Met Gala y el Mundial para dar a conocer
+  su marca de ropa.
+palabras_clave: Mimoa, Georgina Rodríguez, Mimoa Georgina, marca de ropa de
+  Georgina, founder-led marketing, marketing de influencers, ropa deportiva,
+  loungewear, marcas de celebridades
+frase_destacada: Mimoa tiene 444.000 seguidores en Instagram. Georgina tiene 60
+  millones. El canal de la marca es ella.
 borrador: false
 ---
 **Mimoa** es la marca de ropa deportiva y *loungewear* de **Georgina Rodríguez**. Salió a la venta el **30 de junio de 2026** con el lema «For Every Moment», y su idea es sencilla, prendas pensadas para pasar del entrenamiento al trabajo, a la vida familiar o al descanso sin tener que cambiarse. La marca tiene sede en Dubái, se fabrica en Turquía y vende directamente en su web, sin tiendas ni distribuidores, con precios por debajo de los 125 dólares.
