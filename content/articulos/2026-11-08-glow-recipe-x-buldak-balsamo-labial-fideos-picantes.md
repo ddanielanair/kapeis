@@ -4,7 +4,7 @@ titulo: Glow Recipe x Buldak, el bálsamo labial inspirado en los fideos picante
 entradilla: La marca coreana de cosmética convierte las salsas Original y
   Carbonara de Buldak en dos bálsamos de edición limitada, con un llavero de
   Peppo, la mascota de los fideos.
-fecha: 2026-11-08 18:00
+fecha: 2026-11-08 18:15
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
@@ -24,7 +24,7 @@ frase_destacada: Buldak ya no vende solo fideos, vende una forma de pertenecer a
   una comunidad, y esa comunidad también se maquilla.
 fuente_nombre: Glow Recipe
 fuente_url: https://www.glowrecipe.com/products/glow-recipe-x-buldak-glass-balm-lip-duo
-borrador: true
+borrador: false
 ---
 Pocas colaboraciones de este otoño han sido tan inesperadas. **Glow Recipe**, la marca coreana de cuidado de la piel conocida por sus productos con frutas, se ha unido a **Buldak**, los fideos instantáneos ultrapicantes de Samyang Foods, para lanzar el **Glow Recipe x Buldak Glass Balm Duo**. Es un set de edición limitada con dos versiones con color de su famoso bálsamo labial Glass Balm, cada una inspirada en una de las salsas más populares de los fideos, la **Original** y la **Carbonara**.
 
