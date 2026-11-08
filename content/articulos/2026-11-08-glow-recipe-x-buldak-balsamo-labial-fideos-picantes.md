@@ -1,18 +1,27 @@
 ---
-titulo: Glow Recipe x Buldak, el bálsamo labial inspirado en los fideos picantes que arrasan en TikTok
-entradilla: La marca coreana de cosmética convierte las salsas Original y Carbonara de Buldak en dos bálsamos de edición limitada, con un llavero de Peppo, la mascota de los fideos.
+titulo: Glow Recipe x Buldak, el bálsamo labial inspirado en los fideos picantes
+  que arrasan en TikTok
+entradilla: La marca coreana de cosmética convierte las salsas Original y
+  Carbonara de Buldak en dos bálsamos de edición limitada, con un llavero de
+  Peppo, la mascota de los fideos.
 fecha: 2026-11-08 18:00
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/images-2-.jpeg
 marca: Glow Recipe x Buldak
 tono: fosforito
 titulo_seo: Glow Recipe x Buldak, el bálsamo labial de los fideos picantes
-descripcion_seo: Glow Recipe y Buldak lanzan el Glass Balm Duo, dos bálsamos inspirados en las salsas Original y Carbonara. Precio, cómo son y si llegan a España.
-palabras_clave: Glow Recipe Buldak, Glow Recipe x Buldak, Glass Balm Buldak, bálsamo labial Buldak, Buldak Original Carbonara, Glow Recipe Glass Balm, Peppo llavero, K-beauty, colaboraciones de marcas 2026
-frase_destacada: Buldak ya no vende solo fideos, vende una forma de pertenecer a una comunidad, y esa comunidad también se maquilla.
+descripcion_seo: Glow Recipe y Buldak lanzan el Glass Balm Duo, dos bálsamos
+  inspirados en las salsas Original y Carbonara. Precio, cómo son y si llegan a
+  España.
+palabras_clave: Glow Recipe Buldak, Glow Recipe x Buldak, Glass Balm Buldak,
+  bálsamo labial Buldak, Buldak Original Carbonara, Glow Recipe Glass Balm,
+  Peppo llavero, K-beauty, colaboraciones de marcas 2026
+frase_destacada: Buldak ya no vende solo fideos, vende una forma de pertenecer a
+  una comunidad, y esa comunidad también se maquilla.
 fuente_nombre: Glow Recipe
 fuente_url: https://www.glowrecipe.com/products/glow-recipe-x-buldak-glass-balm-lip-duo
 borrador: true
