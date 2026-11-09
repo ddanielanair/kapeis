@@ -1,18 +1,26 @@
 ---
 titulo: La Lotería de Navidad 2026 cambia el premio por un corazón en «Corazonada»
-entradilla: El anuncio de este año cuenta la historia de Edu, un hombre que recibe un trasplante de corazón, y convierte la donación de órganos en la forma más literal de compartir.
+entradilla: El anuncio de este año cuenta la historia de Edu, un hombre que
+  recibe un trasplante de corazón, y convierte la donación de órganos en la
+  forma más literal de compartir.
 fecha: 2026-11-09 20:20
 seccion: Marketing
 zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/banner-1-.png
 marca: Lotería de Navidad
 tono: negro
 titulo_seo: Anuncio Lotería de Navidad 2026, así es «Corazonada»
-descripcion_seo: «Corazonada» es el anuncio de la Lotería de Navidad 2026. Un trasplante, un décimo y un final sorpresa. Quién lo firma, dónde se rodó y por qué emociona.
-palabras_clave: anuncio Lotería de Navidad 2026, Corazonada Lotería, anuncio Lotería Navidad, Compartir nos da la vida, Proximity Madrid, Gonzaga Manso, anuncios de Navidad 2026, Loterías y Apuestas del Estado
-frase_destacada: La Lotería de Navidad lleva años hablando de compartir. Este año ha encontrado la forma más literal de hacerlo, compartir la vida.
+descripcion_seo: «Corazonada» es el anuncio de la Lotería de Navidad 2026. Un
+  trasplante, un décimo y un final sorpresa. Quién lo firma, dónde se rodó y por
+  qué emociona.
+palabras_clave: anuncio Lotería de Navidad 2026, Corazonada Lotería, anuncio
+  Lotería Navidad, Compartir nos da la vida, Proximity Madrid, Gonzaga Manso,
+  anuncios de Navidad 2026, Loterías y Apuestas del Estado
+frase_destacada: La Lotería de Navidad lleva años hablando de compartir. Este
+  año ha encontrado la forma más literal de hacerlo, compartir la vida.
 fuente_nombre: Marketing Directo
 fuente_url: https://www.marketingdirecto.com/campanas-navidenas/corazonada-campana-loteria-navidad-2026-recuerda-compartir-puede-dar-vida
 borrador: false
