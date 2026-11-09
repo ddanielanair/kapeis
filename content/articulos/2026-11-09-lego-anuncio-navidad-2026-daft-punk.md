@@ -1,18 +1,28 @@
 ---
-titulo: LEGO convierte su anuncio de Navidad en un concierto de Daft Punk con E.T. y Doctor Doom
-entradilla: El anuncio navideño global de LEGO sigue a una sola pieza por un taller secreto lleno de personajes, con «One More Time» de Daft Punk de fondo y la firma del director de «El gran showman».
+titulo: LEGO convierte su anuncio de Navidad en un concierto de Daft Punk con
+  E.T. y Doctor Doom
+entradilla: El anuncio navideño global de LEGO sigue a una sola pieza por un
+  taller secreto lleno de personajes, con «One More Time» de Daft Punk de fondo
+  y la firma del director de «El gran showman».
 fecha: 2026-11-09 17:35
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
-portada: false
+portada: true
 destacada: false
+imagen: /uploads/diseño-sin-título-25-.png
 marca: LEGO x Daft Punk
 tono: fosforito
 titulo_seo: Anuncio de Navidad de LEGO 2026 con Daft Punk y E.T.
-descripcion_seo: LEGO estrena «The LEGO Holiday Workshop», su anuncio de Navidad 2026 con Daft Punk, E.T. y Marvel, dirigido por Michael Gracey. Así es la campaña.
-palabras_clave: anuncio Navidad LEGO 2026, LEGO Daft Punk, The LEGO Holiday Workshop, LEGO One More Time, Michael Gracey LEGO, anuncios de Navidad 2026, KPop Demon Hunters LEGO
-frase_destacada: LEGO no vende piezas, vende el rato de construir juntos, y su anuncio de Navidad lo cuenta con la música de fiesta más reconocible del mundo.
+descripcion_seo: LEGO estrena «The LEGO Holiday Workshop», su anuncio de Navidad
+  2026 con Daft Punk, E.T. y Marvel, dirigido por Michael Gracey. Así es la
+  campaña.
+palabras_clave: anuncio Navidad LEGO 2026, LEGO Daft Punk, The LEGO Holiday
+  Workshop, LEGO One More Time, Michael Gracey LEGO, anuncios de Navidad 2026,
+  KPop Demon Hunters LEGO
+frase_destacada: LEGO no vende piezas, vende el rato de construir juntos, y su
+  anuncio de Navidad lo cuenta con la música de fiesta más reconocible del
+  mundo.
 fuente_nombre: Variety
 fuente_url: https://variety.com/2026/shopping/news/lego-holiday-campaign-daft-punk-kpop-demon-hunters-1236940793/
 borrador: false
