@@ -30,3 +30,5 @@ El anuncio, creado por la agencia Mother, imagina a Doctor Doom contemplando Nue
 En España, KFC todavía no ha detallado qué productos del menú llegarán a sus restaurantes, así que habrá que estar atentos a la web y la aplicación de la cadena.
 
 La colaboración demuestra algo que el cine sabe aprovechar cada vez mejor, que el marketing de una película empieza mucho antes de que se apaguen las luces de la sala. Elegir al villano en lugar de a los héroes le da a KFC una estética propia, oscura y muy reconocible, que se traslada a la comida, al envase y a los coleccionables. El resultado es que, antes de ver a Doctor Doom en el cine, ya te lo puedes comer.
+
+Y no es la única marca que se ha fijado en él estas semanas. El villano también aparece en minifigura en el [anuncio de Navidad de LEGO con Daft Punk](/articulos/lego-anuncio-navidad-2026-daft-punk/).

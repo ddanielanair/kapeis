@@ -13,6 +13,8 @@ titulo_seo: Auriculares Sony Hello Kitty, precio y modelos
 descripcion_seo: Sony y Sanrio lanzan auriculares Hello Kitty de edición limitada en tres modelos, del WH-CH530 al WH-1000XM6, con funda y bolsa exclusivas. Precios y fechas.
 palabras_clave: auriculares Hello Kitty, Sony Hello Kitty, Sony Sanrio, WH-1000XM6 Hello Kitty, auriculares edición limitada, Hello Kitty colaboración, Sanrio
 frase_destacada: Los auriculares son los mismos de siempre. Lo que cambia, y lo que se vende, es la funda.
+
+Es la misma fórmula que ha llevado a Bandai a vestir su juguete más famoso con la estética de Netflix en el [Tamagotchi de Stranger Things](/articulos/tamagotchi-y-stranger-things-lanzan-una-colaboracion-por-el-decimo-aniversario-de-la-serie/), y la que ha agotado en días el [perfilador de KIKO x STABILO](/articulos/la-firma-italiana-de-cosmetica-kiko-milano-se-alia-con-stabilo/).
 fuente_nombre: Audiophiles on a Budget
 fuente_url: https://audiophilesonabudget.com/sony-wh-1000xm6-hello-kitty-bundle-preorder/
 borrador: false
@@ -28,3 +30,5 @@ Antes de llegar a Norteamérica, la colaboración se había estrenado en **Japó
 El precio también da que hablar. En Estados Unidos, el pack del WH-1000XM6 cuesta 60 dólares más que el mismo modelo normal, así que el personaje tiene un precio. En cambio, en Hong Kong el pack es más barato que los auriculares sueltos.
 
 La estrategia es sencilla y eficaz. Sony no tiene que diseñar un producto nuevo, solo vestir uno que ya funciona con uno de los personajes más queridos del mundo, que en 2024 cumplió 50 años. Hello Kitty le abre la puerta a un público joven y coleccionista que quizá no se fijaría en unos auriculares técnicos, y la edición limitada pone la prisa. Los auriculares son los mismos de siempre. Lo que cambia, y lo que se vende, es la funda.
+
+Es la misma fórmula que ha llevado a Bandai a vestir su juguete más famoso con la estética de Netflix en el [Tamagotchi de Stranger Things](/articulos/tamagotchi-y-stranger-things-lanzan-una-colaboracion-por-el-decimo-aniversario-de-la-serie/), y la que ha agotado en días el [perfilador de KIKO x STABILO](/articulos/la-firma-italiana-de-cosmetica-kiko-milano-se-alia-con-stabilo/).
