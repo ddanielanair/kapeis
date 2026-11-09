@@ -130,6 +130,7 @@ const articulos = fs.readdirSync(artDir).filter((f) => f.endsWith('.md')).map((f
 }).filter((a) => a.borrador !== true).sort((a, b) => b.fecha - a.fecha);
 
 // ---------- piezas comunes ----------
+const TT_ICON = `<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 3c.3 2.2 1.6 3.7 3.9 3.9v3.2c-1.4.1-2.6-.3-3.9-1.1v5.6c0 3.5-2.5 6.1-6 6.1a5.8 5.8 0 0 1-5.9-5.9c0-3.6 3.1-6.3 6.8-5.8v3.3c-1.7-.4-3.4.7-3.4 2.5 0 1.5 1.1 2.6 2.6 2.6 1.6 0 2.6-1.1 2.6-3V3h3.3z"/></svg>`;
 const IG_ICON = `<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.6" fill="currentColor"/></svg>`;
 const LOGO = (size = 'lg') => `<span class="logo logo-${size}"><span class="logo-hash" aria-hidden="true">#</span>kapeís</span>`;
 
@@ -227,6 +228,7 @@ ${LOGO('sm')}
 <li><a href="/legal/#privacidad">Privacidad</a></li>
 <li><a href="/legal/#cookies">Cookies</a></li>
 ${ajustes.instagram ? `<li><a class="ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener" aria-label="Instagram de Kapeís">${IG_ICON}Instagram</a></li>` : ''}
+${ajustes.tiktok ? `<li><a class="ig" href="${esc(ajustes.tiktok)}" target="_blank" rel="noopener" aria-label="TikTok de Kapeís">${TT_ICON}TikTok</a></li>` : ''}
 </ul></nav>
 <p class="copy">© ${new Date().getFullYear()} Kapeís · Revista de marketing</p>
 </div>
@@ -239,7 +241,7 @@ const ASSET_V = require('crypto').createHash('md5').update(['static/estilos.css'
 const LOGO_PNG = SITE_URL + '/logo-kapeis.png';
 const absUrl = (u) => (String(u).startsWith('http') ? u : SITE_URL + u);
 const ldScript = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
-const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacion', name: 'Kapeís', url: SITE_URL + '/', logo: { '@type': 'ImageObject', url: LOGO_PNG, width: 512, height: 512 }, email: ajustes.email_info, ...(ajustes.instagram ? { sameAs: [ajustes.instagram] } : {}) };
+const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacion', name: 'Kapeís', url: SITE_URL + '/', logo: { '@type': 'ImageObject', url: LOGO_PNG, width: 512, height: 512 }, email: ajustes.email_info, ...([ajustes.instagram, ajustes.tiktok].filter(Boolean).length ? { sameAs: [ajustes.instagram, ajustes.tiktok].filter(Boolean) } : {}) };
 const migas = (items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE_URL + url })) });
 
 function page({ title, seoTitle, description, body, active = '', canonical = '/', og = {}, head = '', noindex = false }) {
@@ -280,7 +282,8 @@ ${body}
 <p class="contact-band-title">¿Tienes algo que contarnos?</p>
 <p class="contact-band-item"><span>Información</span><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a></p>
 <p class="contact-band-item"><span>Colaboraciones y prensa</span><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a></p>
-${ajustes.instagram ? `<p class="contact-band-item"><span>Síguenos</span><a class="ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">${IG_ICON}@kapeis.es</a></p>` : ''}
+${ajustes.instagram ? `<p class="contact-band-item"><span>Síguenos en Instagram</span><a class="ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">${IG_ICON}@kapeis.es</a></p>` : ''}
+${ajustes.tiktok ? `<p class="contact-band-item"><span>Síguenos en TikTok</span><a class="ig" href="${esc(ajustes.tiktok)}" target="_blank" rel="noopener">${TT_ICON}@kapeis.es</a></p>` : ''}
 </div>
 </section>
 ${footer()}
