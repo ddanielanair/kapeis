@@ -1,18 +1,26 @@
 ---
 titulo: La colección de IKEA y LEGO que querrías comprar y que no existe
-entradilla: El estudio parisino The Missing Drop Studio ha imaginado con inteligencia artificial una colección de IKEA y LEGO con lámparas, despertadores y vasos apilables. Ninguna de las dos marcas participa.
+entradilla: El estudio parisino The Missing Drop Studio ha imaginado con
+  inteligencia artificial una colección de IKEA y LEGO con lámparas,
+  despertadores y vasos apilables. Ninguna de las dos marcas participa.
 fecha: 2026-11-09 18:55
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/banner.png
 marca: IKEA x LEGO
 tono: fosforito
 titulo_seo: IKEA x LEGO, la colección ficticia que querrías comprar
-descripcion_seo: The Missing Drop Studio imagina con IA una colección de IKEA y LEGO con lámparas, despertadores y vasos apilables. Ninguna de las dos marcas participa.
-palabras_clave: IKEA LEGO, IKEA x LEGO, colaboración IKEA LEGO, The Missing Drop Studio, Masters of Construction Collection, BYGGLEK, colaboración ficticia, inteligencia artificial, diseño de producto
-frase_destacada: La IA permite a cualquier creativo poner a prueba una colaboración antes de que exista y medir cuánto la desea el público.
+descripcion_seo: The Missing Drop Studio imagina con IA una colección de IKEA y
+  LEGO con lámparas, despertadores y vasos apilables. Ninguna de las dos marcas
+  participa.
+palabras_clave: IKEA LEGO, IKEA x LEGO, colaboración IKEA LEGO, The Missing Drop
+  Studio, Masters of Construction Collection, BYGGLEK, colaboración ficticia,
+  inteligencia artificial, diseño de producto
+frase_destacada: La IA permite a cualquier creativo poner a prueba una
+  colaboración antes de que exista y medir cuánto la desea el público.
 fuente_nombre: The Missing Drop Studio en Instagram
 fuente_url: https://www.instagram.com/themissingdrop/
 borrador: false
