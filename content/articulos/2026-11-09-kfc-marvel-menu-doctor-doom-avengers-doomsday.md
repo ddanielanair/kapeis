@@ -1,17 +1,25 @@
 ---
-titulo: KFC se rinde a Doctor Doom con un menú negro y verde para el estreno de «Avengers Doomsday»
-entradilla: La cadena de pollo frito lanza en más de 100 países su colaboración más ambiciosa, un menú inspirado en el villano de Marvel con pan negro, salsas verdes y figuras coleccionables del Coronel.
+titulo: KFC se rinde a Doctor Doom con un menú negro y verde para el estreno de
+  «Avengers Doomsday»
+entradilla: La cadena de pollo frito lanza en más de 100 países su colaboración
+  más ambiciosa, un menú inspirado en el villano de Marvel con pan negro, salsas
+  verdes y figuras coleccionables del Coronel.
 fecha: 2026-11-09 17:40
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/diseño-sin-título-12-.png
 marca: KFC x Marvel
 tono: negro
 titulo_seo: KFC y Marvel lanzan el menú de Doctor Doom
-descripcion_seo: KFC lanza un menú de Doctor Doom por el estreno de «Avengers Doomsday», con la Doom Burger de pan negro, salsas verdes y figuras del Coronel. Así es.
-palabras_clave: KFC Marvel, KFC Doctor Doom, Doom Burger, KFC Avengers Doomsday, menú Doctor Doom, KFC colaboración Marvel, Avengers Doomsday estreno, marketing de cine
+descripcion_seo: KFC lanza un menú de Doctor Doom por el estreno de «Avengers
+  Doomsday», con la Doom Burger de pan negro, salsas verdes y figuras del
+  Coronel. Así es.
+palabras_clave: KFC Marvel, KFC Doctor Doom, Doom Burger, KFC Avengers Doomsday,
+  menú Doctor Doom, KFC colaboración Marvel, Avengers Doomsday estreno,
+  marketing de cine
 frase_destacada: Antes de ver a Doctor Doom en el cine, ya te lo puedes comer.
 fuente_nombre: KFC
 fuente_url: https://global.kfc.com/press-releases/kfc-brings-the-doom-new-marvel-inspired-menu-lands-ahead-of-marvel-studios-avengers-doomsday
