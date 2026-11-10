@@ -1,18 +1,27 @@
 ---
-titulo: Barbie se pasa al skincare con Clinique y un estuche lila para la doble limpieza
-entradilla: La muñeca de Mattel y la marca de cuidado de la piel lanzan «Double Cleanse & Barbie», una edición limitada con dos limpiadores de Take The Day Off y un neceser de Barbie que ya se vende en España.
+titulo: Barbie se pasa al skincare con Clinique y un estuche lila para la doble
+  limpieza
+entradilla: La muñeca de Mattel y la marca de cuidado de la piel lanzan «Double
+  Cleanse & Barbie», una edición limitada con dos limpiadores de Take The Day
+  Off y un neceser de Barbie que ya se vende en España.
 fecha: 2026-11-11 00:40
 seccion: Marketing
-zona: España
+zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/banner-3-.png
 marca: Clinique x Barbie
 tono: fosforito
 titulo_seo: Clinique x Barbie, precio y dónde comprar el estuche
-descripcion_seo: Clinique y Barbie lanzan «Double Cleanse & Barbie», un estuche de edición limitada con bálsamo y mousse Take The Day Off. Precio, contenido y dónde comprarlo.
-palabras_clave: Clinique Barbie, Double Cleanse & Barbie, Clinique x Barbie, estuche Clinique Barbie precio, Take The Day Off, doble limpieza, Barbie skincare, colaboraciones de belleza
-frase_destacada: Barbie no necesita teñir de rosa un producto para venderlo. Le basta con poner su nombre en la caja.
+descripcion_seo: Clinique y Barbie lanzan «Double Cleanse & Barbie», un estuche
+  de edición limitada con bálsamo y mousse Take The Day Off. Precio, contenido y
+  dónde comprarlo.
+palabras_clave: Clinique Barbie, Double Cleanse & Barbie, Clinique x Barbie,
+  estuche Clinique Barbie precio, Take The Day Off, doble limpieza, Barbie
+  skincare, colaboraciones de belleza
+frase_destacada: Barbie no necesita teñir de rosa un producto para venderlo. Le
+  basta con poner su nombre en la caja.
 fuente_nombre: Marketing Directo
 fuente_url: https://www.marketingdirecto.com/anunciantes-general/barbie-suma-universo-beauty-clinique
 borrador: false
