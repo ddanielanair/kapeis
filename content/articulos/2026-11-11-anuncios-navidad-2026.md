@@ -1,18 +1,26 @@
 ---
 titulo: Los anuncios de Navidad 2026, todas las campañas de las marcas en un solo sitio
-entradilla: De la Lotería a LEGO, pasando por Disney, Prada o Primark. Reunimos los anuncios y campañas de Navidad de este año, con quién los firma y qué cuentan, y vamos sumando los nuevos según se estrenan.
+entradilla: De la Lotería a LEGO, pasando por Disney, Prada o Primark. Reunimos
+  los anuncios y campañas de Navidad de este año, con quién los firma y qué
+  cuentan, y vamos sumando los nuevos según se estrenan.
 fecha: 2026-11-11 01:30
 seccion: Marketing
 zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/banner-4-.png
 marca: Navidad 2026
 tono: fosforito
 titulo_seo: Anuncios de Navidad 2026, todos los spots de las marcas
-descripcion_seo: Todos los anuncios de Navidad 2026 en un solo sitio. Lotería, LEGO, Disney, Prada, Dior, Primark, Tommy Hilfiger y más, con agencia, protagonistas y análisis.
-palabras_clave: anuncios de Navidad 2026, anuncios navideños 2026, spots de Navidad 2026, campañas de Navidad 2026, mejores anuncios de Navidad, anuncio Lotería Navidad 2026, anuncio Disney Navidad 2026, anuncio LEGO Navidad 2026
-frase_destacada: La Navidad es la Super Bowl de la publicidad europea. Es el momento en el que las marcas se juegan el cariño del público para todo el año.
+descripcion_seo: Todos los anuncios de Navidad 2026 en un solo sitio. Lotería,
+  LEGO, Disney, Prada, Dior, Primark, Tommy Hilfiger y más, con agencia,
+  protagonistas y análisis.
+palabras_clave: anuncios de Navidad 2026, anuncios navideños 2026, spots de
+  Navidad 2026, campañas de Navidad 2026, mejores anuncios de Navidad, anuncio
+  Lotería Navidad 2026, anuncio Disney Navidad 2026, anuncio LEGO Navidad 2026
+frase_destacada: La Navidad es la Super Bowl de la publicidad europea. Es el
+  momento en el que las marcas se juegan el cariño del público para todo el año.
 borrador: false
 ---
 La Navidad es la gran temporada de la publicidad. Es el momento en que las marcas sacan sus anuncios más ambiciosos, los más emotivos y los más comentados, y en el que se juegan buena parte del cariño del público para todo el año. Este año hay de todo, desde historias que hacen llorar hasta campañas que reivindican el dibujo a mano frente a la inteligencia artificial.
