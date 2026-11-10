@@ -9,7 +9,7 @@ zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/banner-6-.png
+imagen: /uploads/banner-7-.png
 marca: Black Friday 2026
 tono: negro
 titulo_seo: Black Friday 2026, fechas y calendario por tiendas en España
