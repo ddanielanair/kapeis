@@ -1,18 +1,27 @@
 ---
 titulo: El Black Friday 2026 ya no es un viernes, es un mes entero
-entradilla: El Black Friday cae el 27 de noviembre, pero muchas marcas llevan semanas de descuentos y otras alargan la campaña hasta el Cyber Monday. Este es el calendario por tiendas y la estrategia que hay detrás.
+entradilla: El Black Friday cae el 27 de noviembre, pero muchas marcas llevan
+  semanas de descuentos y otras alargan la campaña hasta el Cyber Monday. Este
+  es el calendario por tiendas y la estrategia que hay detrás.
 fecha: 2026-11-11 01:10
 seccion: Retail
 zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/banner-6-.png
 marca: Black Friday 2026
 tono: negro
 titulo_seo: Black Friday 2026, fechas y calendario por tiendas en España
-descripcion_seo: El Black Friday 2026 es el 27 de noviembre, pero cada marca tiene su propio calendario. Fechas de Amazon, El Corte Inglés, Zara, MediaMarkt, Sephora y más.
-palabras_clave: Black Friday 2026, cuándo es el Black Friday 2026, Black Friday 2026 España fechas, Black Friday Zara 2026, Black Friday El Corte Inglés 2026, Black Friday Amazon 2026, Black Week, Cyber Monday 2026, estrategia Black Friday
-frase_destacada: El Black Friday ya no es un día de descuentos. Es una carrera por llegar antes que la competencia a la cartera del cliente.
+descripcion_seo: El Black Friday 2026 es el 27 de noviembre, pero cada marca
+  tiene su propio calendario. Fechas de Amazon, El Corte Inglés, Zara,
+  MediaMarkt, Sephora y más.
+palabras_clave: Black Friday 2026, cuándo es el Black Friday 2026, Black Friday
+  2026 España fechas, Black Friday Zara 2026, Black Friday El Corte Inglés 2026,
+  Black Friday Amazon 2026, Black Week, Cyber Monday 2026, estrategia Black
+  Friday
+frase_destacada: El Black Friday ya no es un día de descuentos. Es una carrera
+  por llegar antes que la competencia a la cartera del cliente.
 fuente_nombre: Merca2
 fuente_url: https://www.merca2.es/2026/11/10/black-friday-2026-fecha-inicio-2502000/
 borrador: false
