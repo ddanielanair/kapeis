@@ -1,18 +1,27 @@
 ---
-titulo: Desigual convierte a Demi Lovato en «Internet Icon» y le devuelve sus propios titulares
-entradilla: La marca barcelonesa elige a la cantante para su campaña de invierno, rodeada de los titulares y etiquetas que internet le ha puesto durante su carrera y con una camiseta que lo dice todo.
+titulo: Desigual convierte a Demi Lovato en «Internet Icon» y le devuelve sus
+  propios titulares
+entradilla: La marca barcelonesa elige a la cantante para su campaña de
+  invierno, rodeada de los titulares y etiquetas que internet le ha puesto
+  durante su carrera y con una camiseta que lo dice todo.
 fecha: 2026-11-11 00:30
 seccion: Marketing
-zona: España
+zona: Internacional
 tipo: Artículo propio
-portada: false
+portada: true
 destacada: false
+imagen: /uploads/banner-2-.png
 marca: Desigual x Demi Lovato
 tono: fosforito
 titulo_seo: Demi Lovato y Desigual, así es la campaña «Internet Icon»
-descripcion_seo: Demi Lovato protagoniza «Internet Icon», la campaña de invierno de Desigual, con una camiseta de edición especial. Cómo es la colección y dónde comprarla.
-palabras_clave: Demi Lovato Desigual, Desigual Internet Icon, camiseta Internet Icon, campaña Desigual invierno 2026, Demi Lovato campaña, Desigual colección invierno, marketing de celebridades
-frase_destacada: Desigual no esconde lo que internet ha dicho de Demi Lovato. Lo convierte en el decorado de la campaña.
+descripcion_seo: Demi Lovato protagoniza «Internet Icon», la campaña de invierno
+  de Desigual, con una camiseta de edición especial. Cómo es la colección y
+  dónde comprarla.
+palabras_clave: Demi Lovato Desigual, Desigual Internet Icon, camiseta Internet
+  Icon, campaña Desigual invierno 2026, Demi Lovato campaña, Desigual colección
+  invierno, marketing de celebridades
+frase_destacada: Desigual no esconde lo que internet ha dicho de Demi Lovato. Lo
+  convierte en el decorado de la campaña.
 fuente_nombre: Desigual
 fuente_url: https://www.desigual.com/
 borrador: false
