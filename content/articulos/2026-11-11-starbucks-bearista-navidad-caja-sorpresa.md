@@ -1,18 +1,27 @@
 ---
-titulo: Starbucks esconde sus nuevos vasos de oso en cajas sorpresa y uno de ellos es de oro
-entradilla: El vaso Bearista, el más viral de la cadena, vuelve por Navidad con cinco osos nuevos que se venden a ciegas. El más buscado es Goldie, un oso dorado del que Starbucks no dice cuántos hay.
+titulo: Starbucks esconde sus nuevos vasos de oso en cajas sorpresa y uno de
+  ellos es de oro
+entradilla: El vaso Bearista, el más viral de la cadena, vuelve por Navidad con
+  cinco osos nuevos que se venden a ciegas. El más buscado es Goldie, un oso
+  dorado del que Starbucks no dice cuántos hay.
 fecha: 2026-11-11 00:55
 seccion: Retail
 zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/banner-5-.png
 marca: Starbucks Bearista
 tono: negro
 titulo_seo: Vasos Bearista de Starbucks, Navidad 2026 y el oso dorado
-descripcion_seo: Starbucks lanza cinco vasos Bearista de Navidad en cajas sorpresa por 39,95 dólares, con un oso dorado muy raro. Cómo son, precio y si llegarán a España.
-palabras_clave: vaso oso Starbucks, Bearista Starbucks, vasos Bearista Navidad 2026, Bearista Goldie, Starbucks caja sorpresa, vaso Starbucks España, blind box, marketing de escasez
-frase_destacada: Si no sabes qué oso te va a tocar, no compras un vaso. Compras la emoción de abrir la caja.
+descripcion_seo: Starbucks lanza cinco vasos Bearista de Navidad en cajas
+  sorpresa por 39,95 dólares, con un oso dorado muy raro. Cómo son, precio y si
+  llegarán a España.
+palabras_clave: vaso oso Starbucks, Bearista Starbucks, vasos Bearista Navidad
+  2026, Bearista Goldie, Starbucks caja sorpresa, vaso Starbucks España, blind
+  box, marketing de escasez
+frase_destacada: Si no sabes qué oso te va a tocar, no compras un vaso. Compras
+  la emoción de abrir la caja.
 fuente_nombre: Starbucks
 fuente_url: https://about.starbucks.com/press/2026/starbucks-launches-new-bearista-glass-cold-cup-surprise-box-collection-with-characters-including-rare-golden-bearista/
 borrador: false
