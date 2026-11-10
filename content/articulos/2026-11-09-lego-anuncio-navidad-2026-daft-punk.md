@@ -40,3 +40,5 @@ Además de la película principal, la campaña incluye **siete piezas de 15 segu
 La jugada tiene mucho de marketing de nostalgia, pero bien repartida. Daft Punk y E.T. hablan a los padres, mientras que Marvel, Pokémon y «KPop Demon Hunters» hablan a los hijos. Y la idea de seguir una sola pieza recuerda lo que LEGO lleva años contando, que no vende juguetes terminados sino el rato de construirlos juntos. En una temporada en la que muchas marcas compiten por emocionar, LEGO apuesta por algo más sencillo, que el anuncio dé ganas de bailar.
 
 Es otro capítulo de una Navidad de anuncios muy cuidados, después de que [Prada](/articulos/prada-rechaza-la-ia-y-apuesta-por-la-animacion-dibujada-a-mano-en-su-campana-de-navidad/) y [Dior](/articulos/dior-apuesta-por-una-navidad-dibujada-a-mano-con-las-voces-de-rihanna-y-robert-pattinson/) apostaran por la animación dibujada a mano.
+
+Puedes ver todas las campañas navideñas de este año en nuestro especial de [anuncios de Navidad 2026](/articulos/anuncios-navidad-2026/).

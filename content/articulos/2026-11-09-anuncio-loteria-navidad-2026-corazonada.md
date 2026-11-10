@@ -42,3 +42,5 @@ El sorteo se celebra el **22 de diciembre** y este año reparte **2.870 millones
 La Lotería de Navidad lleva años construyendo su comunicación sobre la idea de compartir, desde el bar del barrio hasta las historias de vecinos y pueblos enteros. El reto de cada año es contar lo mismo de una forma nueva, y esta vez Proximity ha encontrado la versión más literal posible. No se comparte un décimo, se comparte la vida. Es una apuesta arriesgada, porque toca un tema delicado, pero cuida el tono, evita el drama fácil y termina con el gesto que la marca necesita, comprar un número y compartirlo.
 
 Es uno de los grandes anuncios de una Navidad en la que las marcas han apostado fuerte por la emoción, como [Prada](/articulos/prada-rechaza-la-ia-y-apuesta-por-la-animacion-dibujada-a-mano-en-su-campana-de-navidad/), [Dior](/articulos/dior-apuesta-por-una-navidad-dibujada-a-mano-con-las-voces-de-rihanna-y-robert-pattinson/) o [LEGO](/articulos/lego-anuncio-navidad-2026-daft-punk/).
+
+Puedes ver todas las campañas navideñas de este año en nuestro especial de [anuncios de Navidad 2026](/articulos/anuncios-navidad-2026/).

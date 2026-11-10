@@ -26,3 +26,5 @@ La campaña gira en torno a una película principal de 90 segundos rodada en Lon
 La banda sonora también es una declaración de intenciones: ***"Not Over Yet"***, el tema de Grace y Paul Oakenfold de los años noventa que ha vuelto a sonar con fuerza en las pistas de baile europeas. Un título ("todavía no ha terminado") que encaja a la perfección con la idea de la campaña.
 
 **La campaña llega en plena batalla navideña entre las grandes cadenas de deporte del Reino Unido, donde Sports Direct también ha lanzado su propio anuncio con Nike protagonizado por Erling Haaland**. Con un reparto global y una estética de club, JD busca conectar con un público joven que vive la Navidad más como un punto de partida que como un cierre.
+
+Puedes ver todas las campañas navideñas de este año en nuestro especial de [anuncios de Navidad 2026](/articulos/anuncios-navidad-2026/).

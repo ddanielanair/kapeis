@@ -35,3 +35,5 @@ La campaña, supervisada por el director creativo Jonathan Anderson, se estrenó
 ¿Hecho a mano o con IA? Según Anderson, el film está dibujado enteramente a mano con técnicas que se remontan a los años cuarenta. Prada ha seguido el mismo camino con su campaña "Drawing Prada", basada en ilustración. 
 
 Sin embargo, el corto no se ha librado de la polémica. Varios usuarios han compartido capturas de supuestos fallos visuales, como letras deformadas, rostros que cambian o una mano femenina que parece tener cinco dedos y medio, y se preguntan si la IA intervino en parte del proceso. Dior, por su parte, ha mostrado el trabajo de dibujo de Chomet y defiende que el film está ilustrado a mano. Así, la campaña que quería ser un manifiesto contra la IA ha acabado abriendo justo ese debate.
+
+Puedes ver todas las campañas navideñas de este año en nuestro especial de [anuncios de Navidad 2026](/articulos/anuncios-navidad-2026/).

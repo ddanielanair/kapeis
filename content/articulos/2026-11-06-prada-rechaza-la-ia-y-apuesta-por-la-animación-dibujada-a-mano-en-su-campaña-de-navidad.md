@@ -33,3 +33,5 @@ En el vídeo que muestra el proceso de creación, Pomeroy explica que eligió es
 La propuesta llega en plena conversación sobre el uso de la **IA en publicidad**. Medios como Euronews han destacado el contraste con **Coca-Cola**, cuyos anuncios navideños generados con inteligencia artificial recibieron críticas en 2024 y de nuevo en 2025. Frente a esa tendencia, el mensaje de que una pieza no está hecha por IA empieza a funcionar como un reclamo comercial, sobre todo entre un público joven cada vez más cansado del contenido automático.
 
 Con Drawing Prada, la marca lleva la idea de **artesanía**, tan ligada a sus productos, al propio proceso de producción de su publicidad. La campaña recupera además el vínculo entre la Navidad y los cuentos que pasan de generación en generación, y confirma que la **creatividad humana** sigue siendo una herramienta poderosa para conectar con el público.
+
+Puedes ver todas las campañas navideñas de este año en nuestro especial de [anuncios de Navidad 2026](/articulos/anuncios-navidad-2026/).
