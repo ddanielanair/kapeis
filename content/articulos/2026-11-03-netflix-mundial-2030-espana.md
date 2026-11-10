@@ -13,7 +13,7 @@ alt_imagen: Logotipo de Netflix junto al trofeo de la Copa Mundial de la FIFA
 pie_imagen: "Imagen: Netflix"
 marca: Netflix
 tono: fosforito
-titulo_seo: "Netflix y el Mundial 2030 en España: qué cambia para las marcas"
+titulo_seo: Netflix y el Mundial 2030, qué cambia para las marcas
 descripcion_seo: Netflix emitirá los 104 partidos del Mundial 2030 en España.
   Explicamos el acuerdo, qué se verá gratis y qué supone para la publicidad y
   las marcas.
@@ -34,3 +34,5 @@ Además, la plataforma ofrecerá gratuitamente un partido por jornada y garantiz
 El acuerdo supone un paso importante para Netflix, que lleva tiempo ampliando su presencia en el deporte en directo. La compañía busca diversificar sus contenidos y atraer a nuevas audiencias más allá de las series y películas.
 
 El deporte se ha convertido en una nueva batalla para las plataformas de streaming. Y Netflix parece tener claro que el Mundial de 2030 puede ser una de sus grandes apuestas para ganar terreno en un mercado cada vez más competitivo.
+
+Netflix también sabe exprimir sus series fuera de la pantalla, como con el [Tamagotchi de Stranger Things](/articulos/tamagotchi-y-stranger-things-lanzan-una-colaboracion-por-el-decimo-aniversario-de-la-serie/).

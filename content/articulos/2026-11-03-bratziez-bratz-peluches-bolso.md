@@ -12,7 +12,7 @@ alt_imagen: Cinco Bratziez de la serie Tokyo a Go-Go posan alrededor de su caja
   sobre un fondo de calles con neones
 pie_imagen: ""
 marca: ""
-titulo_seo: "Bratziez: los peluches de Bratz para colgar del bolso"
+titulo_seo: Bratziez, los peluches de Bratz para colgar del bolso
 descripcion_seo: Bratz celebra su 25 aniversario con los Bratziez, peluches en
   caja sorpresa para colgar del bolso. Analizamos la estrategia de nostalgia,
   coleccionismo y retail.
@@ -26,3 +26,5 @@ Las muñecas Bratz fueron uno de los grandes fenómenos jugueteros de principios
 Los Bratziez no llegan en el vacío. Colgar peluches y figuras del bolso se ha convertido en una de las grandes tendencias de consumo de los últimos años, impulsada sobre todo por el fenómeno Labubu, de Pop Mart. Lo que antes era un llavero ahora es un accesorio de moda, un objeto de colección y un tema de conversación en redes.
 
 Bratz ha entendido que tiene todos los ingredientes para jugar en esa categoría: personajes reconocibles, una estética muy marcada y un público adulto que creció con sus muñecas.
+
+Bratz no es la única marca que tira de nostalgia y coleccionismo estos días, como demuestra el [Tamagotchi de Stranger Things](/articulos/tamagotchi-y-stranger-things-lanzan-una-colaboracion-por-el-decimo-aniversario-de-la-serie/).

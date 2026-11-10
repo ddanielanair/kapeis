@@ -7,9 +7,9 @@ zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/screenshot-2026-11-04-195401.png
+imagen: /uploads/screenshot-2026-11-04-195401.jpg
 tono: negro
-titulo_seo: Belén Esteban protagoniza la campaña de idealo para Black Friday 2026
+titulo_seo: Belén Esteban, imagen de idealo para el Black Friday 2026
 descripcion_seo: Idealo ficha a Belén Esteban para su campaña de Black Friday
   2026 contra las falsas ofertas con el lema «Que no te toreen».
 palabras_clave: Belén, Black, Friday, Rebajas, ofertas, Jesulín, toros
@@ -17,6 +17,7 @@ frase_destacada: Para conseguirlo, ha apostado por una combinación de humor,
   cultura popular y una de las caras más reconocibles de la televisión española.
 lectura: ""
 borrador: false
+alt_imagen: Lona gigante de idealo en un edificio de Madrid con Belén Esteban y el lema «Que no te toreen» para el Black Friday
 ---
 > Una campaña que demuestra que, en Black Friday, captar la atención también forma parte del descuento.
 
@@ -33,3 +34,5 @@ La campaña ha llegado a las calles de Madrid con una gigantesca lona publicitar
 **Más allá de las posibles indirectas, idealo tiene un propósito comercial claro. Concienciar a los consumidores sobre las falsas ofertas y recordarles la importancia de comparar precios antes de comprar.** La plataforma permite consultar el historial de precios de los productos, comparar distintas tiendas y activar alertas para encontrar el momento más adecuado para realizar una compra.
 
 Con esta acción, idealo apuesta por una estrategia que combina notoriedad, humor y una figura popular para conectar con los consumidores en uno de los momentos comerciales más importantes del año.
+
+Si quieres saber cuándo empiezan los descuentos en cada tienda, aquí tienes el [calendario del Black Friday 2026](/articulos/black-friday-2026-calendario-fechas-marcas/).

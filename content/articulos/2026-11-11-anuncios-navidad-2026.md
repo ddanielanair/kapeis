@@ -9,7 +9,7 @@ zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/banner-4-.png
+imagen: /uploads/banner-4.jpg
 marca: Navidad 2026
 tono: fosforito
 titulo_seo: Anuncios de Navidad 2026, todos los spots de las marcas
@@ -22,6 +22,7 @@ palabras_clave: anuncios de Navidad 2026, anuncios navideños 2026, spots de
 frase_destacada: La Navidad es la Super Bowl de la publicidad europea. Es el
   momento en el que las marcas se juegan el cariño del público para todo el año.
 borrador: false
+alt_imagen: Bolas de Navidad doradas y brillantes
 ---
 La Navidad es la gran temporada de la publicidad. Es el momento en que las marcas sacan sus anuncios más ambiciosos, los más emotivos y los más comentados, y en el que se juegan buena parte del cariño del público para todo el año. Este año hay de todo, desde historias que hacen llorar hasta campañas que reivindican el dibujo a mano frente a la inteligencia artificial.
 

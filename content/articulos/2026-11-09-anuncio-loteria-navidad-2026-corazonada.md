@@ -9,7 +9,7 @@ zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/banner-1-.png
+imagen: /uploads/banner-1.jpg
 marca: Lotería de Navidad
 tono: negro
 titulo_seo: Anuncio Lotería de Navidad 2026, así es «Corazonada»
@@ -24,6 +24,7 @@ frase_destacada: La Lotería de Navidad lleva años hablando de compartir. Este
 fuente_nombre: Marketing Directo
 fuente_url: https://www.marketingdirecto.com/campanas-navidenas/corazonada-campana-loteria-navidad-2026-recuerda-compartir-puede-dar-vida
 borrador: false
+alt_imagen: Título «Corazonada» sobre un fotograma del anuncio de la Lotería de Navidad 2026
 ---
 En España, la Navidad empieza oficialmente cuando se estrena el anuncio de la **Lotería de Navidad**, y este año ha llegado con una historia que deja el dinero en segundo plano. **Loterías y Apuestas del Estado** presentó el 6 de noviembre **«Corazonada»**, una campaña con el lema **«Compartir nos da la vida»** que pone en el centro un **trasplante de corazón**.
 

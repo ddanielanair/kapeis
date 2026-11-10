@@ -10,7 +10,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/diseño-sin-título-12-.png
+imagen: /uploads/diseno-sin-titulo-12.jpg
 marca: KFC x Marvel
 tono: negro
 titulo_seo: KFC y Marvel lanzan el menú de Doctor Doom
@@ -24,6 +24,7 @@ frase_destacada: Antes de ver a Doctor Doom en el cine, ya te lo puedes comer.
 fuente_nombre: KFC
 fuente_url: https://global.kfc.com/press-releases/kfc-brings-the-doom-new-marvel-inspired-menu-lands-ahead-of-marvel-studios-avengers-doomsday
 borrador: false
+alt_imagen: Doom Burger de KFC con pan negro y salsa verde junto a la figura del Coronel Sanders vestido de Doctor Doom
 ---
 **KFC** ha presentado la que llama su **colaboración más ambiciosa** hasta la fecha, la primera alianza global de la cadena con **Marvel Studios**. El motivo es el estreno de **«Avengers Doomsday»**, que llega a los cines de todo el mundo el **18 de diciembre**, y el protagonista no es un héroe sino el villano, **Doctor Doom**, al que da vida Robert Downey Jr. tras años interpretando a Tony Stark.
 

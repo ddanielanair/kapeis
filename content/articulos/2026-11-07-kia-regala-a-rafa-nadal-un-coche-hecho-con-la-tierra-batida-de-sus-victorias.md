@@ -8,7 +8,7 @@ zona: España
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/diseño-sin-título-7-.png
+imagen: /uploads/diseno-sin-titulo-7.jpg
 tono: negro
 titulo_seo: Kia regala a Nadal un coche hecho de tierra batida
 descripcion_seo: Kia homenajea a Rafa Nadal con un EV4 GT a tamaño real moldeado
@@ -18,6 +18,7 @@ palabras_clave: Kia Nadal, coche de tierra batida, Kia EV4 GT, Rey de la tierra
 frase_destacada: La alianza nació en 2004, cuando Kia España empezó a apoyar a
   un joven Nadal que todavía no había ganado ningún Grand Slam.
 borrador: false
+alt_imagen: Tarros de tierra batida, Rafa Nadal celebrando en la pista y el coche de Kia de color arcilla
 ---
 **La marca coreana celebra más de 20 años de relación con el tenista con una réplica a tamaño real del Kia EV4 GT moldeada con arcilla de las pistas de Montecarlo, París, Roma y Madrid.**
 
@@ -32,3 +33,5 @@ El tenista no ocultó la emoción al recibir un regalo hecho con el material que
 La alianza nació en 2004, cuando Kia España empezó a apoyar a un joven Nadal que todavía no había ganado ningún Grand Slam. Tras su primer Roland Garros en 2005, el tenista se convirtió en embajador global de la marca en 2006.
 
 La acción, firmada por la agencia Innocean, se completa con cuatro vídeos que muestran la creación de la escultura y el momento de la entrega, disponibles en el canal global de YouTube de Kia y en su web europea. Además, sirve para poner el foco en el EV4 GT, uno de los modelos eléctricos con los que la marca mira al futuro.
+
+Las marcas siguen apostando por los grandes deportistas españoles, como JD Sports con [Ferran Torres e Ilia Topuria](/articulos/jd-sports-convierte-la-navidad-en-un-calentamiento-con-ferran-torres-e-ilia-topuria/).

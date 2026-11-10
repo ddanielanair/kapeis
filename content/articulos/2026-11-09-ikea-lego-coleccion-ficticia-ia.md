@@ -9,7 +9,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/banner.png
+imagen: /uploads/banner.jpg
 marca: IKEA x LEGO
 tono: fosforito
 titulo_seo: IKEA x LEGO, la colección ficticia que querrías comprar
@@ -24,6 +24,7 @@ frase_destacada: La IA permite a cualquier creativo poner a prueba una
 fuente_nombre: The Missing Drop Studio en Instagram
 fuente_url: https://www.instagram.com/themissingdrop/
 borrador: false
+alt_imagen: Imágenes del concepto ficticio IKEA x LEGO creado con IA, con una lámpara con forma de minifigura de madera
 ---
 Una lámpara con forma de minifigura, un despertador que se apaga pulsando un ladrillo y un dispensador que deja en la mano una pieza de espuma. Todo parece salido del próximo catálogo de IKEA, con sus nombres de resonancias suecas y sus etiquetas de precio, pero no se puede comprar en ninguna parte. **The Masters of Construction Collection** es una colaboración soñada, ideada por el estudio parisino **The Missing Drop Studio** y presentada con imágenes generadas con inteligencia artificial, sin que **IKEA** ni **LEGO** estén implicadas oficialmente.
 

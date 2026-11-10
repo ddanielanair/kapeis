@@ -10,7 +10,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/prada-holiday-2026-adv-campaign-2-large.jpg
+imagen: /uploads/prada-holiday-2026-adv-campaign-2-large-opt.jpg
 tono: negro
 descripcion_seo: Prada lanza Drawing Prada, su campaña de Navidad 2026 con
   animación dibujada a mano y sin IA, de la mano del animador de Disney John
@@ -21,6 +21,8 @@ palabras_clave: Prada campaña Navidad 2026, Drawing Prada, animación dibujada 
   campañas navideñas 2026
 frase_destacada: Prada ha convertido la artesanía en su mejor estrategia de marketing.
 borrador: false
+alt_imagen: Fotograma de la campaña Drawing Prada con una de sus protagonistas en un paisaje nevado dibujado a mano junto a un zorro animado
+titulo_seo: Prada Navidad 2026, la campaña Drawing Prada sin IA
 ---
 **Prada** ha presentado su campaña de **Navidad Holiday 2026** con una decisión que no ha pasado desapercibida en el sector del **marketing de lujo**. En un momento en el que muchas marcas recurren a la **inteligencia artificial** para crear sus anuncios, la casa italiana ha optado por la **animación dibujada a mano**, una técnica tradicional que recuerda al cine de animación clásico. La campaña lleva por título **Drawing Prada. Animated by Hand** y mezcla imágenes reales con ilustraciones hechas a mano para crear un cuento de invierno lleno de fantasía.
 

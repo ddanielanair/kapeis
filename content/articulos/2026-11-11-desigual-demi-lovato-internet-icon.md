@@ -10,7 +10,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/banner-2-.png
+imagen: /uploads/banner-2.jpg
 marca: Desigual x Demi Lovato
 tono: fosforito
 titulo_seo: Demi Lovato y Desigual, así es la campaña «Internet Icon»
@@ -25,6 +25,7 @@ frase_destacada: Desigual no esconde lo que internet ha dicho de Demi Lovato. Lo
 fuente_nombre: Desigual
 fuente_url: https://www.desigual.com/
 borrador: false
+alt_imagen: Demi Lovato con la camiseta blanca «Internet Icon» de Desigual
 ---
 **Desigual** ha elegido a **Demi Lovato** como protagonista de **«Internet Icon»**, su nueva campaña de invierno. La idea parte de una realidad que pocos artistas conocen tan bien como ella. Demi creció a la vez que internet, entre MySpace, YouTube y los directos de «The Demi and Selena Show», y ha pasado casi toda su vida pública bajo la mirada de la red.
 

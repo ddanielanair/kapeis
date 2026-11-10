@@ -14,10 +14,8 @@ alt_imagen: Ilustración oficial de Jason y Lucía, los protagonistas de GTA VI,
   con el skyline de Vice City al atardecer
 pie_imagen: ""
 marca: ""
-titulo_seo: "GTA VI en Barcelona: la campaña de Rockstar en los tranvías"
-descripcion_seo: Rockstar viste los tranvías de Barcelona con Jason y Lucía
-  antes del lanzamiento de GTA VI. Analizamos la estrategia de publicidad
-  exterior y qué pueden aprender las marcas.
+titulo_seo: GTA VI en Barcelona, la campaña de Rockstar en los tranvías
+descripcion_seo: Rockstar viste los tranvías de Barcelona con Jason y Lucía antes del lanzamiento de GTA VI. Así es su estrategia de publicidad exterior.
 palabras_clave: GTA VI, Rockstar Games, publicidad exterior, marketing de
   videojuegos, Barcelona, lanzamiento
 frase_destacada: No siempre hace falta vender directamente. A veces, conseguir
@@ -36,3 +34,5 @@ A eso se suman carteles con la misma ilustración en Madrid y anuncios en otros 
 *GTA V* es uno de los videojuegos más vendidos de la historia y el primer tráiler de la nueva entrega batió récords de visualizaciones en YouTube. Cuando una marca tiene ese nivel de reconocimiento, una imagen basta. No hay precio, no hay botón de compra, no hay texto que leer: solo dos personajes que el público ya identifica.
 
 GTA VI todavía no está a la venta, pero ya ocupa las calles, las pantallas y las conversaciones. Esa es la mejor señal de que la campaña está funcionando.
+
+El entretenimiento se ha convertido en una de las grandes armas del marketing, como demuestra también el [menú de Doctor Doom de KFC](/articulos/kfc-marvel-menu-doctor-doom-avengers-doomsday/).

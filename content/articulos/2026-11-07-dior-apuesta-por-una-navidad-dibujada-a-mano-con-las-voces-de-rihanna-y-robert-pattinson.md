@@ -9,7 +9,7 @@ zona: Internacional
 tipo: Noticia comentada
 portada: false
 destacada: true
-imagen: /uploads/diseño-sin-título-8-.png
+imagen: /uploads/diseno-sin-titulo-8.jpg
 tono: negro
 titulo_seo: "El anuncio de Navidad de Dior 2026 "
 descripcion_seo: "Sylvain Chomet dirige el corto navideño de Dior con las voces
@@ -21,6 +21,7 @@ frase_destacada: "Hoy hay una avalancha de contenido generado por IA, y el lujo
   se distingue mostrando el oficio y el tiempo invertido. "
 fuente_url: B&T, WWD, Nylon, Design Scene, The Telegraph India (t2online), Marketing Minute
 borrador: false
+alt_imagen: Fachada nevada de la boutique Christian Dior dibujada a mano en el corto navideño de Dior
 ---
 Para su campaña de Navidad de 2026, Dior ha optado por algo un cortometraje de animación tradicional de unos siete minutos titulado *Christian Dior's Night in Color*, dirigido por el cineasta francés Sylvain Chomet, nominado al Óscar por *Bienvenidos a Belleville* y *El ilusionista*.
 

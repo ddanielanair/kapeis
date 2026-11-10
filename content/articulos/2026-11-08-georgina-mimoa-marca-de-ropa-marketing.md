@@ -9,7 +9,7 @@ zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/diseño-sin-título-11-.png
+imagen: /uploads/diseno-sin-titulo-11.jpg
 marca: Mimoa
 tono: negro
 titulo_seo: Mimoa, la estrategia de marketing de Georgina Rodríguez
@@ -22,6 +22,7 @@ palabras_clave: Mimoa, Georgina Rodríguez, Mimoa Georgina, marca de ropa de
 frase_destacada: Mimoa tiene 444.000 seguidores en Instagram. Georgina tiene 60
   millones. El canal de la marca es ella.
 borrador: false
+alt_imagen: Georgina Rodríguez con un conjunto negro de Mimoa, rosario y bolso de Hermès a las puertas de un hotel de Nueva York
 ---
 **Mimoa** es la marca de ropa deportiva y *loungewear* de **Georgina Rodríguez**. Salió a la venta el **30 de junio de 2026** con el lema «For Every Moment», y su idea es sencilla, prendas pensadas para pasar del entrenamiento al trabajo, a la vida familiar o al descanso sin tener que cambiarse. La marca tiene sede en Dubái, se fabrica en Turquía y vende directamente en su web, sin tiendas ni distribuidores, con precios por debajo de los 125 dólares.
 
@@ -42,3 +43,5 @@ La cuenta de Instagram de Mimoa es casi mínima. Sigue a una sola cuenta, la de 
 Lo que hace Mimoa tiene nombre en marketing, ***founder-led marketing***, que la fundadora sea a la vez la cara y el canal de la marca. Georgina lo combina con **medios ganados**, es decir, aprovechar escaparates gratuitos como la Met Gala o el Mundial, con **envíos a influencers** como Antonela Roccuzzo, Lola Lolita o Marta Díaz, y con la **venta directa** en su web a todo el mundo. Cero spots y máxima visibilidad.
 
 El modelo tiene una ventaja clara, porque cada foto de Georgina es un anuncio que no cuesta nada. Pero también un riesgo, ya que la marca depende casi por completo de una sola persona. El reto de Mimoa será conseguir que la gente compre la ropa por la ropa, y no solo por quién la lleva.
+
+Mientras tanto, Cristiano Ronaldo ha dejado la selección portuguesa y [las marcas le han despedido con anuncios en tiempo récord](/articulos/cristiano-deja-la-seleccion-y-las-marcas-portuguesas-le-dicen-obrigado-en-tiempo-record/).

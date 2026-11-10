@@ -25,6 +25,7 @@ frase_destacada: En redes sociales, la creatividad que llega tarde ya no llega.
 fuente_nombre: Rolling Stone en Español
 fuente_url: https://es.rollingstone.com/cristiano-ronaldo-anuncia-su-retiro-de-la-seleccion-de-portugal/
 borrador: false
+alt_imagen: Mosaico de anuncios con los que las marcas portuguesas despiden a Cristiano Ronaldo de la selección
 ---
 **Cristiano Ronaldo** ha dicho adiós a la **selección de Portugal**. El delantero, de 41 años, anunció el jueves 5 de noviembre con un vídeo y una carta en sus redes sociales que deja la camiseta número 7 después de 23 años, 234 partidos y 146 goles, unas cifras que le convierten en el máximo goleador de la historia del fútbol de selecciones. Con Portugal ganó la Eurocopa de 2016 y dos Ligas de Naciones. Su despedida llega tras semanas de tensión con el seleccionador, Jorge Jesus, y no supone su retirada del fútbol, ya que seguirá jugando en el Al Nassr de Arabia Saudí.
 
@@ -39,3 +40,5 @@ Este fenómeno tiene nombre propio, el **marketing en tiempo real** o *real time
 Para que funcione, las marcas necesitan equipos ágiles, procesos de aprobación cortos y una idea clara que encaje con su identidad. Los mejores ejemplos del adiós de Cristiano comparten esa fórmula, ya que conectan el número 7 o la despedida con su propio producto a través del humor y los juegos de palabras. Así, un banco habla del «último movimiento», una empresa de mudanzas de los cambios para los que nunca estamos preparados y un casino de los números que quedan para la historia.
 
 La retirada de Cristiano Ronaldo demuestra que, en el **marketing digital**, la velocidad se ha convertido en una ventaja competitiva. Cuando una noticia mueve a todo un país, las marcas que saben reaccionar rápido y con creatividad consiguen visibilidad, conversación y cercanía con su público sin necesidad de grandes presupuestos.
+
+Georgina Rodríguez también sabe sacar partido a la atención mediática, como contamos en nuestro artículo sobre [Mimoa, su marca de ropa](/articulos/georgina-mimoa-marca-de-ropa-marketing/).

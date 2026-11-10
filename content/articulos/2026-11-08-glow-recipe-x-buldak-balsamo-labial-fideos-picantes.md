@@ -10,7 +10,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/diseño-sin-título-10-.png
+imagen: /uploads/diseno-sin-titulo-10.jpg
 alt_imagen: Los dos bálsamos Glow Recipe x Buldak, uno negro y otro rosa,
   sujetos con palillos sobre un plato de fideos picantes
 pie_imagen: Imagen de Glow Recipe

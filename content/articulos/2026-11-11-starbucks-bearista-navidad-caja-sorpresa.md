@@ -10,7 +10,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/banner-5-.png
+imagen: /uploads/banner-5.jpg
 marca: Starbucks Bearista
 tono: negro
 titulo_seo: Vasos Bearista de Starbucks, Navidad 2026 y el oso dorado
@@ -25,6 +25,7 @@ frase_destacada: Si no sabes qué oso te va a tocar, no compras un vaso. Compras
 fuente_nombre: Starbucks
 fuente_url: https://about.starbucks.com/press/2026/starbucks-launches-new-bearista-glass-cold-cup-surprise-box-collection-with-characters-including-rare-golden-bearista/
 borrador: false
+alt_imagen: Cuatro vasos Bearista de Navidad de Starbucks con forma de oso, con gafas de esquí, orejeras, gorro y capucha de reno
 ---
 El vaso más viral de **Starbucks** vuelve por Navidad, y esta vez con trampa. La cadena ha lanzado la **Bearista Glass Cold Cup Surprise Box Edition**, cinco vasos nuevos de cristal con forma de oso que se venden en **cajas sorpresa**, así que nadie sabe qué personaje le toca hasta que la abre. Starbucks la presenta como su lanzamiento de Bearista más grande hasta la fecha.
 

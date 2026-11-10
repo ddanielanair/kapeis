@@ -9,15 +9,16 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/diseño-sin-título-9-.png
+imagen: /uploads/diseno-sin-titulo-9.jpg
 tono: negro
-titulo_seo: "JD Sports: Navidad con Ferran Torres y Topuria"
+titulo_seo: Anuncio de Navidad de JD Sports con Ferran Torres y Topuria
 descripcion_seo: JD Sports lanza “Create The New”, su campaña navideña 2026 con
   Ferran Torres, Ilia Topuria y DJ de electrónica al ritmo de “Not Over Yet”.
 palabras_clave: JD Sports Navidad 2026, Create The New, Ferran Torres anuncio,
   Topuria JD Sports, campaña navideña moda deportiva
 fuente_nombre: " Complex, 365 Retail."
 borrador: false
+alt_imagen: Ilia Topuria y Ferran Torres con chaquetas deportivas en la campaña de Navidad de JD Sports
 ---
 Mientras muchas marcas llenan sus anuncios de chimeneas, cenas familiares y balance del año, JD Sports ha decidido mirar hacia delante. Su campaña de Navidad 2026, *Create The New*, se lanzó a nivel mundial el 6 de noviembre con un mensaje claro: el final del año no es para bajar el ritmo, sino para preparar el siguiente movimiento. El lema lo resume: "No es el final. Es un calentamiento".
 

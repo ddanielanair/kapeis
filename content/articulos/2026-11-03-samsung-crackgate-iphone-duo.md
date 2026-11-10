@@ -9,7 +9,7 @@ tipo: Artículo propio
 imagen: /uploads/samsung.jpg
 alt_imagen: Una mano sostiene un iPhone Duo medio plegado
 marca: ""
-titulo_seo: "Samsung se burla del crackgate del iPhone Duo: el anuncio"
+titulo_seo: Samsung se burla del crackgate del iPhone Duo en su anuncio
 descripcion_seo: El iPhone Duo llega con pantallas agrietadas y Samsung lo
   convierte en anuncio en días. Analizamos la campaña y las claves de la
   publicidad comparativa.
@@ -32,3 +32,5 @@ En paralelo, Samsung Canadá publicó en Instagram una serie de imágenes con un
 No hay que explicar que ha sido una tirada por parte de Samsung que todo el mundo entiende porque se sabe de qué manzana se habla, sin necesidad de nombrar a Apple. 
 
 En **España y en el resto de la Unión Europea la publicidad comparativa está permitida**, pero con condiciones ya que debe comparar productos equivalentes, basarse en características objetivas y verificables y no desacreditar al competidor. **El humor ayuda a que la pieza se perciba como una broma y no como un ataque, pero también obliga a medir bien hasta dónde llegar.**
+
+La tecnología también busca diferenciarse por la vía emocional, como Sony con sus [auriculares de Hello Kitty](/articulos/sony-hello-kitty-auriculares-sanrio/).

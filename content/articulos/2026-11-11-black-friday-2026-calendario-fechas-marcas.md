@@ -9,7 +9,7 @@ zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/banner-7-.png
+imagen: /uploads/banner-7.jpg
 marca: Black Friday 2026
 tono: negro
 titulo_seo: Black Friday 2026, fechas y calendario por tiendas en España
@@ -25,6 +25,7 @@ frase_destacada: El Black Friday ya no es un día de descuentos. Es una carrera
 fuente_nombre: Merca2
 fuente_url: https://www.merca2.es/2026/11/10/black-friday-2026-fecha-inicio-2502000/
 borrador: false
+alt_imagen: Fondo con las palabras «black friday» repetidas en negro y amarillo
 ---
 El **Black Friday 2026** se celebra el **viernes 27 de noviembre**, el día después de Acción de Gracias en Estados Unidos, y el **Cyber Monday** llega el **lunes 30**. Pero esas fechas ya solo sirven de referencia. En España, cada marca ha construido su propio calendario, y algunas llevan casi un mes de descuentos cuando todavía faltan dos semanas para el día señalado.
 

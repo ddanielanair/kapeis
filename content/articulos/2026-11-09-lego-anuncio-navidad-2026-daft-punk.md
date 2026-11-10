@@ -10,7 +10,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/diseño-sin-título-25-.png
+imagen: /uploads/diseno-sin-titulo-25.jpg
 marca: LEGO x Daft Punk
 tono: fosforito
 titulo_seo: Anuncio de Navidad de LEGO 2026 con Daft Punk y E.T.
@@ -26,6 +26,7 @@ frase_destacada: LEGO no vende piezas, vende el rato de construir juntos, y su
 fuente_nombre: Variety
 fuente_url: https://variety.com/2026/shopping/news/lego-holiday-campaign-daft-punk-kpop-demon-hunters-1236940793/
 borrador: false
+alt_imagen: Fotograma del anuncio de Navidad de LEGO con decenas de minifiguras y personajes en el taller secreto
 ---
 **LEGO** ya tiene anuncio de Navidad y viene con banda sonora de fiesta. Su campaña global de este año, **«The LEGO Holiday Workshop»**, es una película de **74 segundos** que suena al ritmo de **«One More Time»**, el éxito que **Daft Punk** publicó en el año 2000. La dirige **Michael Gracey**, el director de «El gran showman» y «Better Man».
 

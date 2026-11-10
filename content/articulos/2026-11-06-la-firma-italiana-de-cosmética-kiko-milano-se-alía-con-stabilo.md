@@ -8,7 +8,7 @@ zona: España
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/diseño-sin-título-6-.png
+imagen: /uploads/diseno-sin-titulo-6.jpg
 alt_imagen: Modelo sujeta junto a sus labios dos perfiladores STABILO x KIKO Milano Lip Mark(er), uno nude y otro rosa
 tono: negro
 titulo_seo: "Perfilador KIKO x STABILO, precio, tonos y dónde comprarlo"
@@ -44,3 +44,5 @@ El Lip Mark(er) se vende en la **web oficial de KIKO Milano** y en sus tiendas. 
 Al ser una **edición limitada**, no está garantizado que se reponga en todos los colores.
 
 STABILO no es nueva en la belleza, ya que se había aliado con Sephora en 2020. Pero aquí el acierto está en el objeto. Un subrayador es algo que casi todo el mundo ha tenido en el estuche o en la oficina, y convertirlo en maquillaje lo hace reconocible al instante, muy fotografiable y perfecto para redes. Si le sumas un precio de capricho, una edición limitada y la temporada de regalos, el resultado es el que se ve en la web de KIKO, **agotado en pocos días**.
+
+Otras marcas de belleza también han apostado por colaboraciones inesperadas estas semanas, como [Glow Recipe con los fideos Buldak](/articulos/glow-recipe-x-buldak-balsamo-labial-fideos-picantes/) o [Clinique con Barbie](/articulos/clinique-barbie-double-cleanse/).

@@ -10,7 +10,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/banner-3-.png
+imagen: /uploads/banner-3.jpg
 marca: Clinique x Barbie
 tono: fosforito
 titulo_seo: Clinique x Barbie, precio y dónde comprar el estuche
@@ -25,6 +25,7 @@ frase_destacada: Barbie no necesita teñir de rosa un producto para venderlo. Le
 fuente_nombre: Marketing Directo
 fuente_url: https://www.marketingdirecto.com/anunciantes-general/barbie-suma-universo-beauty-clinique
 borrador: false
+alt_imagen: Estuche Double Cleanse & Barbie de Clinique con el neceser lila de Barbie, el bálsamo y la mousse Take The Day Off
 ---
 **Barbie** amplía su mundo al cuidado de la piel de la mano de **Clinique**. La muñeca de Mattel y la marca de cosmética de Estée Lauder han lanzado **«Double Cleanse & Barbie»**, un estuche de **edición limitada** pensado para la **doble limpieza**, el gesto con el que empieza cualquier rutina de *skincare* y que consiste en limpiar la piel dos veces, primero con un producto oleoso y después con uno acuoso.
 

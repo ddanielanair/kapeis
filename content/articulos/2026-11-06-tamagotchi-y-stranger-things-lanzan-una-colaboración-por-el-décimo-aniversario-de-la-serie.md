@@ -39,3 +39,5 @@ Mientras tanto, la única forma de conseguirlo desde España es **importarlo de 
 Los dos productos apelan a la **nostalgia**, pero de públicos que se cruzan. Stranger Things enganchó a una generación con la estética de los ochenta, y el Tamagotchi, que Bandai lanzó en Japón en noviembre de 1996, fue el juguete que esa misma generación (y la siguiente) llevaba colgado de la mochila.
 
 La jugada también tiene lógica para Netflix. Una serie que ya no tiene temporadas que estrenar necesita seguir presente en la vida de sus fans hasta que lleguen los nuevos proyectos, y un llavero que se cuida cada día es una forma muy eficaz de conseguirlo. Para Bandai, cada colaboración con una gran marca (antes lo hizo con PAC-MAN, por ejemplo) mantiene vivo un juguete con treinta años de historia.
+
+Otra colaboración con un icono japonés que está arrasando estos días es la de [Sony y Hello Kitty](/articulos/sony-hello-kitty-auriculares-sanrio/).

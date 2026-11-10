@@ -9,7 +9,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/diseño-sin-título-26-.png
+imagen: /uploads/diseno-sin-titulo-26.jpg
 marca: Sony x Hello Kitty
 tono: fosforito
 titulo_seo: Auriculares Sony Hello Kitty en España, precio y modelos
@@ -20,6 +20,7 @@ frase_destacada: Los auriculares son los mismos de siempre. Lo que cambia, y lo
 fuente_nombre: Sony Store España
 fuente_url: https://www.sony.es/store/product/whm6totekit.eu/WH-1000XM6-7C-Hello-Kitty
 borrador: false
+alt_imagen: Funda negra de Hello Kitty con orejas y lazo para los auriculares Sony, cerrada y abierta
 ---
 **Sony** y **Sanrio** se han aliado por primera vez para lanzar una colección de **auriculares de Hello Kitty** de edición limitada. No son modelos nuevos, sino tres auriculares inalámbricos que Sony ya vendía, el sencillo **WH-CH530**, el intermedio **WH-CH730N** y el **WH-1000XM6**, su modelo estrella con cancelación de ruido, ahora en versiones especiales en **rosa** y **negro**.
 
