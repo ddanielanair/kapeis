@@ -1,18 +1,28 @@
 ---
-titulo: STABILO y Pantone convierten los subrayadores en un objeto de diseño con 30 colores
-entradilla: Las dos marcas que mejor conocen el color se alían por primera vez en un set de escritorio de edición limitada, con 30 STABILO BOSS ORIGINAL que llevan impreso su número Pantone.
+titulo: STABILO y Pantone convierten los subrayadores en un objeto de diseño con
+  30 colores
+entradilla: Las dos marcas que mejor conocen el color se alían por primera vez
+  en un set de escritorio de edición limitada, con 30 STABILO BOSS ORIGINAL que
+  llevan impreso su número Pantone.
 fecha: 2026-11-11 10:55
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/banner-10-.png
 marca: STABILO x Pantone
 tono: fosforito
 titulo_seo: STABILO x Pantone, precio y colores del set de subrayadores
-descripcion_seo: STABILO y Pantone lanzan un set de edición limitada con 30 subrayadores BOSS ORIGINAL con su número Pantone. Precio, colores y dónde comprarlo en España.
-palabras_clave: STABILO Pantone, STABILO x Pantone, STABILO BOSS ORIGINAL x PANTONE, subrayadores Pantone, set STABILO 30 colores, STABILO Pantone precio, STABILO colaboraciones, papelería de diseño
-frase_destacada: STABILO ha entendido que su subrayador ya no es solo un material de oficina, es un icono, y los iconos se pueden vestir de muchas formas.
+descripcion_seo: STABILO y Pantone lanzan un set de edición limitada con 30
+  subrayadores BOSS ORIGINAL con su número Pantone. Precio, colores y dónde
+  comprarlo en España.
+palabras_clave: STABILO Pantone, STABILO x Pantone, STABILO BOSS ORIGINAL x
+  PANTONE, subrayadores Pantone, set STABILO 30 colores, STABILO Pantone precio,
+  STABILO colaboraciones, papelería de diseño
+frase_destacada: STABILO ha entendido que su subrayador ya no es solo un
+  material de oficina, es un icono, y los iconos se pueden vestir de muchas
+  formas.
 fuente_nombre: STABILO
 fuente_url: https://www.stabilo.com/es/stabilo-boss-original-x-pantone/70-30-6
 borrador: false
