@@ -4,6 +4,7 @@ entradilla: De la Lotería a LEGO, pasando por Disney, Prada o Primark. Reunimos
   los anuncios y campañas de Navidad de este año, con quién los firma y qué
   cuentan, y vamos sumando los nuevos según se estrenan.
 fecha: 2026-11-11 01:30
+actualizado: 2026-11-11 20:55
 seccion: Marketing
 zona: España
 tipo: Artículo propio
@@ -32,6 +33,7 @@ Estos son los anuncios de Navidad de las marcas en España.
 
 - **Lotería de Navidad, «Corazonada».** El anuncio más esperado del año cuenta la historia de Edu, un hombre que recibe un trasplante de corazón y descubre a quién pertenecía a través de un décimo. Lo firma Proximity Madrid, lo dirige Gonzaga Manso y se rodó en Santander. [Leer la noticia](/articulos/anuncio-loteria-navidad-2026-corazonada/).
 - **JD Sports, «Create The New».** La cadena de moda deportiva convierte la Navidad en un calentamiento con el futbolista Ferran Torres y el luchador Ilia Topuria, al ritmo del clásico «Not Over Yet». [Leer la noticia](/articulos/jd-sports-convierte-la-navidad-en-un-calentamiento-con-ferran-torres-e-ilia-topuria/).
+- **Suchard, «Vecinos de la calle Navidad».** Fernando Tejero hace de portero de una comunidad de vecinos en la que conviven personas reales y las marionetas de la marca, en tres anuncios firmados por Ogilvy. [Leer la noticia](/articulos/anuncio-suchard-navidad-2026-fernando-tejero/).
 - **Primark, «Style Your Season».** La campaña ocupa los escaparates de más de 500 tiendas en todo el mundo y pone el foco en los precios asequibles, con su mayor colección de pijamas navideños hasta la fecha, pensada para toda la familia e incluso para las mascotas.
 
 Y estos son los anuncios de Navidad de las marcas internacionales.
