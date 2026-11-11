@@ -9,6 +9,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/blt691e598d84db744d-75456_box1_v29.png
 marca: Calendarios de adviento
 tono: negro
 titulo_seo: Calendarios de adviento de series para la Navidad 2026
