@@ -46,3 +46,5 @@ Al ser una **edición limitada**, no está garantizado que se reponga en todos l
 STABILO no es nueva en la belleza, ya que se había aliado con Sephora en 2020. Pero aquí el acierto está en el objeto. Un subrayador es algo que casi todo el mundo ha tenido en el estuche o en la oficina, y convertirlo en maquillaje lo hace reconocible al instante, muy fotografiable y perfecto para redes. Si le sumas un precio de capricho, una edición limitada y la temporada de regalos, el resultado es el que se ve en la web de KIKO, **agotado en pocos días**.
 
 Otras marcas de belleza también han apostado por colaboraciones inesperadas estas semanas, como [Glow Recipe con los fideos Buldak](/articulos/glow-recipe-x-buldak-balsamo-labial-fideos-picantes/) o [Clinique con Barbie](/articulos/clinique-barbie-double-cleanse/).
+
+Y STABILO no para. Su último lanzamiento es un [set de 30 subrayadores con Pantone](/articulos/stabilo-pantone-set-subrayadores/) que convierte su clásico en un objeto de diseño.
