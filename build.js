@@ -81,7 +81,7 @@ function parseFrontmatter(raw) {
 // ---------- markdown mínimo ----------
 function inline(s) {
   let t = esc(s);
-  t = t.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, '<img src="$2" alt="$1" loading="lazy">');
+  t = t.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+&quot;[^)]*&quot;)?\)/g, '<img src="$2" alt="$1" loading="lazy">');
   t = t.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (all, txt, url) => {
     const ext = /^https?:/.test(url) && !url.startsWith(SITE_URL);
     return `<a href="${url}"${ext ? ' target="_blank" rel="noopener"' : ''}>${txt}</a>`;
@@ -96,6 +96,8 @@ function markdown(md) {
   return blocks.map((b) => {
     b = b.trim();
     if (!b) return '';
+    const foto = b.match(/^!\[([^\]]*)\]\((\S+?)(?:\s+"([^"]*)")?\)$/);
+    if (foto) return `<figure class="body-figure"><img src="${esc(foto[2])}" alt="${esc(foto[1])}" loading="lazy" decoding="async">${foto[3] ? `<figcaption>${esc(foto[3])}</figcaption>` : ''}</figure>`;
     let h = b.match(/^(#{2,4})\s+(.*)$/);
     if (h) { const n = Math.max(2, h[1].length); return `<h${n}>${inline(h[2])}</h${n}>`; }
     if (/^>\s?/.test(b)) return `<blockquote><p>${inline(b.replace(/^>\s?/gm, ''))}</p></blockquote>`;
@@ -635,7 +637,7 @@ function sitemap(rutas) {
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${rutas.map((r) => {
     const a = articulos.find((x) => x.url === r);
     const lm = lastmod(r);
-    return `<url><loc>${SITE_URL}${encodeURI(r)}</loc>${lm && !isNaN(lm) ? `<lastmod>${lm.toISOString()}</lastmod>` : ''}${a && a.imagen ? `<image:image><image:loc>${esc(encodeURI(absUrl(a.imagen)))}</image:loc></image:image>` : ''}</url>`;
+    return `<url><loc>${SITE_URL}${encodeURI(r)}</loc>${lm && !isNaN(lm) ? `<lastmod>${lm.toISOString()}</lastmod>` : ''}${a ? [a.imagen, ...[...String(a.body || '').matchAll(/!\[[^\]]*\]\((\S+?)(?:\s+"[^"]*")?\)/g)].map((x) => x[1])].filter(Boolean).map((im) => `<image:image><image:loc>${esc(encodeURI(absUrl(im)))}</image:loc></image:image>`).join('') : ''}</url>`;
   }).join('')}</urlset>`;
 }
 // Google News solo quiere lo publicado en los últimos 2 días.

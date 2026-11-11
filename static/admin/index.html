@@ -9,5 +9,25 @@
 </head>
 <body>
 <script src="https://unpkg.com/decap-cms@^3.6.0/dist/decap-cms.js"></script>
+<script>
+// Botón «Foto» dentro del texto: imagen + descripción (para Google) + pie de foto.
+CMS.registerEditorComponent({
+  id: 'foto',
+  label: 'Foto',
+  fields: [
+    { name: 'imagen', label: 'Imagen', widget: 'image' },
+    { name: 'alt', label: 'Descripción de la imagen (qué se ve, para Google)', widget: 'string' },
+    { name: 'pie', label: 'Pie de foto (opcional, p. ej. «Imagen: KFC»)', widget: 'string', required: false }
+  ],
+  pattern: /^!\[([^\]]*)\]\((\S+?)(?:\s+"([^"]*)")?\)$/ms,
+  fromBlock: (m) => ({ alt: m[1], imagen: m[2], pie: m[3] || '' }),
+  toBlock: (d) => {
+    const alt = (d.alt || '').replace(/[\[\]]/g, '');
+    const pie = (d.pie || '').replace(/"/g, '”');
+    return `![${alt}](${d.imagen || ''}${pie ? ` "${pie}"` : ''})`;
+  },
+  toPreview: (d) => `<figure style="margin:0"><img src="${d.imagen || ''}" alt="${d.alt || ''}" style="max-width:100%">${d.pie ? `<figcaption style="font-size:13px;color:#666">${d.pie}</figcaption>` : ''}</figure>`
+});
+</script>
 </body>
 </html>
