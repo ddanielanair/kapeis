@@ -12,10 +12,8 @@ destacada: false
 imagen: /uploads/diseno-sin-titulo-11.jpg
 marca: Mimoa
 tono: negro
-titulo_seo: Mimoa, la estrategia de marketing de Georgina Rodríguez
-descripcion_seo: Georgina Rodríguez lanzó Mimoa sin anuncios ni grandes
-  campañas. Así ha usado su imagen, la Met Gala y el Mundial para dar a conocer
-  su marca de ropa.
+titulo_seo: "Mimoa, la marca de ropa de Georgina, precios y dónde comprar"
+descripcion_seo: "Mimoa es la marca de ropa deportiva de Georgina Rodríguez. Precios por debajo de 125 dólares, venta solo en su web y una estrategia sin anuncios."
 palabras_clave: Mimoa, Georgina Rodríguez, Mimoa Georgina, marca de ropa de
   Georgina, founder-led marketing, marketing de influencers, ropa deportiva,
   loungewear, marcas de celebridades

@@ -12,7 +12,7 @@ destacada: false
 imagen: /uploads/banner.jpg
 marca: IKEA x LEGO
 tono: fosforito
-titulo_seo: IKEA x LEGO, la colección ficticia que querrías comprar
+titulo_seo: "IKEA x LEGO, la colaboración viral que no existe"
 descripcion_seo: The Missing Drop Studio imagina con IA una colección de IKEA y
   LEGO con lámparas, despertadores y vasos apilables. Ninguna de las dos marcas
   participa.

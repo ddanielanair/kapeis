@@ -13,17 +13,15 @@ alt_imagen: Logotipo de Netflix junto al trofeo de la Copa Mundial de la FIFA
 pie_imagen: "Imagen: Netflix"
 marca: Netflix
 tono: fosforito
-titulo_seo: Netflix y el Mundial 2030, qué cambia para las marcas
-descripcion_seo: Netflix emitirá los 104 partidos del Mundial 2030 en España.
-  Explicamos el acuerdo, qué se verá gratis y qué supone para la publicidad y
-  las marcas.
-palabras_clave: Netflix, Mundial 2030, derechos deportivos, streaming,
-  publicidad, marketing deportivo
+titulo_seo: "Mundial 2030 en Netflix, cómo se verá en España"
+descripcion_seo: "Netflix emitirá en exclusiva los 104 partidos del Mundial 2030 en España y Andorra. Qué se verá gratis y qué cambia para la publicidad y las marcas."
+palabras_clave: "Mundial 2030 Netflix, dónde ver el Mundial 2030, Netflix Mundial 2030 España, Mundial 2030 gratis, derechos deportivos, streaming"
 frase_destacada: Donde se juntan millones de personas a la vez, ahí quieren estar las marcas.
 ---
-> Una plataforma digital ofrece datos mucho más precisos sobre quién ve qué, cuándo y en qué dispositivo. Eso abre la puerta a campañas más segmentadas que las de la televisión tradicional.
 
 El Mundial de 2030 se jugará en casa y se verá, sobre todo, en Netflix. La plataforma anunció el 13 de octubre de 2026 que ha adquirido los **derechos audiovisuales exclusivos del torneo para España y Andorra**, en uno de los movimientos más relevantes de los últimos años en el mercado de los derechos deportivos en nuestro país.
+
+> Una plataforma digital ofrece datos mucho más precisos sobre quién ve qué, cuándo y en qué dispositivo. Eso abre la puerta a campañas más segmentadas que las de la televisión tradicional.
 
 **Netflix ha decidido jugar en una nueva liga**. La compañía ha anunciado un acuerdo para emitir en exclusiva los **104 partidos del Mundial de Fútbol 2030 en España y Andorra**, una competición especialmente simbólica porque coincidirá con el centenario de la Copa del Mundo.
 

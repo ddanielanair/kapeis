@@ -13,7 +13,7 @@ destacada: false
 imagen: /uploads/banner-5.jpg
 marca: Starbucks Bearista
 tono: negro
-titulo_seo: Vasos Bearista de Starbucks, Navidad 2026 y el oso dorado
+titulo_seo: "Vaso oso Bearista de Starbucks, precio y si llega a España"
 descripcion_seo: Starbucks lanza cinco vasos Bearista de Navidad en cajas
   sorpresa por 39,95 dólares, con un oso dorado muy raro. Cómo son, precio y si
   llegarán a España.

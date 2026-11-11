@@ -11,7 +11,7 @@ portada: false
 destacada: true
 imagen: /uploads/diseno-sin-titulo-8.jpg
 tono: negro
-titulo_seo: "El anuncio de Navidad de Dior 2026 "
+titulo_seo: "Anuncio de Navidad de Dior 2026 con Rihanna y Pattinson"
 descripcion_seo: "Sylvain Chomet dirige el corto navideño de Dior con las voces
   de Rihanna y Robert Pattinson. Se presenta como hecho a mano, pero en redes
   hay quien ve IA. "

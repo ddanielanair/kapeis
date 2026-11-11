@@ -9,17 +9,15 @@ tipo: Artículo propio
 imagen: /uploads/samsung.jpg
 alt_imagen: Una mano sostiene un iPhone Duo medio plegado
 marca: ""
-titulo_seo: Samsung se burla del crackgate del iPhone Duo en su anuncio
-descripcion_seo: El iPhone Duo llega con pantallas agrietadas y Samsung lo
-  convierte en anuncio en días. Analizamos la campaña y las claves de la
-  publicidad comparativa.
-palabras_clave: Samsung, iPhone Duo, crackgate, publicidad comparativa,
-  marketing en tiempo real, Galaxy Z Fold
+titulo_seo: "Pantalla rota del iPhone Duo, el anuncio de Samsung"
+descripcion_seo: "La pantalla interior del iPhone Duo se agrieta en la bisagra y Samsung lo ha convertido en anuncio en días. Qué es el crackgate y qué ha dicho Apple."
+palabras_clave: "iPhone Duo pantalla rota, iPhone Duo pantalla agrietada, crackgate iPhone Duo, anuncio Samsung iPhone, Samsung, publicidad comparativa"
 frase_destacada: En publicidad comparativa, la velocidad vale tanto como la idea.
 ---
-> Ten preparado el «sí» antes de que llegue la oportunidad porque un equipo pequeño con capacidad de decisión y un proceso de aprobación corto son la diferencia entre llegar a tiempo o tarde. **Cuando la competencia tropieza, no hay tiempo para tres reuniones.** 
 
 Hay campañas que se planifican durante meses y otras que nacen de un titular. La última de Samsung pertenece claramente al segundo grupo, *marketing en tiempo real.* 
+
+> Ten preparado el «sí» antes de que llegue la oportunidad porque un equipo pequeño con capacidad de decisión y un proceso de aprobación corto son la diferencia entre llegar a tiempo o tarde. **Cuando la competencia tropieza, no hay tiempo para tres reuniones.** 
 
 El 23 de octubre de 2026 Apple puso a la venta el iPhone Duo, su primer móvil plegable, con un precio de partida de 1.999 dólares en Estados Unidos. A los pocos días empezaron a multiplicarse en redes las quejas de usuarios con la pantalla interior agrietada justo en la zona de la bisagra, donde aparecía una línea brillante.
 

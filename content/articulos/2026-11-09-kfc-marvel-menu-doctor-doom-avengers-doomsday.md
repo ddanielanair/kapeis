@@ -13,7 +13,7 @@ destacada: false
 imagen: /uploads/diseno-sin-titulo-12.jpg
 marca: KFC x Marvel
 tono: negro
-titulo_seo: KFC y Marvel lanzan el menú de Doctor Doom
+titulo_seo: "Menú Doctor Doom de KFC, así es la Doom Burger de Marvel"
 descripcion_seo: KFC lanza un menú de Doctor Doom por el estreno de «Avengers
   Doomsday», con la Doom Burger de pan negro, salsas verdes y figuras del
   Coronel. Así es.

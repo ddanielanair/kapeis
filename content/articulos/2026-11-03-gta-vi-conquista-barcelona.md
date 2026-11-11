@@ -14,16 +14,16 @@ alt_imagen: Ilustración oficial de Jason y Lucía, los protagonistas de GTA VI,
   con el skyline de Vice City al atardecer
 pie_imagen: ""
 marca: ""
-titulo_seo: GTA VI en Barcelona, la campaña de Rockstar en los tranvías
-descripcion_seo: Rockstar viste los tranvías de Barcelona con Jason y Lucía antes del lanzamiento de GTA VI. Así es su estrategia de publicidad exterior.
-palabras_clave: GTA VI, Rockstar Games, publicidad exterior, marketing de
-  videojuegos, Barcelona, lanzamiento
+titulo_seo: "GTA 6 en Barcelona, los tranvías de Jason y Lucía"
+descripcion_seo: "Los tranvías de Barcelona lucen a Jason y Lucía de GTA 6 antes del lanzamiento del 19 de noviembre de 2026. Así es la campaña de Rockstar en la calle."
+palabras_clave: "GTA 6 Barcelona, GTA VI Barcelona, tranvía GTA 6, GTA 6 fecha de lanzamiento, Rockstar Games, publicidad exterior"
 frase_destacada: No siempre hace falta vender directamente. A veces, conseguir
   que todo el mundo hable de tu próximo lanzamiento es la mejor publicidad.
 ---
-> Si tu público ya conoce tu marca o tu producto, no lo expliques todo. Un elemento muy reconocible genera más curiosidad que un texto largo
 
 *Grand Theft Auto VI* llega a las tiendas el 19 de noviembre de 2026 para PlayStation 5 y Xbox Series X|S, y Rockstar Games ha decidido que la cuenta atrás también se viva en la calle. **Desde principios de noviembre, el Tram de Barcelona circula vestido con la imagen de Jason y Lucía, la pareja protagonista del juego.**
+
+> Si tu público ya conoce tu marca o tu producto, no lo expliques todo. Un elemento muy reconocible genera más curiosidad que un texto largo
 
 Los vídeos de los tranvías empezaron a circular en redes la misma noche en que aparecieron, y en pocas horas ya estaban en medios de videojuegos y de marketing. Ese era, precisamente, el objetivo y Barcelona no es una elección casual. 
 
