@@ -1,18 +1,26 @@
 ---
 titulo: Fernando Tejero se hace portero en el anuncio de Navidad de Suchard
-entradilla: La marca de turrones convierte su campaña navideña en una comunidad de vecinos, con tres anuncios que mezclan personas reales y las marionetas del año pasado, y un portero que conoce todos los secretos del edificio.
+entradilla: La marca de turrones convierte su campaña navideña en una comunidad
+  de vecinos, con tres anuncios que mezclan personas reales y las marionetas del
+  año pasado, y un portero que conoce todos los secretos del edificio.
 fecha: 2026-11-11 20:55
 seccion: Marketing
 zona: España
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/images-3-.jpeg
 marca: Suchard
 tono: fosforito
 titulo_seo: Anuncio de Suchard Navidad 2026 con Fernando Tejero
-descripcion_seo: Fernando Tejero es el portero de «Vecinos de la calle Navidad», el anuncio de Suchard 2026 creado por Ogilvy. Así son los spots, el turrón Biscoff y el sorteo.
-palabras_clave: anuncio Suchard 2026, anuncio Suchard Navidad, Fernando Tejero Suchard, Vecinos de la calle Navidad, turrón Suchard Biscoff, sorteo Suchard, Ogilvy Suchard, anuncios de Navidad 2026
-frase_destacada: No hay una sola forma de vivir la Navidad, y Suchard ha decidido meterlas todas en el mismo edificio.
+descripcion_seo: Fernando Tejero es el portero de «Vecinos de la calle Navidad»,
+  el anuncio de Suchard 2026 creado por Ogilvy. Así son los spots, el turrón
+  Biscoff y el sorteo.
+palabras_clave: anuncio Suchard 2026, anuncio Suchard Navidad, Fernando Tejero
+  Suchard, Vecinos de la calle Navidad, turrón Suchard Biscoff, sorteo Suchard,
+  Ogilvy Suchard, anuncios de Navidad 2026
+frase_destacada: No hay una sola forma de vivir la Navidad, y Suchard ha
+  decidido meterlas todas en el mismo edificio.
 fuente_nombre: Marketing Directo
 fuente_url: https://www.marketingdirecto.com/campanas-navidenas/suchard-celebra-navidad-tres-historias-fernando-tejero-como-portero
 borrador: false
