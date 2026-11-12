@@ -168,7 +168,7 @@ ${SEARCH_ICON(16)}
 </div>`;
   return `<header class="site-header">
 <div class="topbar"><div class="wrap topbar-row">
-<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>${ajustes.instagram ? `<span class="tb-redes"><span class="tb-obra">Redes en construcción <span class="tb-emoji" aria-hidden="true">🚧</span></span><a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">Síguenos y ayúdanos a levantarlas</a></span>` : ''}</span>
+<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a>${ajustes.email_colaboracion ? `<a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>` : ''}${ajustes.instagram ? `<span class="tb-redes"><span class="tb-obra">Redes en construcción <span class="tb-emoji" aria-hidden="true">🚧</span></span><a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">Síguenos y ayúdanos a levantarlas</a></span>` : ''}</span>
 </div></div>
 <div class="wrap header-row">
 <a class="logo-link" href="/" aria-label="Kapeís, ir a la portada">${LOGO('sm')}</a>
@@ -282,8 +282,8 @@ ${body}
 <section class="contact-band" aria-label="Contacto">
 <div class="wrap contact-band-row">
 <p class="contact-band-title">¿Tienes algo que contarnos?</p>
-<p class="contact-band-item"><span>Información</span><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a></p>
-<p class="contact-band-item"><span>Colaboraciones y prensa</span><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a></p>
+<p class="contact-band-item"><span>Escríbenos</span><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a></p>
+${ajustes.email_colaboracion ? `<p class="contact-band-item"><span>Colaboraciones y prensa</span><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a></p>` : ''}
 ${ajustes.instagram ? `<p class="contact-band-item"><span>Síguenos en Instagram</span><a class="ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">${IG_ICON}@kapeis.es</a></p>` : ''}
 ${ajustes.tiktok ? `<p class="contact-band-item"><span>Síguenos en TikTok</span><a class="ig" href="${esc(ajustes.tiktok)}" target="_blank" rel="noopener">${TT_ICON}@kapeis.es</a></p>` : ''}
 </div>

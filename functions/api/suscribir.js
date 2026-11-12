@@ -35,7 +35,7 @@ async function groupId(env) {
 export async function onRequest({ request, env }) {
   if (request.method !== 'POST') return json(405, { ok: false, mensaje: 'Método no permitido.' });
   if (!env.MAILRELAY_ACCOUNT || !env.MAILRELAY_API_KEY) {
-    return json(500, { ok: false, mensaje: 'La newsletter aún no está configurada. Escríbenos a info@kapeis.es.' });
+    return json(500, { ok: false, mensaje: 'La newsletter aún no está configurada. Escríbenos a somos@kapeis.es.' });
   }
 
   const ctype = request.headers.get('content-type') || '';

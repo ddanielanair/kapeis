@@ -70,8 +70,8 @@ collections:
         fields:
           - { label: "Descripción de la revista", name: descripcion, widget: text }
           - { label: "Responsable (aviso legal)", name: responsable, widget: string }
-          - { label: "Email de información", name: email_info, widget: string }
-          - { label: "Email de colaboraciones", name: email_colaboracion, widget: string }
+          - { label: "Email de contacto", name: email_info, widget: string }
+          - { label: "Email de colaboraciones (opcional)", name: email_colaboracion, widget: string, required: false, hint: "Déjalo vacío si todo va al email de contacto." }
           - { label: "Instagram (enlace)", name: instagram, widget: string, required: false }
           - { label: "TikTok (enlace)", name: tiktok, widget: string, required: false }
           - { label: "Mostrar el formulario de la newsletter", name: newsletter_activa, widget: boolean, default: true }

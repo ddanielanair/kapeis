@@ -52,7 +52,7 @@
   var s = document.querySelector('[data-sus]');
   if (s && /error=1/.test(location.search)) {
     s.querySelector('[data-ok]').textContent = 'Algo no ha ido bien';
-    s.querySelector('[data-ok-text]').textContent = 'No hemos podido apuntarte. Revisa el email y vuelve a intentarlo, o escríbenos a info@kapeis.es.';
+    s.querySelector('[data-ok-text]').textContent = 'No hemos podido apuntarte. Revisa el email y vuelve a intentarlo, o escríbenos a somos@kapeis.es.';
   }
 })();
 
