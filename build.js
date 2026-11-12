@@ -64,6 +64,17 @@ function parseFrontmatter(raw) {
       const parts = [val];
       while (i + 1 < lines.length && /^\s+\S/.test(lines[i + 1])) parts.push(lines[++i].trim());
       val = parts.join(' ');
+    } else if (/^["']/.test(val) && !new RegExp(val[0] + '\\s*$').test(val.slice(1))) {
+      // texto entre comillas partido en varias líneas (también lo guarda así el panel)
+      const q = val[0];
+      const parts = [val.slice(1)];
+      while (i + 1 < lines.length && /^\s+\S/.test(lines[i + 1])) {
+        const nxt = lines[++i].trim();
+        parts.push(nxt);
+        if (new RegExp(q + '\\s*$').test(nxt)) break;
+      }
+      val = parts.join(' ').replace(new RegExp(q + '\\s*$'), '');
+      val = q === '"' ? val.replace(/\\"/g, '"').replace(/\\\\/g, '\\') : val.replace(/''/g, "'");
     } else if (/^".*"$/.test(val)) {
       val = val.slice(1, -1).replace(/\\"/g, '"').replace(/\\\\/g, '\\');
     } else if (/^'.*'$/.test(val)) {
@@ -246,8 +257,43 @@ const ldScript = (obj) => `<script type="application/ld+json">${JSON.stringify(o
 const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacion', name: 'Kapeís', url: SITE_URL + '/', logo: { '@type': 'ImageObject', url: LOGO_PNG, width: 512, height: 512 }, email: ajustes.email_info, ...([ajustes.instagram, ajustes.tiktok].filter(Boolean).length ? { sameAs: [ajustes.instagram, ajustes.tiktok].filter(Boolean) } : {}) };
 const migas = (items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE_URL + url })) });
 
+// ---------- medidas de imágenes (para que la página no «salte» al cargar: mejora Core Web Vitals) ----------
+const _sizes = {};
+function imgSize(src) {
+  if (!src || !src.startsWith('/uploads/')) return null;
+  if (src in _sizes) return _sizes[src];
+  let out = null;
+  try {
+    const b = fs.readFileSync(path.join(ROOT, 'static', decodeURIComponent(src)));
+    if (b[0] === 0x89 && b.toString('ascii', 1, 4) === 'PNG') out = { w: b.readUInt32BE(16), h: b.readUInt32BE(20) };
+    else if (b[0] === 0xff && b[1] === 0xd8) {
+      let i = 2;
+      while (i < b.length) {
+        if (b[i] !== 0xff) { i++; continue; }
+        const m = b[i + 1], len = b.readUInt16BE(i + 2);
+        if ((m >= 0xc0 && m <= 0xc3) || (m >= 0xc5 && m <= 0xc7) || (m >= 0xc9 && m <= 0xcb) || (m >= 0xcd && m <= 0xcf)) { out = { h: b.readUInt16BE(i + 5), w: b.readUInt16BE(i + 7) }; break; }
+        i += 2 + len;
+      }
+    } else if (b.toString('ascii', 0, 4) === 'RIFF' && b.toString('ascii', 8, 12) === 'WEBP') {
+      const t = b.toString('ascii', 12, 16);
+      if (t === 'VP8 ') out = { w: b.readUInt16LE(26) & 0x3fff, h: b.readUInt16LE(28) & 0x3fff };
+      else if (t === 'VP8L') { const n = b.readUInt32LE(21); out = { w: (n & 0x3fff) + 1, h: ((n >> 14) & 0x3fff) + 1 }; }
+      else if (t === 'VP8X') out = { w: 1 + b.readUIntLE(24, 3), h: 1 + b.readUIntLE(27, 3) };
+    } else if (b.toString('ascii', 0, 3) === 'GIF') out = { w: b.readUInt16LE(6), h: b.readUInt16LE(8) };
+  } catch (e) { out = null; }
+  return (_sizes[src] = out);
+}
+const conMedidas = (html) => html.replace(/<img\b(?![^>]*\swidth=)([^>]*?)\ssrc="([^"]+)"([^>]*)>/g, (m, a, src, b) => {
+  const sz = imgSize(src);
+  return sz ? `<img${a} src="${src}" width="${sz.w}" height="${sz.h}"${b}>` : m;
+});
+
 function page({ title, seoTitle, description, body, active = '', canonical = '/', og = {}, head = '', noindex = false }) {
-  const fullTitle = seoTitle ? seoTitle : title ? `${title} – Kapeís` : 'Kapeís – Revista de marketing, marketing digital y retail';
+  let fullTitle = seoTitle ? seoTitle : title ? `${title} – Kapeís` : 'Kapeís – Revista de marketing, marketing digital y retail';
+  // Google corta hacia los 60 caracteres: si el nombre de la revista no cabe, se quita para que se lea la noticia entera.
+  if (fullTitle.length > 62) fullTitle = fullTitle.replace(/\s[|–]\s*Kapeís$/, '');
+  body = conMedidas(body);
+  const ogSz = og.image ? imgSize(og.image) : null;
   return `<!doctype html>
 <html lang="es">
 <head>
@@ -264,6 +310,7 @@ function page({ title, seoTitle, description, body, active = '', canonical = '/'
 <meta property="og:type" content="${og.type || 'website'}">
 <meta property="og:url" content="${SITE_URL}${canonical}">
 <meta property="og:image" content="${esc(absUrl(og.image || '/logo-kapeis.png'))}">
+${ogSz ? `<meta property="og:image:width" content="${ogSz.w}">\n<meta property="og:image:height" content="${ogSz.h}">` : (og.image ? '' : '<meta property="og:image:width" content="512">\n<meta property="og:image:height" content="512">')}
 <meta name="twitter:card" content="${og.image ? 'summary_large_image' : 'summary'}">
 ${head}
 <meta name="theme-color" content="#FFFFFF">
@@ -394,13 +441,13 @@ ${retail.fuente_nombre ? `<p class="via">Vía ${esc(retail.fuente_nombre)}</p>` 
 </section>`;
 
   // Disposición tipo «columna + lateral»: principal, destacado en caja, parrilla y lateral con lo último.
-  const img = (x, cls = '') => x.imagen ? `<img class="${cls}" src="${esc(x.imagen)}" alt="" loading="lazy">` : `<span class="pmk-type${x.tono === 'fosforito' ? ' is-accent' : ''}">${esc(x.marca || x.titulo)}</span>`;
+  const img = (x, cls = '', lcp = false) => x.imagen ? `<img class="${cls}" src="${esc(x.imagen)}" alt="${esc(x.alt_imagen || '')}"${lcp ? ' fetchpriority="high"' : ' loading="lazy" decoding="async"'}>` : `<span class="pmk-type${x.tono === 'fosforito' ? ' is-accent' : ''}">${esc(x.marca || x.titulo)}</span>`;
   const [box, g1, g2, ...mas] = resto;
   const lat = resto.slice(0, 7);
   const pmkHtml = `<section class="wrap pmk" aria-label="Portada">
 <div class="pmk-main">
 <article class="pmk-lead" aria-labelledby="h-portada">
-<a class="pmk-media pmk-media-lead" href="${hero.url}" tabindex="-1" aria-hidden="true">${img(hero)}</a>
+<a class="pmk-media pmk-media-lead" href="${hero.url}" tabindex="-1" aria-hidden="true">${img(hero, '', true)}</a>
 <p class="meta">${tags(hero)}</p>
 <h1 id="h-portada"><a href="${hero.url}">${esc(hero.titulo)}</a></h1>
 <p class="lede">${esc(hero.entradilla)}</p>
@@ -564,14 +611,14 @@ function sobre() {
   const body = fs.readFileSync(path.join(ROOT, 'src/sobre.html'), 'utf8')
     .replace(/\{\{email_info\}\}/g, esc(ajustes.email_info))
     .replace(/\{\{email_colaboracion\}\}/g, esc(ajustes.email_colaboracion));
-  return page({ title: 'Sobre Kapeís', description: 'Qué es Kapeís, qué publicamos y cómo escribirnos.', body, canonical: '/sobre/' });
+  return page({ title: 'Sobre Kapeís', seoTitle: 'Quiénes somos y contacto – Kapeís', description: 'Kapeís es una revista de marketing, publicidad y retail. Te contamos qué publicamos, cómo trabajamos y cómo escribirnos para enviar notas de prensa o colaborar.', body, canonical: '/sobre/' });
 }
 function legal() {
   const body = fs.readFileSync(path.join(ROOT, 'src/legal.html'), 'utf8')
     .replace(/\{\{responsable\}\}/g, esc(ajustes.responsable))
     .replace(/\{\{email_info\}\}/g, esc(ajustes.email_info))
     .replace(/\{\{actualizado\}\}/g, esc(ajustes.legal_actualizado));
-  return page({ title: 'Información legal', description: 'Aviso legal, privacidad y cookies de Kapeís.', body, canonical: '/legal/' });
+  return page({ title: 'Información legal', seoTitle: 'Aviso legal, privacidad y cookies – Kapeís', description: 'Aviso legal, política de privacidad y política de cookies de Kapeís: quién es la responsable, qué datos se tratan en la newsletter y cómo ejercer tus derechos.', body, canonical: '/legal/' });
 }
 function suscripcion() {
   return page({ title: 'Suscripción', body: `<section class="wrap list-head" data-sus>
@@ -655,15 +702,15 @@ function sitemapNoticias() {
   const rutas = ['/', '/articulos/', '/sobre/', '/legal/'];
 
   write('index.html', portada());
-  write('articulos/index.html', listado({ titulo: 'Todos los artículos', seoTitle: 'Últimas noticias de marketing y publicidad', descripcion: 'Todo lo publicado en Kapeís, de lo más nuevo a lo más antiguo.', items: articulos, ruta: '/articulos/' }));
+  write('articulos/index.html', listado({ titulo: 'Todos los artículos', seoTitle: 'Últimas noticias de marketing y publicidad', descripcion: 'Todas las noticias de marketing, publicidad, marcas y retail publicadas en Kapeís, de la más reciente a la más antigua, con análisis y claves para aplicar.', items: articulos, ruta: '/articulos/' }));
 
-  const descS = { Marketing: 'Campañas, marcas, publicidad y estrategia. Lo que se ha hecho y lo que se puede copiar.', Digital: 'Redes sociales, buscadores, contenidos, plataformas y medios. Lo que cambia y a quién le afecta.', Retail: 'Tiendas, escaparates, producto y experiencia de compra, en la calle y en internet.', Entrevistas: 'Conversaciones con las personas que hacen el marketing, la publicidad y el retail.' };
+  const descS = { Marketing: 'Noticias de marketing y publicidad: las campañas, anuncios y colaboraciones de marcas que dan que hablar, explicadas con claves para aplicar.', Digital: 'Noticias de marketing digital: redes sociales, buscadores, streaming, plataformas y medios. Qué cambia, a quién afecta y qué pueden hacer las marcas.', Retail: 'Noticias de retail: tiendas, escaparates, lanzamientos de producto, colaboraciones y experiencia de compra, en la calle y en internet, con precios y fechas.', Entrevistas: 'Entrevistas con las personas que hacen el marketing, la publicidad y el retail: cómo empezaron, qué les funciona y qué consejos dan a quien empieza.' };
   const seoS = { Marketing: 'Noticias de marketing, campañas y publicidad', Digital: 'Noticias de marketing digital y redes sociales', Retail: 'Noticias de retail y tiendas', Entrevistas: 'Entrevistas a profesionales del marketing' };
   for (const [nombre, slug] of Object.entries(SECCIONES)) {
     write(`${slug}/index.html`, listado({ titulo: nombre, seoTitle: seoS[nombre], descripcion: descS[nombre], items: articulos.filter((a) => a.seccion === nombre), active: slug, ruta: `/${slug}/` }));
     rutas.push(`/${slug}/`);
   }
-  const descZ = { 'España': 'Campañas, marcas y publicidad en España: lo que pasa en el marketing de aquí, contado claro y sin humo.', 'Internacional': 'Campañas, marcas y tendencias de fuera que conviene conocer.' };
+  const descZ = { 'España': 'Noticias de marketing en España: campañas, anuncios, marcas y publicidad de aquí, con lo que pasa, por qué funciona y qué puedes aplicar en tu marca.', 'Internacional': 'Noticias de marketing internacional: campañas, marcas, lanzamientos y tendencias de fuera de España que conviene conocer, contadas claro y sin humo.' };
   for (const [nombre, slug] of Object.entries(ZONAS)) {
     write(`${slug}/index.html`, listado({ titulo: nombre, seoTitle: nombre === 'España' ? 'Noticias de marketing en España' : 'Noticias de marketing internacional', descripcion: descZ[nombre], items: articulos.filter((a) => a.zona === nombre), active: slug, ruta: `/${slug}/` }));
     rutas.push(`/${slug}/`);

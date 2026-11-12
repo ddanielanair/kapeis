@@ -475,3 +475,6 @@ button.pmk-nl-btn{border:0;cursor:pointer;font:inherit;font-weight:600}
   .pmk-box{grid-template-columns:minmax(0,1fr)}
 }
 .pmk-nl-form{flex:none!important;min-height:0}
+
+/* Con width/height en las imágenes (evita saltos al cargar), que nunca se deformen */
+img{max-width:100%;height:auto}

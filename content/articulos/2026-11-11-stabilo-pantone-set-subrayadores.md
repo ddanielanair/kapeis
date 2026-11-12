@@ -10,7 +10,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/banner-10-.png
+imagen: /uploads/stabilo-pantone-set-subrayadores.jpg
 marca: STABILO x Pantone
 tono: fosforito
 titulo_seo: STABILO x Pantone, precio y colores del set de subrayadores
