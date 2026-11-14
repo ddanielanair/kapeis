@@ -108,6 +108,12 @@ function markdown(md) {
     b = b.trim();
     if (!b) return '';
     const foto = b.match(/^!\[([^\]]*)\]\((\S+?)(?:\s+"([^"]*)")?\)$/);
+    const lineas = b.split('\n');
+    if (lineas.length > 1 && lineas.every((l) => /^!\[[^\]]*\]\(\S+?(?:\s+"[^"]*")?\)$/.test(l.trim()))) {
+      let pie = '';
+      const imgs = lineas.map((l) => { const m = l.trim().match(/^!\[([^\]]*)\]\((\S+?)(?:\s+"([^"]*)")?\)$/); if (m[3]) pie = m[3]; return `<img src="${esc(m[2])}" alt="${esc(m[1])}" loading="lazy" decoding="async">`; }).join('');
+      return `<figure class="body-gallery" style="--n:${lineas.length}">${imgs}${pie ? `<figcaption>${esc(pie)}</figcaption>` : ''}</figure>`;
+    }
     if (foto) return `<figure class="body-figure"><img src="${esc(foto[2])}" alt="${esc(foto[1])}" loading="lazy" decoding="async">${foto[3] ? `<figcaption>${esc(foto[3])}</figcaption>` : ''}</figure>`;
     let h = b.match(/^(#{2,4})\s+(.*)$/);
     if (h) { const n = Math.max(2, h[1].length); return `<h${n}>${inline(h[2])}</h${n}>`; }

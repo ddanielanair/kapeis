@@ -215,6 +215,9 @@ a.t:hover{text-decoration:underline;text-decoration-thickness:2px;text-underline
 .art-body img{border-radius:4px;margin:8px 0}
 .art-body .body-figure{margin:8px 0 30px}
 .art-body .body-figure img{display:block;width:100%;height:auto;margin:0}
+.art-body .body-gallery{display:grid;grid-template-columns:repeat(var(--n),1fr);gap:8px;margin:8px 0 30px}
+.art-body .body-gallery img{display:block;width:100%;height:auto;margin:0;aspect-ratio:3/4;object-fit:cover}
+.art-body .body-gallery figcaption{grid-column:1/-1;margin-top:2px;font-size:13px;line-height:1.5;color:var(--muted)}
 .art-body .body-figure figcaption{margin-top:10px;font-size:13px;line-height:1.5;color:var(--muted)}
 .callout{margin:16px 0 32px;padding:32px;background:var(--accent);border-radius:4px}
 .callout p{margin:0;font-family:var(--display);font-weight:600;font-size:30px;line-height:1.15;letter-spacing:-0.03em;color:var(--ink)}
