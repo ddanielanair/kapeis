@@ -9,6 +9,8 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/funda-cafe-cerave-rook-coffee.jpg
+alt_imagen: Funda acolchada azul de CeraVe y Rook Coffee en un vaso de café con hielo, con un bolsillo lateral que guarda el bálsamo labial
 marca: CeraVe x Rook Coffee
 tono: negro
 titulo_seo: CeraVe y Rook Coffee, la funda de café con bálsamo labial
@@ -28,7 +30,7 @@ borrador: false
 
 > El mejor sitio para un anuncio es el objeto que el cliente ya tiene en la mano.
 
-La mecánica fue muy sencilla. **Del 6 al 9 de noviembre**, los **100 primeros clientes de cada cafetería Rook Coffee** recibieron su bebida con una funda personalizada de CeraVe y, encajado en ella, un **bálsamo labial de regalo**. Nada de carteles ni de folletos, el producto llegaba directamente a la mano del cliente, pegado al vaso que iba a sujetar durante el resto de la mañana.
+La mecánica fue muy sencilla. **Del 6 al 9 de noviembre**, los **100 primeros clientes de cada cafetería Rook Coffee** recibieron su bebida con una funda personalizada de CeraVe y, encajado en ella, un **bálsamo labial de regalo**. Nada de carteles ni de folletos, el producto llegaba directamente a la mano del cliente, pegado al vaso que iba a sujetar durante el resto de la mañana. La funda es acolchada, en el azul de CeraVe, se cierra con velcro y lleva un pequeño bolsillo lateral donde encaja el tubo del bálsamo, con el logo de cada marca a un lado.
 
 La idea encaja porque las dos marcas hablan del mismo momento. El café para llevar es la rutina diaria de muchos consumidores y el frío es justo cuando se agrietan los labios. CeraVe, la marca de cuidado de la piel desarrollada con dermatólogos y propiedad de L'Oréal, quería que su bálsamo formara parte de ese gesto diario antes de que llegara el invierno.
 
