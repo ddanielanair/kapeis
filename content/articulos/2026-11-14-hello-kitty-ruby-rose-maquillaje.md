@@ -9,6 +9,8 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/maquillaje-hello-kitty-ruby-rose.jpg
+alt_imagen: Tinte y bálsamo labial de Hello Kitty de Ruby Rose convertidos en llaveros colgados de un bolso rojo, junto a muestras de color
 marca: Hello Kitty x Ruby Rose
 tono: fosforito
 titulo_seo: Maquillaje de Hello Kitty de Ruby Rose, así es la colección
@@ -28,7 +30,7 @@ El **maquillaje de Hello Kitty de Ruby Rose** ya ha llegado a las tiendas. La ma
 
 > El envase ya no solo protege el producto. Es la razón por la que muchos lo compran.
 
-La colección se presentó en la **Beauty Fair 2026** de São Paulo y ha tardado más de un año en desarrollarse. Los productos llegan en **envases con moldes exclusivos**, con formas inspiradas en la cara de Hello Kitty y en su famoso lazo, pensados para que apetezca coleccionarlos sin dejar de usarlos en el día a día.
+La colección se presentó en la **Beauty Fair 2026** de São Paulo y ha tardado más de un año en desarrollarse. Los productos llegan en **envases con moldes exclusivos**, con formas inspiradas en la cara de Hello Kitty y en su famoso lazo, pensados para que apetezca coleccionarlos sin dejar de usarlos en el día a día. Algunos, como el tinte y el bálsamo de labios, llevan además **mosquetón para colgarlos del bolso**, en plena fiebre de los bag charms.
 
 Para los labios hay un tinte de acabado mate aterciopelado, el **Lovely Tint Blur**, un aceite labial con ácido hialurónico y aceite de maracuyá, el **Cute Lip Oil**, y un hidratante de textura gelatinosa llamado **Smile!**. Para el rostro destaca el **Cookies Blush Stick**, un colorete en barra que cambia de tono según el pH de la piel, junto a un colorete en crema y la paleta **Apple Pie**, que reúne bronceador, colorete e iluminador en tres versiones. Para los ojos, la paleta de sombras **Many Friends**, una sombra iluminadora en textura polvo gel, eyeliners, lápices, máscaras de pestañas y gel de cejas.
 
