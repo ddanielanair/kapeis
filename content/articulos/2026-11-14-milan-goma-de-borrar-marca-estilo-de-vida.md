@@ -9,6 +9,8 @@ zona: España
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/maleta-milan-goma-430.jpg
+alt_imagen: Maleta de cabina azul marino de MILAN con el logo y el número 430, abierta y llena de gomas de borrar 430 blancas, rosas y verdes
 marca: MILAN
 tono: fosforito
 titulo_seo: Gomas MILAN, de la 430 a mochilas, fiambreras y maletas
