@@ -64,10 +64,10 @@ La conversación, además, se mueve sola. En 2021, el anuncio de que dejaría de
 
 El caso deja cinco lecciones claras para cualquier marca.
 
-1. **Tu producto puede ser tu logotipo.** La 430 no necesita explicación, porque su forma y sus colores bastan para identificar la marca en cualquier objeto.
-2. **Diseña sistemas, no productos sueltos.** Las líneas COMPACT y CAPSULE y las colecciones permiten lanzar decenas de referencias con una identidad común.
-3. **Extiende la marca siguiendo al usuario.** Del estuche a la mochila, de la mochila a la fiambrera y de ahí a la maleta, cada salto tiene sentido para el mismo cliente.
-4. **La nostalgia funciona si hay un objeto real detrás.** MILAN no inventa un pasado, reproduce el que sus clientes ya tenían en el estuche.
-5. **El I+D protege la credibilidad.** Mientras la marca se acerca al estilo de vida, sus innovaciones recuerdan que sigue siendo un fabricante especialista.
+1. La 430 no necesita explicación, porque su forma y sus colores bastan para identificar la marca en cualquier objeto.
+2. Las líneas COMPACT y CAPSULE y las colecciones permiten lanzar decenas de referencias con una identidad común.
+3. Del estuche a la mochila, de la mochila a la fiambrera y de ahí a la maleta, cada salto tiene sentido para el mismo cliente.
+4. MILAN no inventa un pasado, reproduce el que sus clientes ya tenían en el estuche.
+5. Mientras la marca se acerca al estilo de vida, sus innovaciones recuerdan que sigue siendo un fabricante especialista.
 
 La papelería vive un gran momento como territorio de marca, como demuestran el [estuche con forma de tubo de Pringles](/articulos/pringles-estuche-material-escolar-brasil/) o el [set de subrayadores de STABILO y Pantone](/articulos/stabilo-pantone-set-subrayadores/).
