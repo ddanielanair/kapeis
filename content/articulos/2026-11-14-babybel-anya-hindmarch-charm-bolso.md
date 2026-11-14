@@ -1,14 +1,15 @@
 ---
 titulo: Babybel se convierte en un charm de lujo de Anya Hindmarch
-entradilla: La diseñadora británica transforma el famoso quesito de cera roja
-  en un colgante de piel para el bolso. Cuesta 195 euros y es el último guiño
-  de su colección Anya Brands a los productos de supermercado.
+entradilla: La diseñadora británica transforma el famoso quesito de cera roja en
+  un colgante de piel para el bolso. Cuesta 195 euros y es el último guiño de su
+  colección Anya Brands a los productos de supermercado.
 fecha: 2026-11-14 09:00
 seccion: Retail
 zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/banner-1-.png
 marca: Babybel x Anya Hindmarch
 tono: fosforito
 titulo_seo: Charm de Babybel de Anya Hindmarch, precio y dónde comprarlo
