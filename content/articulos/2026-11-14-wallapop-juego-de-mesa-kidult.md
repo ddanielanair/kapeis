@@ -9,6 +9,8 @@ zona: España
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/juego-de-mesa-wallapop-kidult.jpg
+alt_imagen: Los creadores Darío Eme Hache y Spok posan con las cartas de «Compro» junto al tablero del juego de mesa de Wallapop, montado en una mesa de salón
 marca: Wallapop
 tono: fosforito
 titulo_seo: Juego de mesa de Wallapop, así es la edición para kidults
