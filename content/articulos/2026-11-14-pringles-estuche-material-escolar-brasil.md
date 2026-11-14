@@ -1,14 +1,16 @@
 ---
 titulo: Pringles se cuela en la mochila con un estuche con forma de tubo
 entradilla: En Brasil, la marca de patatas llega a la papelería con una
-  colección de 16 productos escolares que copian su lata, sus colores y hasta
-  la forma de sus patatas.
+  colección de 16 productos escolares que copian su lata, sus colores y hasta la
+  forma de sus patatas.
 fecha: 2026-11-14 10:00
 seccion: Retail
 zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/banner.png
+alt_imagen: "Estuche de las patatas Pringles "
 marca: Pringles
 tono: negro
 titulo_seo: Estuche de Pringles con forma de tubo, así es la colección
@@ -18,8 +20,7 @@ descripcion_seo: Pringles lanza en Brasil una colección escolar con estuche en
 palabras_clave: estuche Pringles, Pringles material escolar, gomas Pringles,
   Pringles Brasil, BRW Pringles, licencias de marca, papelería licenciada,
   colaboraciones de marcas
-frase_destacada: Una lata que todo el mundo reconoce vende sola, aunque dentro
-  no haya patatas.
+frase_destacada: Una lata que todo el mundo reconoce vende sola, aunque dentro no haya patatas.
 fuente_nombre: Portal da Propaganda y ABC da Comunicação
 fuente_url: https://www.portaldapropaganda.com.br/noticias/43598/pringles-chega-a-papelaria-com-colecao-de-16-produtos-inspirados-em-sua-identidade-visual/
 borrador: false
