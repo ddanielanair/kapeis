@@ -9,8 +9,8 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/banner-1-.png
-alt_imagen: "Estuche de las patatas Pringles "
+imagen: /uploads/estuche-pringles-tubo-brw.jpg
+alt_imagen: Un estudiante guarda un bolígrafo en el estuche con forma de tubo de Pringles Hot & Spicy de BRW
 marca: Pringles
 tono: negro
 titulo_seo: Estuche de Pringles con forma de tubo, así es la colección

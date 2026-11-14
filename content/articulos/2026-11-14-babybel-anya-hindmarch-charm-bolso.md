@@ -9,7 +9,8 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/banner-1-.png
+imagen: /uploads/charm-babybel-anya-hindmarch.jpg
+alt_imagen: Charm de piel roja con forma de Babybel colgado de un bolso negro con cierre dorado
 marca: Babybel x Anya Hindmarch
 tono: fosforito
 titulo_seo: Charm de Babybel de Anya Hindmarch, precio y dónde comprarlo
