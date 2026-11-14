@@ -9,6 +9,8 @@ zona: España
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/galletas-oreo-bts-moradas.jpg
+alt_imagen: Paquete de galletas OREO x BTS sabor tortita de azúcar moreno, con una galleta morada, sobre el fondo de un pasillo de supermercado
 marca: OREO x BTS
 tono: negro
 titulo_seo: OREO BTS en España, sabor, diseños y dónde comprarlas
