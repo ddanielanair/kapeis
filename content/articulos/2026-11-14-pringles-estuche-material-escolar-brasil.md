@@ -9,7 +9,7 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
-imagen: /uploads/banner.png
+imagen: /uploads/banner-1-.png
 alt_imagen: "Estuche de las patatas Pringles "
 marca: Pringles
 tono: negro
