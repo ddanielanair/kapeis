@@ -64,7 +64,7 @@ El despliegue no se queda ahí.
 ![Mural con el mensaje We love Vice City en letras azules y un corazón rojo sobre un fondo rosa, naranja y morado en una fachada de Miami](/uploads/mural-we-love-vice-city-miami-gta-6.jpg)
 
 ![Caseta de socorristas de Miami Beach pintada de azul y rosa con el logo VI de GTA 6](/uploads/miami-beach-caseta-socorrista-gta-6-vice-city.jpg)
-![Autobús de la línea de Miami Beach forrado con Jason y Lucía, los protagonistas de GTA 6, y el logo de Grand Theft Auto VI](/uploads/autobus-gta-6-miami-beach-jason-lucia.jpg)
+![Autobús de la línea de Miami Beach forrado con Jason y Lucía, los protagonistas de GTA 6, y el logo de Grand Theft Auto VI](/uploads/autobus-gta-6-miami-beach-jason-lucia.jpg "Imágenes de @soyvalereyes y @imdarkzone en Instagram")
 
 ## Las zapatillas de Travis Scott para GTA 6
 
