@@ -9,6 +9,9 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/gafas-yohji-yamamoto-moseyec.jpg
+alt_imagen: Un modelo con las gafas negras WILDSIDE Yohji Yamamoto x moseyec rodeado de botes de spray, junto a los logos de las dos marcas
+pie_imagen: "Imagen: Yohji Yamamoto"
 marca: Yohji Yamamoto x moseyec
 tono: negro
 titulo_seo: Gafas Yohji Yamamoto x moseyec, precio, fecha y tiendas
