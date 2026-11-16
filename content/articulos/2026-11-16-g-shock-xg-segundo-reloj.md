@@ -9,6 +9,9 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/xg-g-shock-grupo.jpg
+alt_imagen: Las siete integrantes del grupo japonés XG posan vestidas de negro con relojes G-SHOCK en la muñeca
+pie_imagen: "Imagen: G-SHOCK"
 marca: G-SHOCK x XG
 tono: negro
 titulo_seo: G-SHOCK XG GM-6900XG-8, precio, fecha y cómo es
