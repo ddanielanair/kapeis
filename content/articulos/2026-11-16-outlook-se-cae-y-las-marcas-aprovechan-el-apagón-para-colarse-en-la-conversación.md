@@ -24,7 +24,7 @@ frase_destacada: Cuando el correo se cae, las redes sociales se llenan. Las
   anuncio.
 fuente_nombre: Marketing-Interactive
 fuente_url: https://www.marketing-interactive.com/microsoft-went-down-but-these-brands-logged-on
-borrador: false
+borrador: true
 ---
 **Outlook** ha protagonizado una de las mayores caídas de su historia. Desde la tarde del jueves 12 de noviembre, un fallo en los servidores de **Microsoft** dejó sin acceso al correo a millones de usuarios y afectó también a Teams, Copilot y al resto de herramientas de **Microsoft 365**. El problema llegó a 74 países y alcanzó a bancos, gobiernos y tribunales. La compañía descartó un ciberataque, pidió disculpas y no dio por restablecido por completo el servicio hasta el sábado 14.
 
