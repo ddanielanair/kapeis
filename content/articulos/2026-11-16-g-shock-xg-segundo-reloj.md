@@ -11,26 +11,26 @@ portada: false
 destacada: false
 marca: G-SHOCK x XG
 tono: negro
-titulo_seo: Reloj G-SHOCK XG GM-6900XG-8, así es el segundo modelo
-descripcion_seo: G-SHOCK y el grupo XG lanzan su segundo reloj, el GM-6900XG-8,
-  con correa translúcida efecto tatuaje y un lobo escondido. Cómo es y cuándo
-  sale.
-palabras_clave: G-SHOCK XG, GM-6900XG-8, reloj XG, Casio XG, G-SHOCK colaboración,
-  marketing de K-pop, fandom
+titulo_seo: G-SHOCK XG GM-6900XG-8, precio, fecha y cómo es
+descripcion_seo: "El G-SHOCK GM-6900XG-8 de XG sale el 27 de noviembre en Japón. Correa translúcida efecto tatuaje, un lobo en la luz y siete lobos escondidos en la caja."
+palabras_clave: "G-SHOCK XG, GM-6900XG-8, reloj XG, Casio XG, G-SHOCK XG precio, ALPHAZ, marketing de fandom, J-pop"
 frase_destacada: Un fandom no compra un producto, compra un guiño que solo
   entienden los suyos.
-fuente_nombre: Hypebeast y G-SHOCK
-fuente_url: https://hypebeast.com/2026/11/casio-g-shock-xg-gm-6900xg-8-collaboration-release-info
+fuente_nombre: "The Gadgeteer, Hypebeast y G-SHOCK"
+fuente_url: https://the-gadgeteer.com/2026/11/11/xg-g-shock-gm-6900xg/
 borrador: false
 ---
-El **reloj G-SHOCK de XG** ya tiene segunda parte. Casio ha anunciado el **GM-6900XG-8**, el segundo modelo que firma con el grupo de chicas japonés XG, después de una primera colaboración con los modelos GM-S5600XG y GMA-S110XG.
+
+El **G-SHOCK GM-6900XG-8** es el segundo reloj que Casio lanza con **XG**, el grupo de chicas japonés formado por Jurin, Chisa, Hinata, Harvey, Juria, Maya y Cocona. Sale el **27 de noviembre** en Japón, donde cuesta el equivalente a unos **249 dólares**, y llegará a Singapur en diciembre. Todavía no hay fecha para Europa ni Estados Unidos.
 
 > Un fandom no compra un producto, compra un guiño que solo entienden los suyos.
 
-El reloj gira en torno a la idea **«TIME, INKED ON YOU»** (el tiempo, tatuado en ti). Por eso la **correa es translúcida** y lleva impreso el nombre completo del grupo, «Xtraordinary Genes», con un efecto que imita un tatuaje.
+El reloj gira en torno a la idea **«TIME, INKED ON YOU»** (el tiempo, tatuado en ti). Por eso la **correa es translúcida** y lleva impreso el nombre completo del grupo, «Xtraordinary Genes», en distintos ángulos y con efecto tatuaje. Parte del clásico modelo 6900 de G-SHOCK, con un **bisel metálico plateado**.
 
-El resto de detalles están pensados para los fans. Al pulsar el **botón en forma de «X»** aparece un **lobo aullando**, el símbolo de su fandom, y el embalaje esconde **siete lobos**, uno por cada integrante del grupo.
+Los detalles están pensados para los fans. Al pulsar el **botón en forma de «X»** se enciende la luz y aparece la silueta de un **lobo aullando**, el símbolo de **ALPHAZ**, el nombre de su fandom. La tapa trasera lleva grabado el logo del grupo y el carácter japonés 緒, que viene de la palabra que las integrantes gritan antes de cada concierto. Y la caja esconde **siete lobos**, uno por cada integrante.
 
-Casio lo presenta en su web oficial como el segundo modelo de la colaboración y lo anuncia para este mes, todavía sin fecha exacta. Es otro ejemplo de cómo las marcas de siempre buscan en la música asiática una conexión directa con el público más joven.
+Por lo demás, es un G-SHOCK de verdad. Resiste golpes y **agua hasta 200 metros**, con cronómetro, cuenta atrás y alarmas.
 
-La tecnología también se acerca a la cultura pop para conquistar a otros públicos, como Sony con sus [auriculares de Hello Kitty](/articulos/sony-hello-kitty-auriculares-sanrio/).
+XG es **embajador global de G-SHOCK desde julio de 2025** y ya lanzó con la marca los modelos GM-S5600XG y GMA-S110XG en junio. Esta segunda edición confirma la estrategia de Casio de acercarse a un público joven a través de grupos con fans muy fieles, que valoran cada detalle escondido.
+
+La tecnología también busca a otros públicos a través de la cultura pop, como Sony con sus [auriculares de Hello Kitty](/articulos/sony-hello-kitty-auriculares-sanrio/).

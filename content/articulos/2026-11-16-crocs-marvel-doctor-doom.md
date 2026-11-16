@@ -10,25 +10,25 @@ portada: true
 destacada: false
 marca: Crocs x Marvel
 tono: fosforito
-titulo_seo: Crocs Doctor Doom de Marvel, fecha y cómo son
-descripcion_seo: Marvel y Crocs lanzan un Classic Clog de Doctor Doom con la
-  máscara del villano en la suela y tres Jibbitz exclusivos. Sale el 3 de
-  diciembre.
-palabras_clave: Crocs Doctor Doom, Crocs Marvel, Crocs Avengers Doomsday, Doctor
-  Doom zapatillas, Jibbitz Marvel, colaboraciones Marvel
+titulo_seo: Crocs Doctor Doom de Marvel, precio, fecha y dónde comprar
+descripcion_seo: "Los Crocs de Doctor Doom salen el 3 de diciembre por unos 80 dólares. Clog verde con la máscara del villano en la suela, antes de Avengers Doomsday."
+palabras_clave: "Crocs Doctor Doom, Crocs Marvel, Crocs Avengers Doomsday, Crocs Doctor Doom precio, Crocs Classic Clog Marvel, Jibbitz Marvel, colaboraciones Marvel"
 frase_destacada: El mejor detalle es el que solo descubre quien se fija.
-fuente_nombre: Hypebeast
-fuente_url: https://hypebeast.com/2026/11/marvel-crocs-classic-clog-doctor-doom-212995-90h-official-look-release-info
+fuente_nombre: "Men's Journal y Hypebeast"
+fuente_url: https://www.mensjournal.com/style/marvel-crocs-doctor-doom-classic-clog-212995-90h-release-date-where-to-buy
 borrador: false
 ---
-Los **Crocs de Doctor Doom** ya tienen imagen oficial. Marvel y Crocs han presentado un **Classic Clog** dedicado al villano que protagoniza *Avengers: Doomsday*, y llegará a las tiendas el **3 de diciembre de 2026**, justo antes del estreno.
+
+Los **Crocs de Doctor Doom** ya tienen fecha. Marvel y Crocs lanzan el **3 de diciembre de 2026** un **Classic Clog** dedicado al villano de *Avengers: Doomsday*, que se estrena en cines el **18 de diciembre**. Se venderán en la web de Crocs y en tiendas seleccionadas por unos **80 dólares**, aunque algunas fuentes hablan de 69,99.
 
 > El mejor detalle es el que solo descubre quien se fija.
 
-El zueco es de un **verde oscuro**, el color de la capa del personaje, y lleva ilustraciones de cómic en el mismo tono. El detalle más curioso está debajo. La **suela tiene impresa la máscara de Doom**, que solo se ve al levantar el pie.
+El zueco es **verde oscuro**, el color de la capa del personaje, con ilustraciones de cómic de Doom en el mismo tono. La correa también es verde, con remaches dorados, y la plantilla gris lleva el logo de Marvel.
 
-Como en casi todas las colaboraciones de Crocs, el par viene con **Jibbitz**, los adornos que se encajan en los agujeros. En este caso son **tres exclusivos**, entre ellos Doom sentado en su trono y una réplica de su cara enmascarada.
+El detalle más curioso está debajo. La **suela gris imita una armadura** y esconde la **máscara de Doom** cerca del talón, de forma que solo se ve al levantar el pie. Es un guiño para fans que, además, da mucho juego en redes.
 
-Ya se había visto un avance, pero esta es la primera imagen oficial. Para Crocs, que ha hecho de las colaboraciones con cine, series y personajes una de sus grandes armas, es una forma de subirse a uno de los estrenos más esperados del año.
+Como casi todas las colaboraciones de Crocs, el par viene con **Jibbitz**, los adornos que se encajan en los agujeros. Entre ellos está **Doom sentado en su trono**.
+
+Crocs ha convertido las colaboraciones con cine, series y personajes en una de sus grandes armas, y lanzar un modelo dos semanas antes del estreno le permite aprovechar toda la conversación alrededor de la película.
 
 Doctor Doom no es el único villano que se cuela en las tiendas antes de la película, como demuestra el [menú de Doctor Doom de KFC](/articulos/kfc-marvel-menu-doctor-doom-avengers-doomsday/).

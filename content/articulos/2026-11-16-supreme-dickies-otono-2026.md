@@ -11,12 +11,9 @@ portada: false
 destacada: false
 marca: Supreme x Dickies
 tono: negro
-titulo_seo: Supreme x Dickies otoño 2026, prendas y fecha
-descripcion_seo: Supreme y Dickies presentan su colección de otoño 2026 con una
-  chaqueta de cuero con capucha y pantalones forrados de franela. Qué incluye y
-  cuándo sale.
-palabras_clave: Supreme Dickies, Supreme Dickies 2026, Supreme otoño 2026, Dickies
-  colaboración, workwear, ropa de trabajo moda
+titulo_seo: Supreme x Dickies otoño 2026, prendas y fecha de lanzamiento
+descripcion_seo: "Supreme y Dickies lanzan el 19 de noviembre su colección de otoño 2026, con chaqueta de cuero con capucha y pantalones de pintor forrados de franela."
+palabras_clave: "Supreme Dickies, Supreme Dickies 2026, Supreme otoño 2026, Dickies colaboración, chaqueta Supreme Dickies, workwear, ropa de trabajo moda"
 frase_destacada: Cuando una colaboración se repite cada temporada, ya es parte de
   la identidad de las dos marcas.
 fuente_nombre: Hypebeast

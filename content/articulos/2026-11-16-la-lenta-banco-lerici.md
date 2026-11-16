@@ -12,24 +12,24 @@ destacada: false
 marca: Vita lenta
 tono: fosforito
 titulo_seo: La Lenta, el banco contra la arquitectura hostil en Italia
-descripcion_seo: Gio Tirotto diseña La Lenta, un banco público con forma de silla
-  estirada pensado contra el mobiliario urbano hostil. Se instalará en Lerici,
-  Italia.
-palabras_clave: La Lenta banco, Gio Tirotto, arquitectura hostil, mobiliario
-  urbano, Lerici, San Terenzo, Vita lenta, diseño urbano
+descripcion_seo: "Gio Tirotto y Vita lenta diseñan La Lenta, un banco con forma de silla estirada contra el mobiliario urbano hostil. Se instalará en Lerici en 2027."
+palabras_clave: "La Lenta banco, Gio Tirotto, arquitectura hostil, mobiliario urbano hostil, Vita lenta, Lerici, San Terenzo, diseño urbano, slow living"
 frase_destacada: Un buen diseño urbano invita a quedarse, no a irse.
-fuente_nombre: Designboom
+fuente_nombre: "Designboom y Freeyork"
 fuente_url: https://www.designboom.com/design/gio-tirotto-domestic-chair-public-bench-italy-gulf-poets-vita-lenta/
 borrador: false
 ---
-**La Lenta** es un **banco público** pensado para lo contrario de lo que hace buena parte del mobiliario urbano actual. Frente a los bancos incómodos, con separadores o sin respaldo, diseñados para que nadie se quede mucho rato, este quiere que la gente se siente y se quede.
+
+**La Lenta** es un **banco público contra la arquitectura hostil**. Frente a los bancos con separadores, sin respaldo o inclinados para que nadie se quede mucho rato, este quiere justo lo contrario, que sentarse a descansar en la calle vuelva a ser algo normal.
 
 > Un buen diseño urbano invita a quedarse, no a irse.
 
-El diseño es de **Gio Tirotto** para la iniciativa **Vita lenta**, junto a **La Marinella**. Su forma es la de una **silla doméstica estirada** hasta convertirse en banco, como si alguien hubiera sacado una silla de casa al paseo. Está hecho de **acero inoxidable con chapa de teca**.
+Lo ha diseñado **Gio Tirotto** para **Vita lenta**, una plataforma sobre la vida lenta fundada en 2020 por Gianvito Fanelli, que empezó en internet y se ha ampliado a la edición y la música. La Lenta es su **primer objeto físico**. En el proyecto participan también **La Marinella**, un restaurante junto al mar con certificación B Corp, y el **Ayuntamiento de Lerici**.
 
-Se instalará en **primavera de 2027** en el **paseo marítimo de San Terenzo**, en el municipio de **Lerici**, en la costa de Liguria.
+La idea es sencilla y muy reconocible. El banco toma las **proporciones de una silla de casa** y las **estira** hasta convertirlas en un asiento largo y abierto, como si alguien hubiera sacado una silla del salón al paseo. Tiene estructura de **acero inoxidable de uso marino** y asiento y respaldo de **madera con chapa de teca**, para aguantar el salitre. Una placa con letras dibujadas a mano por Loris Lillo, autor también del logo de Vita lenta, completa el diseño.
 
-El proyecto conecta con un debate cada vez más presente, el de la **arquitectura hostil**, y demuestra que el diseño también comunica valores. Un banco puede decir mucho de cómo una ciudad quiere tratar a quienes la usan.
+Se instalará como prototipo en **primavera de 2027** en el paseo marítimo de **San Terenzo**, en **Lerici**, en el llamado Golfo de los Poetas, en Liguria. El equipo quiere llevarlo a otras ciudades de Italia y busca un socio industrial para fabricarlo en serie.
 
-El diseño de objetos cotidianos también puede convertirse en una identidad completa, como demuestra la historia de las [gomas MILAN](/articulos/milan-goma-de-borrar-marca-estilo-de-vida/).
+El proyecto demuestra que el diseño también comunica valores. Un banco puede decir mucho de cómo una ciudad quiere tratar a quienes la usan, y para una marca como Vita lenta es la forma más directa de llevar su filosofía a la calle.
+
+El diseño de objetos cotidianos también puede construir una identidad completa, como demuestra la historia de las [gomas MILAN](/articulos/milan-goma-de-borrar-marca-estilo-de-vida/).

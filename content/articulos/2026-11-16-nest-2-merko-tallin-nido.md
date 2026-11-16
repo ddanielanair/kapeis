@@ -11,25 +11,26 @@ portada: false
 destacada: false
 marca: Merko
 tono: negro
-titulo_seo: Nest 2 en Tallin, el nido de luz de Merko
-descripcion_seo: Merko convierte un mástil de un antiguo astillero de Tallin en
-  Nest 2, un nido de hierro con dos huevos de luz LED a 20 metros de altura.
-palabras_clave: Nest 2 Tallin, Merko, instalación lumínica, intervención urbana,
-  astillero Tallin, arte y marcas, Estonia
+titulo_seo: Nest 2, el nido gigante de luz de Merko en Tallin
+descripcion_seo: "Merko corona un mástil del astillero de Noblessner, en Tallin, con Nest 2, un nido de hierro de 2,4 metros con dos huevos de luz a 20 metros de altura."
+palabras_clave: "Nest 2 Tallin, Merko, Noblessner, instalación lumínica, Inimruum, un-like, intervención urbana, arte y marcas, Estonia"
 frase_destacada: Una marca también puede dejar huella en una ciudad sin poner su
   logo en ningún sitio.
-fuente_nombre: Designboom
-fuente_url: https://www.designboom.com/art/two-luminous-eggs-hand-woven-metal-frame-old-submarine-shipyard-mast-estonia-inimruum-un-like/
+fuente_nombre: "Designboom y Yanko Design"
+fuente_url: https://www.yankodesign.com/2026/11/16/giant-glowing-eggs-revive-a-shipyard-mast-without-hiding-its-past/
 borrador: false
 ---
-En **Tallin**, la capital de Estonia, un antiguo mástil de iluminación de un astillero sostiene ahora un **nido gigante**. Es **Nest 2**, una instalación lumínica encargada por la promotora inmobiliaria **Merko** y creada por los estudios **un-like** e **Inimruum**.
+
+En **Noblessner**, un antiguo astillero de submarinos de **Tallin** convertido en barrio frente al mar, un viejo mástil de iluminación sostiene ahora un **nido gigante con huevos de luz**. Se llama **Nest 2** y lo ha encargado **Merko**, la promotora inmobiliaria que está transformando la zona.
 
 > Una marca también puede dejar huella en una ciudad sin poner su logo en ningún sitio.
 
-En lo alto del mástil, a unos **20 metros del suelo**, hay un **nido de más de 2,5 metros tejido a mano en hierro**. Dentro descansan **dos huevos de polietileno** que por la noche se iluminan con **LED** y van cambiando de color.
+En lo alto del mástil, a unos **20 metros del suelo**, hay un **nido de unos 2,4 metros** de ancho hecho con **perfiles de hierro tejidos a mano** por el artista del metal **Heigo Jelle**, el mismo material que las patas del propio mástil. Dentro descansan **dos huevos de polietileno** que se iluminan por dentro con **LED** y cambian de color por separado. Uno de ellos está casi tumbado, y pequeñas luces entre las ramas iluminan el nido de noche.
 
-La pieza reaprovecha un elemento industrial del antiguo astillero en lugar de retirarlo, y lo convierte en un punto de referencia visible desde lejos.
+La instalación la ha diseñado el estudio **Inimruum**, con la iluminación del estudio **un-like**. Es la continuación de un primer **Nest** de **2024**, inspirado en el dibujo de un niño de cinco años que imaginó unos huevos sobre un mástil oxidado. Aquel tenía tres huevos, y los nuevos se han hecho con el mismo molde.
 
-Para una promotora, este tipo de intervención es una forma de dar identidad a un barrio en transformación y de asociar su nombre a algo que los vecinos ven cada noche, sin necesidad de una valla publicitaria.
+En lugar de retirar un resto industrial, la promotora lo conserva y lo convierte en un punto de referencia del barrio, visible desde lejos y sobre todo de noche.
+
+Para una marca inmobiliaria, este tipo de intervenciones dan identidad a un barrio en transformación y asocian su nombre a algo que los vecinos ven cada día, sin necesidad de una valla publicitaria.
 
 Las marcas que salen a la calle consiguen que se hable de ellas sin pedirlo, como hizo Rockstar con [GTA VI en Barcelona](/articulos/gta-vi-conquista-barcelona/).
