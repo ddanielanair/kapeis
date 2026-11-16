@@ -20,7 +20,7 @@ palabras_clave: Brain Dead adidas, adidas Adventure, ZUPERKLIMB, Brain Dead
 frase_destacada: La nostalgia de los 2000 ya no se recuerda, se vuelve a fabricar.
 fuente_nombre: Hypebeast
 fuente_url: https://hypebeast.com/2026/11/brain-dead-adidas-originals-full-collection-collaboration-release-info
-borrador: true
+borrador: false
 ---
 La **colaboración de Brain Dead y adidas Originals** ya está completa. Después de recuperar la zapatilla **ZUPERKLIMB**, la marca de Los Ángeles presenta ahora la ropa, inspirada en la línea **Adventure** que adidas tuvo a principios de los 2000.
 

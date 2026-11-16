@@ -21,7 +21,7 @@ frase_destacada: Una buena broma de marca explica el producto mejor que una fich
   técnica.
 fuente_nombre: Hypebeast y Road & Track
 fuente_url: https://hypebeast.com/2026/11/slate-auto-unveils-30-screenless-gps-road-atlas
-borrador: true
+borrador: false
 ---
 **Slate Auto** ha lanzado un **«GPS sin pantalla»** de edición limitada que cuesta **30 dólares**. Lo que en realidad vende es un **atlas de carreteras de Rand McNally** con su marca, el clásico mapa de papel de toda la vida.
 

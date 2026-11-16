@@ -20,7 +20,7 @@ palabras_clave: La Lenta banco, Gio Tirotto, arquitectura hostil, mobiliario
 frase_destacada: Un buen diseño urbano invita a quedarse, no a irse.
 fuente_nombre: Designboom
 fuente_url: https://www.designboom.com/design/gio-tirotto-domestic-chair-public-bench-italy-gulf-poets-vita-lenta/
-borrador: true
+borrador: false
 ---
 **La Lenta** es un **banco público** pensado para lo contrario de lo que hace buena parte del mobiliario urbano actual. Frente a los bancos incómodos, con separadores o sin respaldo, diseñados para que nadie se quede mucho rato, este quiere que la gente se siente y se quede.
 

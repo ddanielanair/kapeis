@@ -21,7 +21,7 @@ frase_destacada: Cuando una colaboración se repite cada temporada, ya es parte 
   la identidad de las dos marcas.
 fuente_nombre: Hypebeast
 fuente_url: https://hypebeast.com/2026/11/supreme-dickies-fall-2026-collection-release-info
-borrador: true
+borrador: false
 ---
 La **colaboración de Supreme y Dickies de otoño 2026** vuelve a apostar por lo que mejor les funciona, la **ropa de trabajo** llevada a la calle. Esta vez, pensada para el frío.
 

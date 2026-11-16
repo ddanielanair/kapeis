@@ -19,7 +19,7 @@ palabras_clave: Crocs Doctor Doom, Crocs Marvel, Crocs Avengers Doomsday, Doctor
 frase_destacada: El mejor detalle es el que solo descubre quien se fija.
 fuente_nombre: Hypebeast
 fuente_url: https://hypebeast.com/2026/11/marvel-crocs-classic-clog-doctor-doom-212995-90h-official-look-release-info
-borrador: true
+borrador: false
 ---
 Los **Crocs de Doctor Doom** ya tienen imagen oficial. Marvel y Crocs han presentado un **Classic Clog** dedicado al villano que protagoniza *Avengers: Doomsday*, y llegará a las tiendas el **3 de diciembre de 2026**, justo antes del estreno.
 

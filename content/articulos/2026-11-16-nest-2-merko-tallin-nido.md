@@ -20,7 +20,7 @@ frase_destacada: Una marca también puede dejar huella en una ciudad sin poner s
   logo en ningún sitio.
 fuente_nombre: Designboom
 fuente_url: https://www.designboom.com/art/two-luminous-eggs-hand-woven-metal-frame-old-submarine-shipyard-mast-estonia-inimruum-un-like/
-borrador: true
+borrador: false
 ---
 En **Tallin**, la capital de Estonia, un antiguo mástil de iluminación de un astillero sostiene ahora un **nido gigante**. Es **Nest 2**, una instalación lumínica encargada por la promotora inmobiliaria **Merko** y creada por los estudios **un-like** e **Inimruum**.
 

@@ -20,7 +20,7 @@ palabras_clave: Yohji Yamamoto moseyec, WILDSIDE Yohji Yamamoto, gafas Yohji
 frase_destacada: A veces el envase cuenta la historia mejor que el producto.
 fuente_nombre: Hypebeast
 fuente_url: https://hypebeast.com/2026/11/wildside-yohji-yamamoto-x-moseyec-collab-info
-borrador: true
+borrador: false
 ---
 Las **gafas de WILDSIDE Yohji Yamamoto y moseyec** son la primera colaboración entre la línea más urbana del diseñador japonés y esta marca de gafas de Tokio. Parten del modelo **SHIFT FRAME GLASS** de moseyec y lo llevan al terreno de Yohji, con todas las piezas pintadas en negro.
 

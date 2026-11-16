@@ -21,7 +21,7 @@ frase_destacada: Un fandom no compra un producto, compra un guiño que solo
   entienden los suyos.
 fuente_nombre: Hypebeast y G-SHOCK
 fuente_url: https://hypebeast.com/2026/11/casio-g-shock-xg-gm-6900xg-8-collaboration-release-info
-borrador: true
+borrador: false
 ---
 El **reloj G-SHOCK de XG** ya tiene segunda parte. Casio ha anunciado el **GM-6900XG-8**, el segundo modelo que firma con el grupo de chicas japonés XG, después de una primera colaboración con los modelos GM-S5600XG y GMA-S110XG.
 

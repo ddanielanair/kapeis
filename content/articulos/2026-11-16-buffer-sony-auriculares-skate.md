@@ -21,7 +21,7 @@ frase_destacada: Un objeto técnico se convierte en icono cuando una comunidad l
   hace suyo.
 fuente_nombre: Hypebeast
 fuente_url: https://hypebeast.com/2026/11/sony-buffer-collaboration-collection-release-info
-borrador: true
+borrador: false
 ---
 La marca japonesa **Buffer** ha presentado una cápsula inspirada en **Sony** que gira en torno a un objeto de culto, los **auriculares de estudio MDR-CD900ST**, un clásico de los estudios de grabación en Japón.
 
