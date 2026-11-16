@@ -9,6 +9,9 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/supreme-dickies-chaqueta-cuero.jpg
+alt_imagen: Dos modelos con la chaqueta de trabajo de cuero negro con capucha de Supreme y Dickies, uno de ellos con gorro negro de logo script
+pie_imagen: "Imagen: Supreme"
 marca: Supreme x Dickies
 tono: negro
 titulo_seo: Supreme x Dickies otoño 2026, prendas y fecha de lanzamiento
