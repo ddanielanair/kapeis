@@ -10,6 +10,8 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/gta-6-miami-welcome-to-vice-city-kaseya-center.jpg
+alt_imagen: Vista aérea nocturna del Kaseya Center de Miami con el cartel rosa de neón Welcome to Vice City de GTA 6 en el tejado
 marca: GTA VI
 tono: fosforito
 titulo_seo: GTA 6 convierte Miami en Vice City, la campaña que divide
