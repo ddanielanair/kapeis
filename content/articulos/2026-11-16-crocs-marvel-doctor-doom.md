@@ -8,6 +8,9 @@ zona: Internacional
 tipo: Artículo propio
 portada: true
 destacada: false
+imagen: /uploads/crocs-doctor-doom-marvel.jpg
+alt_imagen: Par de Crocs Classic Clog verdes de Doctor Doom vistos desde arriba, con ilustraciones de cómic, remaches dorados y Jibbitz del villano
+pie_imagen: "Imagen: Crocs"
 marca: Crocs x Marvel
 tono: fosforito
 titulo_seo: Crocs Doctor Doom de Marvel, precio, fecha y dónde comprar
@@ -23,11 +26,11 @@ Los **Crocs de Doctor Doom** ya tienen fecha. Marvel y Crocs lanzan el **3 de di
 
 > El mejor detalle es el que solo descubre quien se fija.
 
-El zueco es **verde oscuro**, el color de la capa del personaje, con ilustraciones de cómic de Doom en el mismo tono. La correa también es verde, con remaches dorados, y la plantilla gris lleva el logo de Marvel.
+El zueco es **verde oscuro**, el color de la capa del personaje, con ilustraciones de cómic de Doom en el mismo tono. La correa también es verde, con remaches dorados, y la plantilla es gris.
 
 El detalle más curioso está debajo. La **suela gris imita una armadura** y esconde la **máscara de Doom** cerca del talón, de forma que solo se ve al levantar el pie. Es un guiño para fans que, además, da mucho juego en redes.
 
-Como casi todas las colaboraciones de Crocs, el par viene con **Jibbitz**, los adornos que se encajan en los agujeros. Entre ellos está **Doom sentado en su trono**.
+Como casi todas las colaboraciones de Crocs, el par viene con **Jibbitz**, los adornos que se encajan en los agujeros. En la imagen oficial aparece con **seis**, todos del villano, entre ellos **Doom sentado en su trono**, su máscara, el logo de «Doctor Doom» y una **portada de cómic** de *Marvel Super-Heroes*. La plantilla gris lleva los logos de Marvel y Crocs en rojo.
 
 Crocs ha convertido las colaboraciones con cine, series y personajes en una de sus grandes armas, y lanzar un modelo dos semanas antes del estreno le permite aprovechar toda la conversación alrededor de la película.
 
