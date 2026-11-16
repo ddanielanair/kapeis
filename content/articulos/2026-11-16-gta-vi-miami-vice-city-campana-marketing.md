@@ -8,7 +8,7 @@ fecha: 2026-11-16 13:15
 seccion: Marketing
 zona: Internacional
 tipo: Artículo propio
-portada: false
+portada: true
 destacada: false
 imagen: /uploads/gta-6-miami-welcome-to-vice-city-kaseya-center.jpg
 alt_imagen: Vista aérea nocturna del Kaseya Center de Miami con el cartel rosa de neón Welcome to Vice City de GTA 6 en el tejado
