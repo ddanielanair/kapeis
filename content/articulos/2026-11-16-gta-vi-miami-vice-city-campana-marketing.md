@@ -12,6 +12,7 @@ portada: false
 destacada: false
 imagen: /uploads/gta-6-miami-welcome-to-vice-city-kaseya-center.jpg
 alt_imagen: Vista aérea nocturna del Kaseya Center de Miami con el cartel rosa de neón Welcome to Vice City de GTA 6 en el tejado
+pie_imagen: Imagen de 305 Inside
 marca: GTA VI
 tono: fosforito
 titulo_seo: GTA 6 convierte Miami en Vice City, la campaña que divide
@@ -55,7 +56,7 @@ El guiño tiene doble lectura. Dentro del juego, el Kaseya Center aparece como e
 El despliegue no se queda ahí.
 
 - **Playas.** Miami Beach aprobó en septiembre, por 4 votos a 3, un acuerdo de hasta 4 millones de dólares. Hasta el 31 de diciembre, hamacas y sombrillas de la playa llevan discretamente la marca Vice City y el «VI» del juego.
-- **Aeropuerto, puerto y semáforos.** El condado ha cerrado con Rockstar acuerdos por unos 3,9 millones de dólares, cartel incluido. El juego tendrá presencia en las pasarelas del aeropuerto, en el puerto y en las cajas de los semáforos.
+- **Aeropuerto, puerto y semáforos.** El condado ha cerrado con Rockstar acuerdos por unos 3,9 millones de dólares, cartel incluido. El juego tendrá presencia en [las pasarelas del aeropuerto](https://305inside.com/gta-6-miami-vice-city-aeropuerto/), en el puerto y en las cajas de los semáforos.
 - **Cielo y calle.** Un dirigible de Goodyear pintado con los colores de Vice City sobrevuela la ciudad, y circula una caravana de coches reales modificados como los del juego, con matrículas de Leonida, el estado ficticio donde transcurre.
 - **Comida.** Dentro del pabellón han abierto Burger Shot y Cluckin' Bell, dos cadenas de comida rápida que solo existían en el juego.
 
