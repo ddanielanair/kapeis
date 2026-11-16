@@ -9,8 +9,8 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
-imagen: /uploads/xg-g-shock-grupo.jpg
-alt_imagen: Las siete integrantes del grupo japonés XG posan vestidas de negro con relojes G-SHOCK en la muñeca
+imagen: /uploads/xg-g-shock-portada.jpg
+alt_imagen: Las siete integrantes del grupo japonés XG posan con ropa en tonos pastel y relojes G-SHOCK sobre un fondo de ciudad rosa
 pie_imagen: "Imagen: G-SHOCK"
 marca: G-SHOCK x XG
 tono: negro
@@ -33,6 +33,8 @@ El reloj gira en torno a la idea **«TIME, INKED ON YOU»** (el tiempo, tatuado 
 Los detalles están pensados para los fans. Al pulsar el **botón en forma de «X»** se enciende la luz y aparece la silueta de un **lobo aullando**, el símbolo de **ALPHAZ**, el nombre de su fandom. La tapa trasera lleva grabado el logo del grupo y el carácter japonés 緒, que viene de la palabra que las integrantes gritan antes de cada concierto. Y la caja esconde **siete lobos**, uno por cada integrante.
 
 Por lo demás, es un G-SHOCK de verdad. Resiste golpes y **agua hasta 200 metros**, con cronómetro, cuenta atrás y alarmas.
+
+![Las siete integrantes de XG vestidas de negro con relojes G-SHOCK en la muñeca](/uploads/xg-g-shock-grupo.jpg "Imagen: G-SHOCK")
 
 XG es **embajador global de G-SHOCK desde julio de 2025** y ya lanzó con la marca los modelos GM-S5600XG y GMA-S110XG en junio. Esta segunda edición confirma la estrategia de Casio de acercarse a un público joven a través de grupos con fans muy fieles, que valoran cada detalle escondido.
 
