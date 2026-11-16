@@ -13,8 +13,7 @@ marca: Microsoft
 tono: negro
 titulo_seo: Caída de Outlook y Microsoft 365, qué pasó y por qué
 descripcion_seo: Outlook y Microsoft 365 estuvieron caídos más de diez horas el 12 y
-  13 de noviembre. Qué pasó, a quién afectó, qué dijo Microsoft y qué pueden
-  aprender las marcas.
+  13 de noviembre. Qué pasó, qué dijo Microsoft y qué aprender.
 palabras_clave: caída Outlook, caída Microsoft 365, Outlook no funciona, caída
   Microsoft noviembre 2026, Outlook caído, comunicación de crisis, Microsoft
 frase_destacada: En una crisis, lo que más tranquiliza no es la solución, es saber
