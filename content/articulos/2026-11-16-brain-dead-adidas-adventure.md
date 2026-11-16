@@ -9,6 +9,9 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/brain-dead-adidas-zuperklimb.jpg
+alt_imagen: Zapatillas Brain Dead x adidas Adventure Zuperklimb azules de ante de pelo con tres bandas verdes, colgadas entre cuerdas de escalada
+pie_imagen: "Imagen: adidas"
 marca: Brain Dead x adidas
 tono: fosforito
 titulo_seo: Brain Dead x adidas Adventure Zuperklimb, fecha y colección
@@ -26,7 +29,7 @@ La **colaboración de Brain Dead y adidas Originals** recupera la **Adventure Zu
 
 La línea Adventure nació en **1991**, adidas la dejó de lado y la recuperó a principios de los 2000 con un estilo retrofuturista de montaña. En 2026 la marca la ha vuelto a sacar, y Brain Dead, el colectivo creativo de Los Ángeles, se ha centrado en su lado más escalador.
 
-La **Zuperklimb** llega en **tres colores**, marrón, azul y negro, con **ante de pelo largo**, amortiguación Adiprene, **anillas metálicas** en los cordones, que llegan hasta la puntera como en una bota de montaña, y una suela de goma Stealth que envuelve la punta.
+La **Zuperklimb** llega en **tres colores**, marrón, azul y negro, con **ante de pelo largo**, amortiguación Adiprene, **anillas metálicas** en los cordones, que llegan hasta la puntera como en una bota de montaña, y una suela de goma Stealth que envuelve la punta. En la versión azul, las tres bandas y el cuello son de piel verde, los cordones llevan un dibujo de rombos y la lengüeta luce una etiqueta con los logos de las dos marcas.
 
 La ropa sigue la misma línea, con un **forro polar de pelo largo** en morado, marrón y amarillo ácido, un jersey, pantalones cargo, un **gorro de trampero peludo** con la palabra «DEAD» y unos **calcetines unidos con un mosquetón**, un guiño al mundo de la escalada.
 
