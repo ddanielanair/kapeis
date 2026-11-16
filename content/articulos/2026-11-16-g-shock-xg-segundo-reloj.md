@@ -34,6 +34,16 @@ Los detalles están pensados para los fans. Al pulsar el **botón en forma de «
 
 Por lo demás, es un G-SHOCK de verdad. Resiste golpes y **agua hasta 200 metros**, con cronómetro, cuenta atrás y alarmas.
 
+En la campaña en tonos pastel que abre esta noticia, cada integrante lleva un reloj distinto de la serie **GMA-P2100** de G-SHOCK, de caja más pequeña, elegido según su estilo. Jurin y Cocona llevan el GMA-P2100PC-1A, gris con esfera lila. Maya, el GMA-P2100PC-7A blanco. Harvey, el GMA-P2100PC-4A en rosa claro. Chisa, el GMA-P2100ST-9A beige. Juria, el GMA-P2100ST-4A en rosa metalizado. Y Hinata, el GMA-P2100ST-7A en crema. Es otra forma de convertir a cada integrante en una referencia de producto para sus fans.
+
+![Reloj G-SHOCK GMA-P2100PC-1A gris con esfera lila, el que llevan Jurin y Cocona](/uploads/g-shock-xg-gma-p2100pc-1a.jpg)
+![Reloj G-SHOCK GMA-P2100PC-7A blanco, el que lleva Maya](/uploads/g-shock-xg-gma-p2100pc-7a.jpg)
+![Reloj G-SHOCK GMA-P2100PC-4A rosa claro, el que lleva Harvey](/uploads/g-shock-xg-gma-p2100pc-4a.jpg)
+
+![Reloj G-SHOCK GMA-P2100ST-9A beige, el que lleva Chisa](/uploads/g-shock-xg-gma-p2100st-9a.jpg)
+![Reloj G-SHOCK GMA-P2100ST-4A rosa metalizado, el que lleva Juria](/uploads/g-shock-xg-gma-p2100st-4a.jpg)
+![Reloj G-SHOCK GMA-P2100ST-7A color crema, el que lleva Hinata](/uploads/g-shock-xg-gma-p2100st-7a.jpg "Imágenes: G-SHOCK")
+
 ![Las siete integrantes de XG vestidas de negro con relojes G-SHOCK en la muñeca](/uploads/xg-g-shock-grupo.jpg "Imagen: G-SHOCK")
 
 XG es **embajador global de G-SHOCK desde julio de 2025** y ya lanzó con la marca los modelos GM-S5600XG y GMA-S110XG en junio. Esta segunda edición confirma la estrategia de Casio de acercarse a un público joven a través de grupos con fans muy fieles, que valoran cada detalle escondido.
