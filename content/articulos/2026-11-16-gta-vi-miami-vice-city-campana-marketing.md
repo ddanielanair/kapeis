@@ -42,7 +42,9 @@ Las camisetas son una **colaboración a cuatro bandas entre los Heat, Rockstar G
 - **La de partido**, más discreta por las normas de la NBA. Es negra con detalles rosas, lleva el mapa del juego dentro del logo de los Heat y el Swoosh invertido, firma habitual de Travis Scott.
 - **La de aficionado**, que cambia el logo del equipo por «Vice City» en letra manuscrita y añade un «VI» y seis estrellas rosas, el nivel máximo de búsqueda policial en GTA.
 
-Se venderán esa misma noche en el pabellón y en cantidades limitadas. El club también tiene a la venta una colección Vice City con camisetas de 45 a 55 dólares, gorras de 50 y sudaderas de 100.
+![Las dos camisetas Vice City de los Miami Heat, la de partido con el número 13 y la de aficionado con el 7, sobre el capó de un deportivo con camuflaje rosa y azul](/uploads/miami-heat-camisetas-vice-city-gta-6-cactus-jack-nike.jpg "Imagen de Miami Heat")
+
+Se venderán esa misma noche en el pabellón y en cantidades limitadas. El club también tiene a la venta una [colección Vice City](https://www.nba.com/heat/uniforms/2627-heat-vice-city-uniform-collection) con camisetas de 45 a 55 dólares, gorras de 50 y sudaderas de 100.
 
 ## Un cartel de «Welcome to Vice City» sobre el pabellón
 
