@@ -112,7 +112,8 @@ function markdown(md) {
     if (lineas.length > 1 && lineas.every((l) => /^!\[[^\]]*\]\(\S+?(?:\s+"[^"]*")?\)$/.test(l.trim()))) {
       let pie = '';
       const imgs = lineas.map((l) => { const m = l.trim().match(/^!\[([^\]]*)\]\((\S+?)(?:\s+"([^"]*)")?\)$/); if (m[3]) pie = m[3]; return `<img src="${esc(m[2])}" alt="${esc(m[1])}" loading="lazy" decoding="async">`; }).join('');
-      return `<figure class="body-gallery" style="--n:${lineas.length}">${imgs}${pie ? `<figcaption>${esc(pie)}</figcaption>` : ''}</figure>`;
+      const primera = (lineas[0].trim().match(/\]\((\S+?)[\s)]/) || [])[1]; const sz = primera ? imgSize(primera) : null; const ar = sz ? `;--ar:${sz.w}/${sz.h}` : '';
+      return `<figure class="body-gallery" style="--n:${lineas.length}${ar}">${imgs}${pie ? `<figcaption>${esc(pie)}</figcaption>` : ''}</figure>`;
     }
     if (foto) return `<figure class="body-figure"><img src="${esc(foto[2])}" alt="${esc(foto[1])}" loading="lazy" decoding="async">${foto[3] ? `<figcaption>${esc(foto[3])}</figcaption>` : ''}</figure>`;
     let h = b.match(/^(#{2,4})\s+(.*)$/);
@@ -264,8 +265,8 @@ const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacio
 const migas = (items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE_URL + url })) });
 
 // ---------- medidas de imágenes (para que la página no «salte» al cargar: mejora Core Web Vitals) ----------
-const _sizes = {};
 function imgSize(src) {
+  const _sizes = imgSize._c || (imgSize._c = {});
   if (!src || !src.startsWith('/uploads/')) return null;
   if (src in _sizes) return _sizes[src];
   let out = null;

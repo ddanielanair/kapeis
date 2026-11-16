@@ -27,9 +27,16 @@ Las **gafas WILDSIDE Yohji Yamamoto x moseyec** son la primera colaboración ent
 
 > A veces el envase cuenta la historia mejor que el producto.
 
-Parten del modelo **SHIFT FRAME GLASS** de moseyec, cuya seña de identidad son las **varillas desmontables**, que se pueden combinar con la montura para cambiar de estilo. En la versión de WILDSIDE **todas las piezas son negras**, el color que define a Yohji Yamamoto desde hace décadas.
+Parten del modelo **SHIFT FRAME GLASS** de moseyec, cuya seña de identidad son las **varillas desmontables**, que se pueden combinar con la montura para cambiar de estilo. En la versión de WILDSIDE **todas las piezas son negras**, el color que define a Yohji Yamamoto desde hace décadas. La montura es cuadrada y de acetato brillante, con lentes oscuras, y lleva un detalle muy reconocible, una **pequeña cruz de cristales negros** incrustada en una de las lentes. En la cara interior de la varilla aparece grabada la frase «You can be superstar you can be no body».
 
-La colaboración cuida todo lo que rodea a las gafas. El estuche y la gamuza de limpieza están diseñados a juego, y el producto llega en un **envase con forma de bote de spray**, un guiño a la cultura del grafiti y de la calle en Tokio.
+![Gafas de sol negras WILDSIDE Yohji Yamamoto x moseyec con montura cuadrada y lentes oscuras](/uploads/gafas-yohji-moseyec-negras.jpg)
+![Detalle de la cruz de cristales negros incrustada en la lente y de la bisagra de las gafas](/uploads/gafas-yohji-moseyec-cruz-detalle.jpg "Imágenes: Yohji Yamamoto")
+
+La colaboración cuida todo lo que rodea a las gafas. El estuche y la gamuza de limpieza están diseñados a juego, y el producto llega en un **envase con forma de bote de spray**, un guiño a la cultura del grafiti y de la calle en Tokio. El bote, negro con los logos de WILDSIDE y moseyec en plateado, se presenta dentro de una **caja rígida negra con un espejo** en la tapa y la frase de la marca. La funda es un **estuche enrollable de tela** con bolsillos, pensado para llevar las gafas y las varillas de recambio.
+
+![Funda enrollable negra de tela con bolsillos, las gafas, las varillas desmontadas y la gamuza de moseyec y WILDSIDE](/uploads/gafas-yohji-moseyec-funda.jpg)
+![Envase con forma de bote de spray negro con los logos de WILDSIDE Yohji Yamamoto y moseyec](/uploads/gafas-yohji-moseyec-bote-spray.jpg)
+![Caja negra abierta con un espejo en la tapa y el bote de spray de moseyec y WILDSIDE en su interior](/uploads/gafas-yohji-moseyec-caja.jpg "Imágenes: Yohji Yamamoto")
 
 Ese detalle tiene una explicación. Con el lanzamiento se ha desvelado que detrás de moseyec está el rapero japonés **Vingo**, que hasta ahora no había dado la cara como creador de la marca. Su lema es «You can be anyone, You can be nobody» (puedes ser cualquiera, puedes no ser nadie), una invitación a filtrar el ruido y las expectativas ajenas y a elegir cómo mostrarse y cómo mirar el mundo. Unas gafas son el objeto perfecto para esa idea.
 
