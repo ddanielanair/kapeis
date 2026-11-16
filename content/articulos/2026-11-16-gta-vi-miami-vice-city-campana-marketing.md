@@ -55,10 +55,16 @@ El guiño tiene doble lectura. Dentro del juego, el Kaseya Center aparece como e
 
 El despliegue no se queda ahí.
 
-- **Playas.** Miami Beach aprobó en septiembre, por 4 votos a 3, un acuerdo de hasta 4 millones de dólares. Hasta el 31 de diciembre, hamacas y sombrillas de la playa llevan discretamente la marca Vice City y el «VI» del juego.
+- **Playas.** Miami Beach aprobó en septiembre, por 4 votos a 3, un acuerdo de hasta 4 millones de dólares. Hasta el 31 de diciembre, hamacas y sombrillas de la playa llevan discretamente la marca Vice City y el «VI» del juego. Algunas casetas de socorristas se han pintado de rosa y azul con el logo del juego.
 - **Aeropuerto, puerto y semáforos.** El condado ha cerrado con Rockstar acuerdos por unos 3,9 millones de dólares, cartel incluido. El juego tendrá presencia en [las pasarelas del aeropuerto](https://305inside.com/gta-6-miami-vice-city-aeropuerto/), en el puerto y en las cajas de los semáforos.
 - **Cielo y calle.** Un dirigible de Goodyear pintado con los colores de Vice City sobrevuela la ciudad, y circula una caravana de coches reales modificados como los del juego, con matrículas de Leonida, el estado ficticio donde transcurre.
+- **Murales y autobuses.** Por Miami circulan autobuses forrados con Jason y Lucía, los protagonistas del juego, y han aparecido murales con el mensaje «We ♥ Vice City».
 - **Comida.** Dentro del pabellón han abierto Burger Shot y Cluckin' Bell, dos cadenas de comida rápida que solo existían en el juego.
+
+![Mural con el mensaje We love Vice City en letras azules y un corazón rojo sobre un fondo rosa, naranja y morado en una fachada de Miami](/uploads/mural-we-love-vice-city-miami-gta-6.jpg)
+
+![Caseta de socorristas de Miami Beach pintada de azul y rosa con el logo VI de GTA 6](/uploads/miami-beach-caseta-socorrista-gta-6-vice-city.jpg)
+![Autobús de la línea de Miami Beach forrado con Jason y Lucía, los protagonistas de GTA 6, y el logo de Grand Theft Auto VI](/uploads/autobus-gta-6-miami-beach-jason-lucia.jpg)
 
 ## Las zapatillas de Travis Scott para GTA 6
 
