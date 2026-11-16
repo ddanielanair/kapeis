@@ -62,7 +62,11 @@ El despliegue no se queda ahí.
 
 ## Las zapatillas de Travis Scott para GTA 6
 
-Travis Scott, que ya sonaba en la banda sonora de GTA V, es la otra pieza clave. Junto a Rockstar y Nike prepara una **colección limitada de Air Force 1 Low en tres colores** que, según los listados de tiendas, saldrá el 19 de noviembre, el mismo día que el juego. Nike y Rockstar aún no han confirmado oficialmente la fecha. Scott ya ha enseñado un modelo negro con detalles rosas y seis estrellas, pero ese par es solo para amigos y familia y no se pondrá a la venta.
+Travis Scott, que ya sonaba en la banda sonora de GTA V, es la otra pieza clave. Junto a Rockstar y Nike prepara una **colección limitada de Air Force 1 Low en tres colores** que, según los listados de tiendas, saldrá el 19 de noviembre, el mismo día que el juego. Nike y Rockstar aún no han confirmado oficialmente la fecha. Scott ya [ha enseñado](https://www.instagram.com/p/DfZYMxZE8n5/) un modelo negro con detalles rosas y seis estrellas, pero ese par es solo para amigos y familia y no se pondrá a la venta.
+
+![Travis Scott sentado en un coche clásico rosa y negro con las Nike Air Force 1 de GTA 6 en rosa, negro y blanco](/uploads/travis-scott-nike-air-force-1-gta-6.jpg)
+
+![Una mano sujeta una Nike Air Force 1 de GTA 6 con degradado rosa y naranja, Swoosh invertido blanco y la palabra GTA en la suela](/uploads/nike-air-force-1-gta-6-rosa.jpg "Imágenes de Instagram")
 
 La campaña también ha llegado a Nueva York. GTA VI ocupa pantallas gigantes en la esquina de la calle 42 con la Octava Avenida, junto a Times Square, programadas para el día del lanzamiento.
 
