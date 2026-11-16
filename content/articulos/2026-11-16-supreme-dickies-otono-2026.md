@@ -27,7 +27,13 @@ La **colaboración de Supreme y Dickies de otoño 2026** vuelve a apostar por lo
 
 > Cuando una colaboración se repite cada temporada, ya es parte de la identidad de las dos marcas.
 
-La pieza estrella es una **chaqueta de trabajo de cuero con capucha**. La acompañan unos **pantalones de pintor de doble rodilla forrados de franela** y un **gorro con el logo de Supreme** en letra script.
+La pieza estrella es una **chaqueta de trabajo de cuero con capucha**, negra, con el bolsillo de pecho típico de Dickies. La acompañan unos **pantalones de pintor de doble rodilla forrados de franela** y un **gorro negro con el logo de Dickies** en letra script.
+
+El lookbook enseña más prendas. Hay una **chaqueta acolchada blanca con capucha** estampada de arriba abajo con los logos de las dos marcas, un **vaquero oscuro de doble rodilla** con pespuntes naranjas y «Dickies» bordado en el bolsillo trasero, y una **chaqueta de lona negra con capucha de pelo** combinada con un pantalón que lleva forro de cuadros rojos de franela y cremallera en el bajo. Todas llevan la etiqueta compartida de Dickies y Supreme, y las fotos, hechas con flash y en casas y calles de noche, refuerzan ese aire de ropa de trabajo de verdad.
+
+![Modelo con la chaqueta acolchada blanca con capucha estampada con logos de Dickies y Supreme y gorro negro](/uploads/supreme-dickies-chaqueta-acolchada-blanca.jpg)
+![Vaquero oscuro de doble rodilla de Supreme y Dickies con pespuntes naranjas y Dickies bordado en el bolsillo trasero](/uploads/supreme-dickies-vaquero-doble-rodilla.jpg)
+![Modelo con chaqueta de lona negra con capucha de pelo y pantalón con forro de franela de cuadros rojos](/uploads/supreme-dickies-chaqueta-capucha-pelo.jpg "Imágenes: Supreme")
 
 La colección sale el **19 de noviembre** y llega a Asia el **21**. No es ninguna sorpresa, porque las dos marcas llevan años colaborando, pero precisamente esa constancia es la clave. Dickies aporta la autenticidad del uniforme de trabajo y Supreme la convierte en objeto de deseo.
 
