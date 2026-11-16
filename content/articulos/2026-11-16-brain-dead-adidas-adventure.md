@@ -31,7 +31,11 @@ La línea Adventure nació en **1991**, adidas la dejó de lado y la recuperó a
 
 La **Zuperklimb** llega en **tres colores**, marrón, azul y negro, con **ante de pelo largo**, amortiguación Adiprene, **anillas metálicas** en los cordones, que llegan hasta la puntera como en una bota de montaña, y una suela de goma Stealth que envuelve la punta. En la versión azul, las tres bandas y el cuello son de piel verde, los cordones llevan un dibujo de rombos y la lengüeta luce una etiqueta con los logos de las dos marcas.
 
-La ropa sigue la misma línea, con un **forro polar de pelo largo** en morado, marrón y amarillo ácido, un jersey, pantalones cargo, un **gorro de trampero peludo** con la palabra «DEAD» y unos **calcetines unidos con un mosquetón**, un guiño al mundo de la escalada.
+La ropa sigue la misma línea. El **forro polar de pelo largo** tiene media cremallera y mezcla morado, marrón y amarillo ácido con el cuello, los puños y el bajo en verde oliva. El **gorro de trampero**, también peludo y en tonos lila, lleva una franja amarilla con la palabra «DEAD» y unas cintas marrones para atarlo. Y los **calcetines**, verdes y marrones, llevan el logo de adidas en uno y la cabeza de Brain Dead en el otro, y se venden **unidos con un mosquetón**, un guiño al mundo de la escalada. Completan la colección un jersey y unos pantalones cargo.
+
+![Forro polar de pelo largo de Brain Dead x adidas con media cremallera, en morado, marrón y amarillo con cuello verde](/uploads/brain-dead-adidas-forro-polar.jpg)
+![Gorro de trampero peludo lila de Brain Dead x adidas con una franja amarilla y la palabra DEAD](/uploads/brain-dead-adidas-gorro-dead.jpg)
+![Calcetines verdes y marrones de Brain Dead x adidas con los logos de las dos marcas, unidos con un mosquetón](/uploads/brain-dead-adidas-calcetines.jpg "Imágenes: adidas")
 
 Brain Dead colabora con adidas desde 2024 y antes lo ha hecho con Reebok, ASICS, Oakley, Converse o Crocs. Su fórmula es tomar productos con historia y darles un toque raro y reconocible, justo lo que buscan las marcas para conectar con un público que valora tanto la nostalgia como la originalidad.
 
