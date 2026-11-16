@@ -1,7 +1,7 @@
 ---
 titulo: Crocs se pasa al lado oscuro con unos zuecos de Doctor Doom
 entradilla: Marvel y Crocs lanzan un Classic Clog verde con la máscara del
-  villano escondida en la suela, justo antes del estreno de Avengers Doomsday.
+  villano grabada en la suela, justo antes del estreno de Avengers Doomsday.
 fecha: 2026-11-16 18:20
 seccion: Retail
 zona: Internacional
@@ -28,7 +28,10 @@ Los **Crocs de Doctor Doom** ya tienen fecha. Marvel y Crocs lanzan el **3 de di
 
 El zueco es **verde oscuro**, el color de la capa del personaje, con ilustraciones de cómic de Doom en el mismo tono. La correa también es verde, con remaches dorados, y la plantilla es gris.
 
-El detalle más curioso está debajo. La **suela gris imita una armadura** y esconde la **máscara de Doom** cerca del talón, de forma que solo se ve al levantar el pie. Es un guiño para fans que, además, da mucho juego en redes.
+El detalle más curioso está abajo. La **suela gris imita una armadura**, con una fila de remaches dibujados alrededor, y en el lateral, a la altura del talón, lleva grabada en relieve la **máscara de Doom**. Por detrás, la correa verde lleva el logo de Crocs y la base es gris, sin dibujos. Es un guiño para fans que, además, da mucho juego en redes.
+
+![Vista lateral del Crocs de Doctor Doom con la máscara del villano grabada en la suela gris a la altura del talón y el remache dorado de la correa](/uploads/crocs-doctor-doom-lateral.jpg)
+![Vista trasera del Crocs de Doctor Doom con la correa verde y la suela gris vista desde abajo](/uploads/crocs-doctor-doom-trasera-suela.jpg "Imágenes: Crocs")
 
 Como casi todas las colaboraciones de Crocs, el par viene con **Jibbitz**, los adornos que se encajan en los agujeros. En la imagen oficial aparece con **seis**, todos del villano, entre ellos **Doom sentado en su trono**, su máscara, el logo de «Doctor Doom» y una **portada de cómic** de *Marvel Super-Heroes*. La plantilla gris lleva los logos de Marvel y Crocs en rojo.
 
