@@ -9,6 +9,9 @@ zona: Internacional
 tipo: Artículo propio
 portada: false
 destacada: false
+imagen: /uploads/buffer-sony-mdr-cd900st.jpg
+alt_imagen: Auriculares Sony MDR-CD900ST Buffer SP negros con una franja turquesa con el logo de Buffer, sobre un soporte de cubos de madera con las letras de Buffer
+pie_imagen: "Imagen: Buffer"
 marca: Buffer x Sony
 tono: negro
 titulo_seo: Buffer x Sony, auriculares MDR-CD900ST y camisetas VX2000
@@ -25,7 +28,7 @@ borrador: false
 
 > Un objeto técnico se convierte en icono cuando una comunidad lo hace suyo.
 
-La pieza principal es el **MDR-CD900ST Buffer SP**, la versión especial de Buffer de esos auriculares, que cuesta **33.000 yenes**. Hay también una **edición de coleccionista** que incluye un soporte con forma de bloques de madera de juguete, presentada en una caja con su personaje, **Buffy**.
+La pieza principal es el **MDR-CD900ST Buffer SP**, la versión especial de Buffer de esos auriculares, que cuesta **33.000 yenes**. Mantiene el aspecto del original, negro y con el logo de Sony, pero añade en cada auricular una **franja turquesa** con el logo de Buffer y la frase «Protecting you from the world friction» (protegiéndote de la fricción del mundo). Hay también una **edición de coleccionista** que incluye un soporte de **cubos de madera de juguete con las letras de Buffer**, presentada en una caja con su personaje, **Buffy**.
 
 La acompañan **tres camisetas** de 6.600 yenes, cada una dedicada a un equipo de Sony. Una a los propios auriculares, otra a un monitor profesional y otra a la **videocámara VX2000**, la que grabó buena parte de los vídeos de skate de los 2000 y que se ha convertido en un icono para esa comunidad.
 
