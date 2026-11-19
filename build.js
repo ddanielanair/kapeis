@@ -186,7 +186,7 @@ ${SEARCH_ICON(16)}
 </div>`;
   return `<header class="site-header">
 <div class="topbar"><div class="wrap topbar-row">
-<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a>${ajustes.email_colaboracion ? `<a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>` : ''}${ajustes.instagram ? `<span class="tb-redes"><span class="tb-obra">Redes en construcción <span class="tb-emoji" aria-hidden="true">🚧</span></span><a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">Síguenos y ayúdanos a levantarlas</a></span>` : ''}</span>
+<span class="topbar-links"><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a>${ajustes.telefono ? `<a href="https://wa.me/34${esc(ajustes.telefono.replace(/\D/g, ''))}" target="_blank" rel="noopener">WhatsApp ${esc(ajustes.telefono)}</a>` : ''}${ajustes.email_colaboracion ? `<a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a>` : ''}${ajustes.instagram ? `<span class="tb-redes"><span class="tb-obra">Redes en construcción <span class="tb-emoji" aria-hidden="true">🚧</span></span><a class="topbar-ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">Síguenos y ayúdanos a levantarlas</a></span>` : ''}</span>
 </div></div>
 <div class="wrap header-row">
 <a class="logo-link" href="/" aria-label="Kapeís, ir a la portada">${LOGO('sm')}</a>
@@ -261,7 +261,8 @@ const ASSET_V = require('crypto').createHash('md5').update(['static/estilos.css'
 const LOGO_PNG = SITE_URL + '/logo-kapeis.png';
 const absUrl = (u) => (String(u).startsWith('http') ? u : SITE_URL + u);
 const ldScript = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
-const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacion', name: 'Kapeís', url: SITE_URL + '/', logo: { '@type': 'ImageObject', url: LOGO_PNG, width: 512, height: 512 }, email: ajustes.email_info, ...([ajustes.instagram, ajustes.tiktok].filter(Boolean).length ? { sameAs: [ajustes.instagram, ajustes.tiktok].filter(Boolean) } : {}) };
+const TEL = ajustes.telefono || ''; const TEL_HREF = TEL ? 'tel:+34' + TEL.replace(/\D/g, '') : '';
+const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacion', name: 'Kapeís', url: SITE_URL + '/', logo: { '@type': 'ImageObject', url: LOGO_PNG, width: 512, height: 512 }, email: ajustes.email_info, ...(TEL ? { telephone: '+34 ' + TEL } : {}), ...([ajustes.instagram, ajustes.tiktok].filter(Boolean).length ? { sameAs: [ajustes.instagram, ajustes.tiktok].filter(Boolean) } : {}) };
 const migas = (items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE_URL + url })) });
 
 // ---------- medidas de imágenes (para que la página no «salte» al cargar: mejora Core Web Vitals) ----------
@@ -337,6 +338,7 @@ ${body}
 <div class="wrap contact-band-row">
 <p class="contact-band-title">¿Tienes algo que contarnos?</p>
 <p class="contact-band-item"><span>Escríbenos</span><a href="mailto:${esc(ajustes.email_info)}">${esc(ajustes.email_info)}</a></p>
+${ajustes.telefono ? `<p class="contact-band-item"><span>Llámanos o escríbenos por WhatsApp</span><a href="https://wa.me/34${esc(ajustes.telefono.replace(/\D/g, ''))}" target="_blank" rel="noopener">${esc(ajustes.telefono)}</a></p>` : ''}
 ${ajustes.email_colaboracion ? `<p class="contact-band-item"><span>Colaboraciones y prensa</span><a href="mailto:${esc(ajustes.email_colaboracion)}">${esc(ajustes.email_colaboracion)}</a></p>` : ''}
 ${ajustes.instagram ? `<p class="contact-band-item"><span>Síguenos en Instagram</span><a class="ig" href="${esc(ajustes.instagram)}" target="_blank" rel="noopener">${IG_ICON}@kapeis.es</a></p>` : ''}
 ${ajustes.tiktok ? `<p class="contact-band-item"><span>Síguenos en TikTok</span><a class="ig" href="${esc(ajustes.tiktok)}" target="_blank" rel="noopener">${TT_ICON}@kapeis.es</a></p>` : ''}
@@ -617,14 +619,19 @@ ${ldScript(migas([['Portada', '/'], [a.seccion, '/' + a.seccionSlug + '/'], [a.t
 function sobre() {
   const body = fs.readFileSync(path.join(ROOT, 'src/sobre.html'), 'utf8')
     .replace(/\{\{email_info\}\}/g, esc(ajustes.email_info))
-    .replace(/\{\{email_colaboracion\}\}/g, esc(ajustes.email_colaboracion));
+    .replace(/\{\{email_colaboracion\}\}/g, esc(ajustes.email_colaboracion))
+    .replace(/\{\{telefono\}\}/g, esc(ajustes.telefono || ''))
+    .replace(/\{\{telefono_href\}\}/g, 'tel:+34' + (ajustes.telefono || '').replace(/\D/g, ''))
+    .replace(/\{\{whatsapp_href\}\}/g, 'https://wa.me/34' + (ajustes.telefono || '').replace(/\D/g, ''));
   return page({ title: 'Sobre Kapeís', seoTitle: 'Quiénes somos y contacto – Kapeís', description: 'Kapeís es una revista de marketing, publicidad y retail. Te contamos qué publicamos, cómo trabajamos y cómo escribirnos para enviar notas de prensa o colaborar.', body, canonical: '/sobre/' });
 }
 function legal() {
   const body = fs.readFileSync(path.join(ROOT, 'src/legal.html'), 'utf8')
     .replace(/\{\{responsable\}\}/g, esc(ajustes.responsable))
     .replace(/\{\{email_info\}\}/g, esc(ajustes.email_info))
-    .replace(/\{\{actualizado\}\}/g, esc(ajustes.legal_actualizado));
+    .replace(/\{\{actualizado\}\}/g, esc(ajustes.legal_actualizado))
+    .replace(/\{\{telefono\}\}/g, esc(ajustes.telefono || ''))
+    .replace(/\{\{telefono_href\}\}/g, 'tel:+34' + (ajustes.telefono || '').replace(/\D/g, ''));
   return page({ title: 'Información legal', seoTitle: 'Aviso legal, privacidad y cookies – Kapeís', description: 'Aviso legal, política de privacidad y política de cookies de Kapeís: quién es la responsable, qué datos se tratan en la newsletter y cómo ejercer tus derechos.', body, canonical: '/legal/' });
 }
 function suscripcion() {
