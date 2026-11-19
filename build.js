@@ -730,7 +730,7 @@ function sitemapNoticias() {
   write('buscar.json', indiceBusqueda());
   write('404.html', noEncontrada());
   write('rss.xml', rss());
-  write('sitemap.xml', sitemap(rutas));
+  write('sitemap.xml', sitemap(rutas.filter((r) => { try { return !fs.readFileSync(path.join(OUT, r, "index.html"), "utf8").includes("noindex"); } catch { return true; } })));
   write('sitemap-noticias.xml', sitemapNoticias());
   write('robots.txt', `User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /buscar/\nSitemap: ${SITE_URL}/sitemap.xml\nSitemap: ${SITE_URL}/sitemap-noticias.xml\n`);
   console.log(`Kapeís compilada: ${articulos.length} artículos, ${rutas.length} páginas.`);
