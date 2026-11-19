@@ -536,7 +536,7 @@ ${newsletter()}`;
       mainEntity: { '@type': 'ItemList', itemListElement: items.slice(0, 20).map((a, i) => ({ '@type': 'ListItem', position: i + 1, url: SITE_URL + a.url })) } },
     { ...migas([['Portada', '/'], [titulo, ruta]]), '@context': undefined },
   ] };
-  return page({ title: titulo, seoTitle: seoTitle ? `${seoTitle} – Kapeís` : undefined, description: descripcion, body, active, canonical: ruta, head: ldScript(ld) });
+  return page({ title: titulo, seoTitle: seoTitle ? `${seoTitle} – Kapeís` : undefined, description: descripcion, body, active, canonical: ruta, head: ldScript(ld), noindex: items.length < 3 });
 }
 
 // ---------- artículo ----------
