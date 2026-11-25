@@ -2,7 +2,7 @@
 {
 // ===== DATOS · actualizar cada semana =====
 const UPDATED='25 de noviembre de 2026';
-const TREND_UPD='semana del 23 de noviembre de 2026';
+const WEEK='Semana del 23 al 29 de noviembre';
 const RADAR=[
  {d:'2026-11-06',imp:2,a:["Sigue la decisión final de Bruselas, si se aprueba el Para ti en Europa dependerá más de lo que elige cada usuario", "No apoyes toda tu estrategia de TikTok en el tiempo de visualización, refuerza palabras clave y búsqueda", "Revisa las campañas que puedan llegar a menores"],w:'6 nov 2026',n:'tt',s:1,t:'Bruselas pide a TikTok cambiar su Para ti',x:'La Comisión Europea ve de forma preliminar que el Para ti incumple la Ley de Servicios Digitales por las «madrigueras» de contenido repetido. Si sale adelante, en Europa podría pesar más lo que el usuario elige y menos el tiempo de visualización. Aún no hay decisión final.',src:'Al Jazeera',u:'https://www.aljazeera.com/news/2026/11/6/eu-tells-tiktok-to-fix-harmful-for-you-feed-threatens-fines'},
  {d:'2026-11-01',imp:2,a:["Alinea el titular y el extracto de los portavoces con los temas sobre los que publican", "Limita cada perfil a dos o tres temas reconocibles"],w:'nov 2026',n:'li',s:0,t:'LinkedIn explica cómo usa tu perfil para repartir',x:'LinkedIn ha detallado un modelo que empareja publicaciones y lectores según su perfil. Tener el perfil y el titular alineados con los temas sobre los que publicas ayuda a llegar a la gente adecuada.',src:'Plumefy',u:'https://plumefy.com/blog/linkedin-algorithm-2026'},
@@ -27,59 +27,62 @@ const RADAR=[
  {d:'2025-12-10',imp:2,a:["Revisa que cada reel tenga un tema claro desde el primer segundo"],w:'10 dic 2025',n:'ig',s:1,t:'Instagram estrena «Tu algoritmo» en Reels',x:'Por primera vez los usuarios pueden ver, añadir y quitar los temas que Instagram les asigna. La relevancia ya no solo se deduce, también se declara.',src:'Blogiefy',u:'https://www.blogiefy.com/2026/11/instagram-algorithm-2026-what-changed.html'}
 ];
 const TR=[
- {t:'Audios «cool girl»',k:'Audio',n:['tt'],p:0,x:'Después de «Cool Girl» de Jayde Mari llega «cool girls» de Sonatara, que entra en el top 3 de canciones virales de la semana.',use:'Moda, belleza y lifestyle pueden usarlo para enseñar el look o el producto con actitud.',ev:'Ranking semanal de canciones de TikTok',src:'Metricool',u:'https://metricool.com/es/canciones-tiktok/'},
- {t:'«Stop The Wedding!» de Ashe',k:'Audio',n:['ig'],p:0,x:'Ha más que duplicado sus reels en pocas semanas hasta unos 82.000. Aún hay poca competencia.',use:'Bodas, eventos y cualquier giro dramático de «no lo hagas» con humor de marca.',ev:'Más que duplicado, hasta 82.000 reels',src:'SocialPilot',u:'https://www.socialpilot.co/blog/instagram-reels-trends'},
- {t:'Boom Clap con confeti',k:'Formato',n:['tt'],p:1,x:'Un estallido de confeti al ritmo de «Boom Clap» para celebrar o revelar algo. Lo usan un 172 % más de creadores que la semana anterior.',use:'Lanzamientos, rebajas o anunciar un ganador. Encaja muy bien con Black Friday.',ev:'+172 % de creadores en una semana',src:'Virlo',u:'https://virlo.ai/trends'},
- {t:'«Coming Up Roses» de Harry Styles',k:'Audio',n:['ig'],p:1,x:'Ha pasado de 49.000 a 116.000 reels en menos de tres semanas.',use:'Contenido bonito y aspiracional, flores, decoración, moda o el antes y después de un espacio.',ev:'De 49.000 a 116.000 reels en menos de tres semanas',src:'SocialPilot',u:'https://www.socialpilot.co/blog/instagram-reels-trends'},
- {t:'«Dame Hombro» de Bulin 47',k:'Audio y baile',n:['tt'],p:1,x:'Un dembow que nació de una improvisación y se ha llenado de vídeos en España. Incluso despachos de abogados lo bailan.',use:'Perfecto para enseñar al equipo y el lugar de trabajo con un lado más cercano.',ev:'En las listas de trends de TikTok de noviembre en España',src:'Metricool',u:'https://metricool.com/es/tiktok-trends-virales/'},
- {t:'El resultado en el primer segundo',k:'Formato',n:['tt','ig'],p:1,x:'Enseñar el plato, el look o la pieza terminada antes del proceso. Es el formato que mejor funciona en varios nichos esta temporada.',use:'Cualquier marca con un producto que se transforma, belleza, comida, interiorismo o diseño.',ev:'En comida, el formato rinde de mediana 14 veces lo habitual de cada cuenta',src:'Volume',u:'https://tryvolume.app/working'},
- {t:'«Housewife» de Tate McRae',k:'Audio y baile',n:['ig'],p:2,x:'Es el audio número uno de Reels este mes, con una coreografía para hacer en pareja. Ya supera los 386.000 reels.',use:'Como baile en dúo funciona para equipos de dos, tiendas o presentadores de marca.',ev:'Unos 386.000 reels',src:'Dash Social',u:'https://www.dashsocial.com/blog/trending-instagram-reels-songs'},
- {t:'«Time» de Pink Floyd, antes y después',k:'Audio',n:['ig','tt'],p:2,x:'El clásico acompaña vídeos nostálgicos que comparan fotos de antes con el presente. Ronda el medio millón de vídeos en TikTok.',use:'Aniversarios de marca, la evolución de un producto o de un local a lo largo de los años.',ev:'Unos 470.000 reels y cerca de medio millón de vídeos en TikTok',src:'Dash Social',u:'https://www.dashsocial.com/blog/trending-instagram-reels-songs'},
- {t:'«Entiende, corazón» de Prince Royce',k:'Audio',n:['tt'],p:2,x:'Un fragmento de letra que sirve para sketches dramáticos y con humor. Funciona en España y entre creadores latinos de EE. UU.',use:'Restaurantes o tiendas pueden representar el drama de cuando se agota un producto.',ev:'335.500 vídeos, ya en el pico',src:'SocialPilot',u:'https://www.socialpilot.co/blog/tiktok-trends'},
- {t:'Black Friday',k:'Momento',n:['tt','ig'],p:2,x:'Es el 27 de noviembre y las ofertas anticipadas ya circulan por toda Europa, también en España.',use:'Si entras, aporta algo distinto a «-30 %». Detrás de cámaras, humor o una oferta con historia.',ev:'182,3 millones de visualizaciones en Europa',src:'Convosight',u:'https://www.convosight.com/tools/moments/trends/tiktok'},
- {t:'Soft launch con «My Moon My Man»',k:'Formato',n:['tt','ig'],p:3,x:'Montajes de pareja con la versión de Finneas para presentar a alguien sin enseñarlo del todo. Ha dominado noviembre, pero ya baja el número de creadores que lo usan.',use:'Si tu marca no ha entrado aún, mejor no hacerlo o usarlo para el «soft launch» de un producto.',ev:'576 creadores esta semana, un 35 % menos que la anterior',src:'Virlo',u:'https://virlo.ai/trends'},
- {t:'«It\'s time», el cambio a Navidad',k:'Momento',n:['ig','tt'],p:3,x:'El vídeo de Mariah Carey que da paso a la Navidad explotó a principios de mes y ya lo ha usado casi todo el mundo.',use:'Llega tarde para una entrada normal. Úsalo solo para un giro original, como un escaparate o un cambio de packaging.',ev:'Arrancó el 1 de noviembre y sigue apareciendo en listas',src:'Inmagic',u:'https://inmagic.ai/top-10-instagram-reels-to-try-this-week/'}
+ {r:2,m:'Top 3',mu:'canciones de la semana',t:'Audios «cool girl»',k:'Audio',n:['tt'],p:0,x:'Después de «Cool Girl» de Jayde Mari llega «cool girls» de Sonatara, que entra en el top 3 de canciones virales de la semana.',use:'Moda, belleza y lifestyle pueden usarlo para enseñar el look o el producto con actitud.',ev:'Ranking semanal de canciones de TikTok',src:'Metricool',u:'https://metricool.com/es/canciones-tiktok/'},
+ {r:1,m:'82.000',mu:'reels',t:'«Stop The Wedding!» de Ashe',k:'Audio',n:['ig'],p:0,x:'Ha más que duplicado sus reels en pocas semanas hasta unos 82.000. Aún hay poca competencia.',use:'Bodas, eventos y cualquier giro dramático de «no lo hagas» con humor de marca.',ev:'Más que duplicado, hasta 82.000 reels',src:'SocialPilot',u:'https://www.socialpilot.co/blog/instagram-reels-trends'},
+ {r:3,m:'+172 %',mu:'creadores en 7 días',t:'Boom Clap con confeti',k:'Formato',n:['tt'],p:1,x:'Un estallido de confeti al ritmo de «Boom Clap» para celebrar o revelar algo. Lo usan un 172 % más de creadores que la semana anterior.',use:'Lanzamientos, rebajas o anunciar un ganador. Encaja muy bien con Black Friday.',ev:'+172 % de creadores en una semana',src:'Virlo',u:'https://virlo.ai/trends'},
+ {r:4,m:'+137 %',mu:'reels en 3 semanas',t:'«Coming Up Roses» de Harry Styles',k:'Audio',n:['ig'],p:1,x:'Ha pasado de 49.000 a 116.000 reels en menos de tres semanas.',use:'Contenido bonito y aspiracional, flores, decoración, moda o el antes y después de un espacio.',ev:'De 49.000 a 116.000 reels en menos de tres semanas',src:'SocialPilot',u:'https://www.socialpilot.co/blog/instagram-reels-trends'},
+ {r:5,m:'España',mu:'donde más se usa',t:'«Dame Hombro» de Bulin 47',k:'Audio y baile',n:['tt'],p:1,x:'Un dembow que nació de una improvisación y se ha llenado de vídeos en España. Incluso despachos de abogados lo bailan.',use:'Perfecto para enseñar al equipo y el lugar de trabajo con un lado más cercano.',ev:'En las listas de trends de TikTok de noviembre en España',src:'Metricool',u:'https://metricool.com/es/tiktok-trends-virales/'},
+ {r:6,m:'14×',mu:'lo habitual de la cuenta',t:'El resultado en el primer segundo',k:'Formato',n:['tt','ig'],p:1,x:'Enseñar el plato, el look o la pieza terminada antes del proceso. Es el formato que mejor funciona en varios nichos esta temporada.',use:'Cualquier marca con un producto que se transforma, belleza, comida, interiorismo o diseño.',ev:'En comida, el formato rinde de mediana 14 veces lo habitual de cada cuenta',src:'Volume',u:'https://tryvolume.app/working'},
+ {r:8,m:'386.000',mu:'reels',t:'«Housewife» de Tate McRae',k:'Audio y baile',n:['ig'],p:2,x:'Es el audio número uno de Reels este mes, con una coreografía para hacer en pareja. Ya supera los 386.000 reels.',use:'Como baile en dúo funciona para equipos de dos, tiendas o presentadores de marca.',ev:'Unos 386.000 reels',src:'Dash Social',u:'https://www.dashsocial.com/blog/trending-instagram-reels-songs'},
+ {r:9,m:'470.000',mu:'reels',t:'«Time» de Pink Floyd, antes y después',k:'Audio',n:['ig','tt'],p:2,x:'El clásico acompaña vídeos nostálgicos que comparan fotos de antes con el presente. Ronda el medio millón de vídeos en TikTok.',use:'Aniversarios de marca, la evolución de un producto o de un local a lo largo de los años.',ev:'Unos 470.000 reels y cerca de medio millón de vídeos en TikTok',src:'Dash Social',u:'https://www.dashsocial.com/blog/trending-instagram-reels-songs'},
+ {r:10,m:'335.500',mu:'vídeos',t:'«Entiende, corazón» de Prince Royce',k:'Audio',n:['tt'],p:2,x:'Un fragmento de letra que sirve para sketches dramáticos y con humor. Funciona en España y entre creadores latinos de EE. UU.',use:'Restaurantes o tiendas pueden representar el drama de cuando se agota un producto.',ev:'335.500 vídeos, ya en el pico',src:'SocialPilot',u:'https://www.socialpilot.co/blog/tiktok-trends'},
+ {r:7,m:'182 M',mu:'visualizaciones en Europa',t:'Black Friday',k:'Momento',n:['tt','ig'],p:2,x:'Es el 27 de noviembre y las ofertas anticipadas ya circulan por toda Europa, también en España.',use:'Si entras, aporta algo distinto a «-30 %». Detrás de cámaras, humor o una oferta con historia.',ev:'182,3 millones de visualizaciones en Europa',src:'Convosight',u:'https://www.convosight.com/tools/moments/trends/tiktok'},
+ {r:11,m:'−35 %',mu:'creadores en 7 días',t:'Soft launch con «My Moon My Man»',k:'Formato',n:['tt','ig'],p:3,x:'Montajes de pareja con la versión de Finneas para presentar a alguien sin enseñarlo del todo. Ha dominado noviembre, pero ya baja el número de creadores que lo usan.',use:'Si tu marca no ha entrado aún, mejor no hacerlo o usarlo para el «soft launch» de un producto.',ev:'576 creadores esta semana, un 35 % menos que la anterior',src:'Virlo',u:'https://virlo.ai/trends'},
+ {r:12,m:'1 nov',mu:'en listas desde',t:'«It\'s time», el cambio a Navidad',k:'Momento',n:['ig','tt'],p:3,x:'El vídeo de Mariah Carey que da paso a la Navidad explotó a principios de mes y ya lo ha usado casi todo el mundo.',use:'Llega tarde para una entrada normal. Úsalo solo para un giro original, como un escaparate o un cambio de packaging.',ev:'Arrancó el 1 de noviembre y sigue apareciendo en listas',src:'Inmagic',u:'https://inmagic.ai/top-10-instagram-reels-to-try-this-week/'}
 ];
 // ===== FIN DATOS =====
 const NC={ig:'Instagram',tt:'TikTok',yt:'YouTube',li:'LinkedIn',br:'Marcas'};
 const PH=['Súbete ya','Todavía compensa','Solo con un giro','Llegas tarde','Se apaga'];
 const IMP={3:'Impacto alto',2:'Impacto medio',1:'Impacto bajo'};
 const MS=['ene','feb','mar','abr','may','jun','jul','ago','sept','oct','nov','dic'];
-let S={pf:'all',rf:'all',ri:'all'},SHOW=8;
-try{const s=JSON.parse(localStorage.getItem('kapeis-trendencias2')||'null');if(s)S=Object.assign(S,s)}catch(e){}
-const save=()=>{try{localStorage.setItem('kapeis-trendencias2',JSON.stringify(S))}catch(e){}};
+let S={pf:'all',nf:'all',rf:'all',ri:'all'},RALL=false;
+try{const s=JSON.parse(localStorage.getItem('kapeis-posts')||'null');if(s)S=Object.assign(S,s)}catch(e){}
+const save=()=>{try{localStorage.setItem('kapeis-posts',JSON.stringify(S))}catch(e){}};
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const pills=(arr,key,attr)=>arr.map(([k,l])=>`<button type="button" class="pill" data-${attr}="${k}" aria-pressed="${S[key]===k}">${l}</button>`).join('');
+const pills=(arr,key)=>arr.map(([k,l])=>`<button type="button" class="tr-pill" data-k="${key}" data-v="${k}" aria-pressed="${S[key]===k}">${l}</button>`).join('');
+const pad=n=>String(n).padStart(2,'0');
 
-function term(){$('tr-upd').textContent=TREND_UPD.replace('semana del ','Semana del ').replace(' de 2026','');
- $('tr-pf').innerHTML=pills([['all','Todas'],...PH.slice(0,4).map((p,i)=>[String(i),p])],'pf','pf');
- const L=TR.filter(t=>S.pf==='all'||String(t.p)===S.pf).sort((a,b)=>a.p-b.p);
- $('tr-list').innerHTML=L.map((t,i)=>`<li class="${i===0&&S.pf==='all'?'tr-dest':''}"><article class="card">
-  <div class="tags-row">${t.n.map(n=>`<span class="tag tag-sec">${NC[n]}</span>`).join('')}<span class="tag tag-zone">${PH[t.p]}</span></div>
-  <h3>${esc(t.t)}</h3><p>${esc(t.x)}</p><p class="tr-brand"><strong>Para marcas.</strong> ${esc(t.use)}</p>
-  <p class="meta"><span>${esc(t.k)}</span><span>${esc(t.ev)}</span><span>Fuente <a href="${esc(t.u)}" target="_blank" rel="noopener">${esc(t.src)}</a></span></p></article></li>`).join('')||'<li><p class="via">No hay tendencias en esta fase esta semana.</p></li>'}
+function posts(){$('tr-week').textContent=WEEK;
+ $('tr-pf').innerHTML=pills([['all','Todas'],['0','Súbete ya'],['1','Todavía compensa'],['2','Solo con un giro'],['3','Llegas tarde']],'pf');
+ $('tr-nf').innerHTML=pills([['all','Todas las redes'],['tt','TikTok'],['ig','Instagram']],'nf');
+ const L=TR.filter(t=>(S.pf==='all'||String(t.p)===S.pf)&&(S.nf==='all'||t.n.includes(S.nf))).sort((a,b)=>a.r-b.r);
+ $('tr-grid').innerHTML=L.map(t=>`<article class="tr-item">
+  <div class="tr-post p${t.p}"><div class="tr-pt"><span>${t.n.map(n=>NC[n]).join(' e ')} · ${esc(t.k)}</span><span>${pad(t.r)}</span></div>
+  <h3 class="tr-pn">${esc(t.t)}</h3>
+  <div class="tr-pb"><span class="tr-ph">${PH[t.p]}</span><span class="tr-m"><b>${esc(t.m)}</b><small>${esc(t.mu)}</small></span></div></div>
+  <p class="tr-use"><strong>Para marcas.</strong> ${esc(t.use)}</p>
+  <details><summary>Ver el detalle</summary><p>${esc(t.x)}</p><p class="tr-src">${esc(t.ev)}. Fuente <a href="${esc(t.u)}" target="_blank" rel="noopener">${esc(t.src)}</a></p></details></article>`).join('')||'<p class="tr-empty">No hay tendencias con estos filtros esta semana.</p>'}
 
 function when(r){const [y,m,d]=r.d.split('-');if(/^\d{4}$/.test(r.w))return 'Todo '+y;if(/^\d/.test(r.w))return `${+d} ${MS[+m-1]} ${y}`;return r.w}
-function radar(){$('tr-rupd').textContent='Actualizado el '+UPDATED.replace(' de 2026','');
- $('tr-rf').innerHTML=pills([['all','Todas las redes'],...Object.entries(NC)],'rf','rf');
- $('tr-if').innerHTML=pills([['all','Cualquier impacto'],['3','Alto'],['2','Medio'],['1','Bajo']],'ri','ri');
- const all=RADAR.filter(r=>(S.rf==='all'||r.n===S.rf)&&(S.ri==='all'||String(r.imp)===S.ri)).sort((a,b)=>b.d.localeCompare(a.d)),L=all.slice(0,SHOW);
- $('tr-rlist').innerHTML=L.map(r=>`<li><div class="tr-date">${esc(when(r))}</div><article>
-  <div class="tags-row"><span class="tag ${r.n==='br'?'tag-zone':'tag-sec'}">${NC[r.n]}</span>${r.imp===3?'<span class="tag tag-zone">Impacto alto</span>':''}</div>
-  <h3>${esc(r.t)}</h3><p>${esc(r.x)}</p>
-  <ul class="tr-tips">${r.a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
-  <div class="tr-rfoot"><p class="meta"><span>${IMP[r.imp]}</span><span>${r.s?'Confirmado por la plataforma':'Visto por el sector'}</span><span>Fuente <a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.src)}</a></span></p><button type="button" class="pill tr-copy" data-cp="${esc(r.d)}">Copiar para un informe</button></div></article></li>`).join('')||'<li><p class="via">No hay cambios con estos filtros.</p></li>';
- const rest=all.length-L.length;$('tr-more').innerHTML=rest>0?`<button type="button" class="btn-hash" id="tr-morebtn" style="border:0;cursor:pointer"><span class="hash">#</span>Ver ${rest} ${rest>1?'cambios anteriores':'cambio anterior'}</button>`:''}
+function radar(){const hi=RADAR.filter(r=>r.imp===3).length;$('tr-rcount').textContent=`${RADAR.length} cambios · ${hi} de impacto alto · actualizado el ${UPDATED.replace(' de 2026','')}`;
+ $('tr-rf').innerHTML=pills([['all','Todas las redes'],...Object.entries(NC)],'rf');
+ $('tr-if').innerHTML=pills([['all','Cualquier impacto'],['3','Alto'],['2','Medio'],['1','Bajo']],'ri');
+ const all=RADAR.filter(r=>(S.rf==='all'||r.n===S.rf)&&(S.ri==='all'||String(r.imp)===S.ri)).sort((a,b)=>b.d.localeCompare(a.d)),L=RALL?all:all.slice(0,5);
+ const big=S.rf==='all'&&S.ri==='all'?`<div class="tr-card big"><span class="tr-tag k" style="align-self:flex-start">La gran tendencia de 2026</span><h3>Lo original gana en todas las redes</h3><p style="color:var(--ink)">Las cuatro grandes han ido en la misma dirección este año. Quien publica contenido reciclado, copiado o hecho en serie con IA pierde alcance.</p><ul><li><strong>Instagram</strong> lleva el impulso a fotos y carruseles</li><li><strong>TikTok</strong> saca del Para ti lo poco original</li><li><strong>YouTube</strong> prioriza los Shorts originales</li><li><strong>LinkedIn</strong> recorta lo genérico hecho con IA</li></ul></div>`:'';
+ $('tr-rgrid').innerHTML=big+(L.map(r=>`<article class="tr-card">
+  <div class="tr-tags"><span class="tr-tag ${r.n==='br'?'y':'k'}">${NC[r.n]}</span>${r.imp===3?'<span class="tr-tag y">Impacto alto</span>':''}<span class="tr-date">${esc(when(r))}</span></div>
+  <h3>${esc(r.t)}</h3><p>${esc(r.x)}</p><ul class="tr-tips">${r.a.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>
+  <div class="tr-cfoot"><span class="tr-src">${IMP[r.imp]} · ${r.s?'Confirmado':'Visto por el sector'} · <a href="${esc(r.u)}" target="_blank" rel="noopener">${esc(r.src)}</a></span><button type="button" class="tr-copy" data-cp="${esc(r.d)}">Copiar para un informe</button></div></article>`).join('')||'<p class="tr-empty">No hay cambios con estos filtros.</p>');
+ const rest=all.length-L.length;$('tr-rmore').hidden=rest<=0&&!RALL;
+ $('tr-rmore').innerHTML=rest>0?`<b>#</b> Ver ${rest} ${rest>1?'cambios anteriores':'cambio anterior'}`:'<b>#</b> Ver menos'}
 const copyText=r=>`${r.t} (${NC[r.n]}, ${when(r)})\n${r.x}\n\nTips\n${r.a.map(x=>'- '+x).join('\n')}\n\n${IMP[r.imp]}. ${r.s?'Confirmado por la plataforma':'Visto por el sector'}. Fuente ${r.src}, ${r.u}\nVía Kapeís · Trendencias`;
 
 document.addEventListener('click',e=>{const q=s=>e.target.closest(s);let b;
- if(b=q('[data-pf]')){S.pf=b.dataset.pf;save();term();return}
- if(b=q('[data-rf]')){S.rf=b.dataset.rf;SHOW=8;save();radar();return}
- if(b=q('[data-ri]')){S.ri=b.dataset.ri;SHOW=8;save();radar();return}
- if(q('#tr-morebtn')){SHOW=999;radar();return}
+ if(b=q('[data-k]')){S[b.dataset.k]=b.dataset.v;save();if(b.dataset.k==='pf'||b.dataset.k==='nf')posts();else{RALL=false;radar()}return}
+ if(q('#tr-rmore')){RALL=!RALL;radar();return}
  if(b=q('[data-cp]')){const it=RADAR.find(x=>x.d===b.dataset.cp);if(!it)return;const btn=b;
   const ok=()=>{btn.textContent='Copiado';btn.classList.add('ok');setTimeout(()=>{btn.textContent='Copiar para un informe';btn.classList.remove('ok')},1800)};
   try{navigator.clipboard.writeText(copyText(it)).then(ok,()=>{btn.textContent='No se pudo copiar'})}catch(err){btn.textContent='No se pudo copiar'}}});
-term();radar();
+posts();radar();
 }
