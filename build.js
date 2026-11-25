@@ -197,6 +197,7 @@ ${link('/marketing/', 'Marketing', 'marketing')}
 ${link('/digital/', 'Digital', 'digital')}
 ${link('/retail/', 'Retail', 'retail')}
 ${link('/entrevistas/', 'Entrevistas', 'entrevistas')}
+${link('/trendencias/', 'Trendencias', 'trendencias')}
 </ul>
 <span class="nav-sep" aria-hidden="true"></span>
 <ul class="nav-list" aria-label="Zona">
@@ -625,6 +626,11 @@ function sobre() {
     .replace(/\{\{whatsapp_href\}\}/g, 'https://wa.me/34' + (ajustes.telefono || '').replace(/\D/g, ''));
   return page({ title: 'Sobre Kapeís', seoTitle: 'Quiénes somos y contacto – Kapeís', description: 'Kapeís es una revista de marketing, publicidad y retail. Te contamos qué publicamos, cómo trabajamos y cómo escribirnos para enviar notas de prensa o colaborar.', body, canonical: '/sobre/' });
 }
+function trendencias() {
+  const v = require('crypto').createHash('md5').update(fs.readFileSync(path.join(ROOT, 'static/trendencias.js'), 'utf8')).digest('hex').slice(0, 8);
+  const body = fs.readFileSync(path.join(ROOT, 'src/trendencias.html'), 'utf8') + `\n<script src="/trendencias.js?v=${v}" defer></script>`;
+  return page({ title: 'Trendencias', seoTitle: 'Tendencias de redes sociales y cambios de algoritmo – Kapeís', description: 'Qué tendencias de TikTok e Instagram compensan esta semana y qué ha cambiado en los algoritmos de Instagram, TikTok, YouTube y LinkedIn, con tips para marcas.', body, active: 'trendencias', canonical: '/trendencias/' });
+}
 function legal() {
   const body = fs.readFileSync(path.join(ROOT, 'src/legal.html'), 'utf8')
     .replace(/\{\{responsable\}\}/g, esc(ajustes.responsable))
@@ -731,6 +737,7 @@ function sitemapNoticias() {
   }
   for (const a of articulos) { write(`articulos/${a.slug}/index.html`, articuloPage(a)); rutas.push(a.url); }
   write('sobre/index.html', sobre());
+  write('trendencias/index.html', trendencias()); rutas.push('/trendencias/');
   write('legal/index.html', legal());
   write('suscripcion/index.html', suscripcion());
   write('buscar/index.html', buscar());
