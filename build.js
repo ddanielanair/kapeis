@@ -263,7 +263,10 @@ const LOGO_PNG = SITE_URL + '/logo-kapeis.png';
 const absUrl = (u) => (String(u).startsWith('http') ? u : SITE_URL + u);
 const ldScript = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
 const TEL = ajustes.telefono || ''; const TEL_HREF = TEL ? 'tel:+34' + TEL.replace(/\D/g, '') : '';
-const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacion', name: 'Kapeís', url: SITE_URL + '/', logo: { '@type': 'ImageObject', url: LOGO_PNG, width: 512, height: 512 }, email: ajustes.email_info, ...(TEL ? { telephone: '+34 ' + TEL } : {}), ...([ajustes.instagram, ajustes.tiktok].filter(Boolean).length ? { sameAs: [ajustes.instagram, ajustes.tiktok].filter(Boolean) } : {}) };
+// Autora de Kapeís: la firma «D.N.» enlaza a su página, que Google usa para saber quién escribe.
+const AUTORA = { nombre: 'Nair da Silva', firma: 'D.N.', url: '/autora/nair-da-silva/', linkedin: 'https://www.linkedin.com/in/nairdasilva/' };
+const AUTORA_LD = { '@type': 'Person', '@id': SITE_URL + AUTORA.url + '#persona', name: AUTORA.nombre, alternateName: AUTORA.firma, url: SITE_URL + AUTORA.url, jobTitle: 'Fundadora y editora de Kapeís', sameAs: [AUTORA.linkedin] };
+const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacion', name: 'Kapeís', url: SITE_URL + '/', logo: { '@type': 'ImageObject', url: LOGO_PNG, width: 512, height: 512 }, founder: { '@id': AUTORA_LD['@id'] }, email: ajustes.email_info, ...(TEL ? { telephone: '+34 ' + TEL } : {}), ...([ajustes.instagram, ajustes.tiktok].filter(Boolean).length ? { sameAs: [ajustes.instagram, ajustes.tiktok].filter(Boolean) } : {}) };
 const migas = (items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE_URL + url })) });
 
 // ---------- medidas de imágenes (para que la página no «salte» al cargar: mejora Core Web Vitals) ----------
@@ -563,7 +566,7 @@ function articuloPage(a) {
 <h1 id="h-art">${esc(a.titulo)}</h1>
 <p class="lede">${esc(a.entradilla)}</p>
 <div class="art-meta">
-<span class="meta"><span>${esc(a.autor || 'Por D.N.')}</span><span><time datetime="${a.fecha.toISOString()}">${fechaLarga(a.fecha)}</time></span><span>${a.lectura} min de lectura</span></span>
+<span class="meta"><span>${a.autor ? esc(a.autor) : `<a href="${AUTORA.url}" rel="author">Por ${AUTORA.firma}</a>`}</span><span><time datetime="${a.fecha.toISOString()}">${fechaLarga(a.fecha)}</time></span><span>${a.lectura} min de lectura</span></span>
 <span class="share">
 <a class="pill" href="${s.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
 <a class="pill" href="${s.x}" target="_blank" rel="noopener">X</a>
@@ -602,7 +605,7 @@ ${newsletter('¿Te ha gustado? Te avisamos solo de lo importante.', 'Publicamos 
     mainEntityOfPage: SITE_URL + a.url,
     ...(imgAbs ? { image: [imgAbs] } : {}),
     ...(a.palabras_clave ? { keywords: String(a.palabras_clave) } : {}),
-    author: { '@type': 'Person', name: a.autor || 'D.N.', url: SITE_URL + '/sobre/' },
+    author: a.autor ? { '@type': 'Person', name: a.autor } : AUTORA_LD,
     publisher: { '@type': 'NewsMediaOrganization', '@id': ORG['@id'], name: 'Kapeís', url: SITE_URL + '/', logo: ORG.logo },
     isAccessibleForFree: true,
   };
@@ -625,6 +628,33 @@ function sobre() {
     .replace(/\{\{telefono_href\}\}/g, 'tel:+34' + (ajustes.telefono || '').replace(/\D/g, ''))
     .replace(/\{\{whatsapp_href\}\}/g, 'https://wa.me/34' + (ajustes.telefono || '').replace(/\D/g, ''));
   return page({ title: 'Sobre Kapeís', seoTitle: 'Quiénes somos y contacto – Kapeís', description: 'Kapeís es una revista de marketing, publicidad y retail. Te contamos qué publicamos, cómo trabajamos y cómo escribirnos para enviar notas de prensa o colaborar.', body, canonical: '/sobre/' });
+}
+function autora() {
+  const suyos = articulos.filter((a) => !a.autor);
+  const body = `<section class="wrap about" aria-labelledby="h-autora">
+<div class="about-title">
+<p class="meta"><strong>Autora</strong></p>
+<h1 id="h-autora">Nair da Silva</h1>
+<p class="lede">Fundadora y editora de Kapeís. Escribe sobre marketing, marcas, redes sociales e influencer marketing desde Málaga y firma sus artículos como D.N.</p>
+</div>
+<div class="about-text">
+<p class="big">Nair se mueve entre el marketing, las redes sociales y el derecho, y nunca se le ha dado bien quedarse en una sola cosa.</p>
+<p>Antes de crear Kapeís pasó casi tres años en Perfumerías Primor como especialista en marketing. Allí llevó las redes sociales de Primor Portugal en TikTok e Instagram y el influencer marketing del área de Portugal, y la comunidad pasó de 54.000 a 179.000 seguidores.</p>
+<p>Hoy es gestora de cuentas clave y de marketing en oGov, una empresa govtech de Málaga que trabaja con administraciones públicas en transparencia, gobierno abierto y protección de datos. Además está terminando el grado en Derecho en la UNED, lo que le da una mirada propia sobre la parte legal de la publicidad y de las colaboraciones con creadores.</p>
+<p>En noviembre de 2026 lanzó Kapeís, una revista para contar lo que hacen las marcas, sobre todo las colaboraciones y activaciones internacionales, antes de que lleguen a todas partes. Curiosa y siempre con algún proyecto entre manos, este es el último.</p>
+<p class="tags"><a class="pill" href="${AUTORA.linkedin}" target="_blank" rel="noopener me">LinkedIn</a><a class="pill" href="mailto:${esc(ajustes.email_info)}">Escríbele a ${esc(ajustes.email_info)}</a><a class="pill" href="/sobre/">Sobre Kapeís</a></p>
+</div>
+</section>
+<section class="wrap block" aria-labelledby="h-autora-art">
+<div class="block-head"><h2 id="h-autora-art">Artículos de Nair da Silva</h2></div>
+<div class="grid-list">
+${suyos.slice(0, 24).map((r) => `<article class="card card-m">${meta(r)}<h3><a class="t" href="${r.url}">${esc(r.titulo)}</a></h3></article>`).join('')}
+</div>
+${suyos.length > 24 ? `<p>${btnHash('/articulos/', 'Ver todos los artículos')}</p>` : ''}
+</section>`;
+  const ld = { '@context': 'https://schema.org', '@type': 'ProfilePage', url: SITE_URL + AUTORA.url, inLanguage: 'es-ES',
+    mainEntity: { ...AUTORA_LD, description: 'Fundadora y editora de Kapeís. Escribe sobre marketing, marcas, redes sociales e influencer marketing.', homeLocation: { '@type': 'Place', name: 'Málaga, España' }, worksFor: { '@id': ORG['@id'] }, knowsAbout: ['Marketing', 'Redes sociales', 'Influencer marketing', 'Branding', 'Derecho de la publicidad'] } };
+  return page({ title: 'Nair da Silva', seoTitle: 'Nair da Silva, fundadora y editora de Kapeís', description: 'Nair da Silva es la fundadora y editora de Kapeís. Especialista en marketing, redes sociales e influencer marketing en Málaga, con experiencia en Primor Portugal.', body, canonical: AUTORA.url, head: ldScript(ld) + '\n' + ldScript(migas([['Portada', '/'], ['Nair da Silva', AUTORA.url]])) });
 }
 function trendencias() {
   const v = require('crypto').createHash('md5').update(fs.readFileSync(path.join(ROOT, 'static/trendencias.js'), 'utf8')).digest('hex').slice(0, 8);
@@ -737,6 +767,7 @@ function sitemapNoticias() {
   }
   for (const a of articulos) { write(`articulos/${a.slug}/index.html`, articuloPage(a)); rutas.push(a.url); }
   write('sobre/index.html', sobre());
+  write('autora/nair-da-silva/index.html', autora()); rutas.push(AUTORA.url);
   write('trendencias/index.html', trendencias()); rutas.push('/trendencias/');
   write('legal/index.html', legal());
   write('suscripcion/index.html', suscripcion());
