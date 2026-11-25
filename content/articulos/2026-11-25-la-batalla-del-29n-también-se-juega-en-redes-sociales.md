@@ -7,7 +7,7 @@ fecha: 2026-11-25 21:20
 seccion: Marketing
 zona: España
 tipo: Artículo propio
-portada: false
+portada: true
 destacada: false
 imagen: /uploads/01_portada_candidatos.jpg
 alt_imagen: Sánchez, Feijóo, Abascal, Montero y Colau compiten también por la
