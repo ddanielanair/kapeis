@@ -263,7 +263,7 @@ const LOGO_PNG = SITE_URL + '/logo-kapeis.png';
 const absUrl = (u) => (String(u).startsWith('http') ? u : SITE_URL + u);
 const ldScript = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, '\\u003c')}</script>`;
 const TEL = ajustes.telefono || ''; const TEL_HREF = TEL ? 'tel:+34' + TEL.replace(/\D/g, '') : '';
-// Autora de Kapeís: la firma «D.N.» enlaza a su página, que Google usa para saber quién escribe.
+// Autora de Kapeís: su página no se enlaza desde la web (decisión de Nair); solo la ven Google (sitemap y datos estructurados).
 const AUTORA = { nombre: 'Nair da Silva', firma: 'D.N.', url: '/autora/nair-da-silva/', linkedin: 'https://www.linkedin.com/in/nairdasilva/' };
 const AUTORA_LD = { '@type': 'Person', '@id': SITE_URL + AUTORA.url + '#persona', name: AUTORA.nombre, alternateName: AUTORA.firma, url: SITE_URL + AUTORA.url, jobTitle: 'Fundadora y editora de Kapeís', sameAs: [AUTORA.linkedin] };
 const ORG = { '@type': 'NewsMediaOrganization', '@id': SITE_URL + '/#organizacion', name: 'Kapeís', url: SITE_URL + '/', logo: { '@type': 'ImageObject', url: LOGO_PNG, width: 512, height: 512 }, founder: { '@id': AUTORA_LD['@id'] }, email: ajustes.email_info, ...(TEL ? { telephone: '+34 ' + TEL } : {}), ...([ajustes.instagram, ajustes.tiktok].filter(Boolean).length ? { sameAs: [ajustes.instagram, ajustes.tiktok].filter(Boolean) } : {}) };
@@ -566,7 +566,7 @@ function articuloPage(a) {
 <h1 id="h-art">${esc(a.titulo)}</h1>
 <p class="lede">${esc(a.entradilla)}</p>
 <div class="art-meta">
-<span class="meta"><span>${a.autor ? esc(a.autor) : `<a href="${AUTORA.url}" rel="author">Por ${AUTORA.firma}</a>`}</span><span><time datetime="${a.fecha.toISOString()}">${fechaLarga(a.fecha)}</time></span><span>${a.lectura} min de lectura</span></span>
+<span class="meta"><span>${esc(a.autor || 'Por ' + AUTORA.firma)}</span><span><time datetime="${a.fecha.toISOString()}">${fechaLarga(a.fecha)}</time></span><span>${a.lectura} min de lectura</span></span>
 <span class="share">
 <a class="pill" href="${s.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
 <a class="pill" href="${s.x}" target="_blank" rel="noopener">X</a>
